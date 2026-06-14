@@ -1,0 +1,114 @@
+[
+    {
+        "cluster_id": 0,
+        "topic_label": "Prinsip dan Kriteria Desain Antarmuka",
+        "representative_question": "Apa saja kriteria dan prinsip dasar yang harus dipenuhi dalam merancang antarmuka agar efektif dan mampu meningkatkan pengalaman pengguna secara keseluruhan?",
+        "is_noise": false,
+        "confidence": 0.95,
+        "reasoning": "Cluster ini berfokus pada standar kualitas, kriteria, dan metodologi perancangan antarmuka yang baik bagi pengguna.",
+        "cluster_size": 33,
+        "representative_texts": [
+            "saya ingin tau tentang kriteria, apa saja yang membuat sebuah antarmuka itu baik",
+            "saya ingin mengetahui bagaimana antarmuka dirancang agar mudah digunakan, apa saja prinsip-prinsip dasar dalam membuat antarmuka yang baik, bagaimana cara menguji apakah antarmuka sudah efektif atau belum, serta bagaimana peran antarmuka dalam meningkatkan pengalaman dan kenyamanan pengguna saat menggunakan suatu sistem.",
+            "saya ingin tahu bagaimana antarmuka dibentuk dengan baik dan sesuai dengan kriteria",
+            "saya ingin mengetahui bagaimana antarmuka dapat mempengaruhi user, dan cara membuat antarmuka yang baik dan memenuhi kebutuhan user.",
+            "saya ingin mengetahui bagaimana antarmuka dapat mempengaruhi user, dan cara membuat antarmuka yang baik dan memenuhi kebutuhan user."
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "topic_label": "Pengembangan Kompetensi Profesional UI/UX",
+        "representative_question": "Bagaimana langkah-langkah untuk mendalami bidang UI/UX secara lebih lanjut agar dapat menciptakan desain antarmuka yang familiar dan mudah digunakan oleh pengguna?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "Pertanyaan dalam cluster ini menunjukkan minat personal mahasiswa untuk meningkatkan keahlian teknis mereka dalam desain UI/UX.",
+        "cluster_size": 7,
+        "representative_texts": [
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this"
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "topic_label": "Integrasi Mental Model dalam Antarmuka",
+        "representative_question": "Bagaimana cara merancang antarmuka yang mampu menjembatani mental model pengguna dengan sistem model agar tercipta interaksi yang nyaman dan efisien?",
+        "is_noise": false,
+        "confidence": 0.92,
+        "reasoning": "Cluster ini secara spesifik membahas aspek kognitif interaksi manusia-komputer, yaitu keselarasan antara persepsi pengguna dan logika sistem.",
+        "cluster_size": 2,
+        "representative_texts": [
+            "bagaimana antarmuka memediasi interaksi antara mental model pengguna dengan system model? bagaimana cara mendesain antarmuka yang usable dan nyaman?",
+            "bagaimana mendesain interface yang mudahdan nyaman digunakan?"
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "topic_label": "Urgensi dan Implementasi Antarmuka Sehari-hari",
+        "representative_question": "Mengapa desain antarmuka dianggap sangat penting dalam rekayasa perangkat lunak dan apa saja contoh implementasinya yang dapat ditemukan dalam kehidupan sehari-hari?",
+        "is_noise": false,
+        "confidence": 0.88,
+        "reasoning": "Fokus cluster ini adalah pada relevansi praktis antarmuka di dunia nyata dan peran krusialnya bagi seorang pengembang perangkat lunak.",
+        "cluster_size": 2,
+        "representative_texts": [
+            "contoh interface dalam kehidupan sehari-hari, seberapa penting interface, dan dalam dunia software engineer apa itu interface yang bagus",
+            "saya ingin tahu seberapa penting interface dan juga interface dalam sehari-hari saya contohnya apa dan bagaimana."
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "topic_label": "Dampak Psikologis UI terhadap Pengguna",
+        "representative_question": "Bagaimana peran dan fungsi elemen antarmuka dalam mempengaruhi psikologi serta minat pengguna saat berinteraksi dengan sebuah aplikasi?",
+        "is_noise": false,
+        "confidence": 0.85,
+        "reasoning": "Cluster ini membahas tentang bagaimana desain visual dan fungsional (UI) memberikan pengaruh langsung terhadap ketertarikan pengguna.",
+        "cluster_size": 6,
+        "representative_texts": [
+            "peran antarmula di ui/ux",
+            "peran antarmula di ui/ux",
+            "saya ingin tahu bagaimana ui mempengaruhi user dalam menggunakan aplikasi",
+            "saya ingin mengetahui bagaimana interface berperan penting dalam menarik minat user untuk menggunakan aplikasi",
+            "apa fungsi dari ui"
+        ]
+    },
+    {
+        "cluster_id": 7,
+        "topic_label": "Konsep Dasar Antarmuka sebagai Medium Interaksi",
+        "representative_question": "Apa pengertian dasar dari antarmuka sebagai gerbang komunikasi antara perintah pengguna dengan aplikasi atau perangkat lunak?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "Cluster ini berisi pemahaman mendasar mengenai definisi teknis antarmuka sebagai jembatan interaksi.",
+        "cluster_size": 4,
+        "representative_texts": [
+            "yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",
+            "yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",
+            "yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",
+            "yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi."
+        ]
+    },
+    {
+        "cluster_id": 10,
+        "topic_label": "Best Practice Desain Antarmuka Efisien",
+        "representative_question": "Bagaimana cara mengaplikasikan best practice desain untuk menciptakan antarmuka yang efektif, efisien, dan sesuai dengan kebutuhan spesifik suatu aplikasi modern?",
+        "is_noise": false,
+        "confidence": 0.93,
+        "reasoning": "Diskusi dalam cluster ini mengarah pada efisiensi desain dan pemilihan gaya antarmuka yang tepat untuk kasus penggunaan tertentu.",
+        "cluster_size": 2,
+        "representative_texts": [
+            "cara mendesain interface yang effective, cara menentukan interface yang bagaimana yang cocok diterapkan untuk suatu aplikasi/program tertentu, bagaimana cara membuat interface yang tepat dan tidak boros, klasifikasi interface yang baik dan buruk.",
+            "cara membuat desain antarmuka yang efektif, efisien dan best practice di dunia modern."
+        ]
+    },
+    {
+        "cluster_id": -1,
+        "cluster_size": 15,
+        "topic_label": "Rare/Singular Topics",
+        "representative_question": "N/A (unassigned outlier questions)",
+        "is_noise": true,
+        "confidence": 1.0,
+        "reasoning": "Points not assigned to any cluster by HDBSCAN.",
+        "representative_texts": []
+    }
+]

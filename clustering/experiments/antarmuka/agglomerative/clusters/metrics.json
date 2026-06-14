@@ -1,0 +1,24 @@
+{
+    "n_clusters": 7,
+    "n_noise_before_reassignment": 0,
+    "n_reassigned": 15,
+    "n_remaining_outliers": 15,
+    "noise_ratio": 0.2112676056338028,
+    "params_used": {
+        "distance_threshold": 0.3551,
+        "metric": "cosine",
+        "linkage": "average",
+        "enable_unique_insights": true
+    },
+    "auto_tuned": true,
+    "silhouette_score": 0.1362,
+    "davies_bouldin_score": 2.4338,
+    "calinski_harabasz_score": 3.2404,
+    "dbcv_score": null,
+    "original_space_metrics": {
+        "silhouette_score": 0.1362,
+        "davies_bouldin_score": 2.4338,
+        "calinski_harabasz_score": 3.2404,
+        "dbcv_score": null
+    }
+}

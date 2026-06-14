@@ -1,0 +1,555 @@
+{
+    "per_cluster": [
+        {
+            "cluster_id": 0,
+            "cluster_size": 5,
+            "topic_label": "Database Design Objectives and Notations",
+            "representative_question": "Apa saja tujuan utama dalam perancangan database serta perbedaan mendasar antara notasi Chen dan Crow's Foot dalam pemodelan data?",
+            "is_noise": false,
+            "coherence_score": 3.67,
+            "label_accuracy_score": 4.33,
+            "coherence_scores_raw": [
+                4,
+                3,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                3,
+                5
+            ],
+            "rationales": {
+                "gemini": "Pertanyaan-pertanyaannya memiliki tema yang sangat kuat mengenai tujuan desain dan notasi ERD, meskipun ada sedikit variasi kedalaman materi pada salah satu pertanyaan.",
+                "claude": "Cluster ini memiliki dua subtema yang tumpang tindih: tujuan perancangan database dan perbedaan notasi ERD. Pertanyaan nomor 3 agak melenceng ke praktik dan estetika model. Pertanyaan 4 dan 5 sangat umum. Label cukup menangkap inti cluster tetapi tidak sempurna karena tidak semua pertanyaan membahas notasi.",
+                "glm": "Sebagian besar pertanyaan sangat fokus pada tujuan dan notasi perancangan database dengan sedikit perbedaan sudut pandang, dan label yang diberikan sangat akurat."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini membahas tujuan perancangan database dan perbedaan spesifik antara notasi Chen dan Crow's Foot.",
+                        "outlier_check": "Terdapat satu pertanyaan (nomor 3) yang sedikit lebih luas mengenai aspek praktik dan efisiensi, namun tetap dalam konteks perancangan database.",
+                        "label_assessment": "Label sangat akurat karena mencakup dua poin utama yang muncul secara konsisten di sampel pertanyaan."
+                    },
+                    "rationale": "Pertanyaan-pertanyaannya memiliki tema yang sangat kuat mengenai tujuan desain dan notasi ERD, meskipun ada sedikit variasi kedalaman materi pada salah satu pertanyaan.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan berfokus pada tujuan perancangan database dan perbedaan notasi ERD (Chen vs Crow's Foot).",
+                        "outlier_check": "Pertanyaan nomor 1 ('definisi dan tujuannya serta perbedaannya dengan model lain') cukup umum dan tidak menyebut ERD secara spesifik. Pertanyaan nomor 3 lebih condong ke praktik dan efisiensi model, sedikit melenceng dari tema utama. Pertanyaan 4 dan 5 identik dan sangat umum.",
+                        "label_assessment": "Label 'Database Design Objectives and Notations' cukup akurat menangkap dua subtema utama: tujuan perancangan database dan notasi ERD. Namun, tidak semua pertanyaan membahas notasi, sehingga label sedikit terlalu spesifik untuk sebagian pertanyaan."
+                    },
+                    "rationale": "Cluster ini memiliki dua subtema yang tumpang tindih: tujuan perancangan database dan perbedaan notasi ERD. Pertanyaan nomor 3 agak melenceng ke praktik dan estetika model. Pertanyaan 4 dan 5 sangat umum. Label cukup menangkap inti cluster tetapi tidak sempurna karena tidak semua pertanyaan membahas notasi.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan ini berfokus pada tujuan perancangan database serta perbedaan antara notasi pemodelan data seperti Chen dan Crow's Foot.",
+                        "outlier_check": "Tidak ada outlier yang parah, meskipun pertanyaan ketiga sedikit lebih luas membahas praktik dan efisiensi, tetapi tetap relevan dengan konteks perancangan database.",
+                        "label_assessment": "Label 'Database Design Objectives and Notations' sangat tepat dan mencerminkan inti dari semua pertanyaan dalam kluster ini."
+                    },
+                    "rationale": "Sebagian besar pertanyaan sangat fokus pada tujuan dan notasi perancangan database dengan sedikit perbedaan sudut pandang, dan label yang diberikan sangat akurat.",
+                    "model": "z-ai/glm-5-turbo"
+                }
+            },
+            "extraction_confidence": 0.92
+        },
+        {
+            "cluster_id": 1,
+            "cluster_size": 20,
+            "topic_label": "Understanding Logical Data Model Components",
+            "representative_question": "Dapatkah Anda menjelaskan secara detail mengenai komponen-komponen dalam logical data model beserta contoh penggunaannya dalam sistem?",
+            "is_noise": false,
+            "coherence_score": 4.0,
+            "label_accuracy_score": 4.0,
+            "coherence_scores_raw": [
+                5,
+                3,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                3,
+                4
+            ],
+            "rationales": {
+                "gemini": "Seluruh pertanyaan dalam sampel menanyakan hal yang sama yaitu detail mengenai Logical Data Model (LDM).",
+                "claude": "Sebagian besar pertanyaan relevan dengan logical data model, namun ada outlier (nomor 8 adalah pernyataan bukan pertanyaan, nomor 7 terlalu umum). Beberapa pertanyaan membahas tahapan dan konversi dari CDM ke LDM, yang sedikit berbeda dari fokus 'komponen'. Label cukup tepat namun tidak sepenuhnya mencakup semua sudut pertanyaan.",
+                "glm": "Koherensi sangat baik dengan variasi minor antara komponen, fungsi, dan tahapan LDM. Label akurat dan ringkas dalam menangkap maksud kluster."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini berfokus sepenuhnya pada pemahaman komponen, fungsi, dan tahapan dalam Logical Data Model (LDM).",
+                        "outlier_check": "Tidak ada outlier; semua pertanyaan secara eksplisit menyebutkan 'Logical Data Model'.",
+                        "label_assessment": "Label mencerminkan isi klaster dengan sangat baik, mencakup komponen dan pemahaman LDM."
+                    },
+                    "rationale": "Seluruh pertanyaan dalam sampel menanyakan hal yang sama yaitu detail mengenai Logical Data Model (LDM).",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan berfokus pada pemahaman logical data model: komponen, fungsi, tahapan, dan konversi dari conceptual ke logical.",
+                        "outlier_check": "Pertanyaan nomor 8 ('logical data model adalah jembatan krusial...') adalah pernyataan, bukan pertanyaan, dan terasa seperti jawaban atau komentar, bukan query yang valid. Pertanyaan nomor 7 ('ingin tahu logical data model') sangat umum dan tidak spesifik.",
+                        "label_assessment": "Label 'Understanding Logical Data Model Components' cukup akurat, meskipun beberapa pertanyaan membahas tahapan dan konversi, bukan hanya komponen. Label sedikit terlalu sempit."
+                    },
+                    "rationale": "Sebagian besar pertanyaan relevan dengan logical data model, namun ada outlier (nomor 8 adalah pernyataan bukan pertanyaan, nomor 7 terlalu umum). Beberapa pertanyaan membahas tahapan dan konversi dari CDM ke LDM, yang sedikit berbeda dari fokus 'komponen'. Label cukup tepat namun tidak sepenuhnya mencakup semua sudut pertanyaan.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan ini ingin memahami apa itu Logical Data Model (LDM), komponen-komponennya, fungsinya, dan tahapan perancangannya.",
+                        "outlier_check": "Tidak ada outlier; semua pertanyaan eksplisit menyebut 'logical data model' meskipun beberapa menanyakan fungsi sementara lainnya menanyakan tahapan atau transformasi.",
+                        "label_assessment": "Label 'Understanding Logical Data Model Components' cukup akurat meskipun tidak menangkap aspek proses/transformasi secara eksplisit, namun tetap mewakili inti pertanyaan dengan baik."
+                    },
+                    "rationale": "Koherensi sangat baik dengan variasi minor antara komponen, fungsi, dan tahapan LDM. Label akurat dan ringkas dalam menangkap maksud kluster.",
+                    "model": "z-ai/glm-5-turbo"
+                }
+            },
+            "extraction_confidence": 0.98
+        },
+        {
+            "cluster_id": 2,
+            "cluster_size": 6,
+            "topic_label": "Relationships and Connections Between Data",
+            "representative_question": "Bagaimana cara menentukan relasi antar data yang tepat serta kapan waktu yang paling efektif untuk mengaplikasikannya?",
+            "is_noise": false,
+            "coherence_score": 4.67,
+            "label_accuracy_score": 4.67,
+            "coherence_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "rationales": {
+                "gemini": "Koherensi sangat tinggi karena adanya repetisi pertanyaan yang identik dan tema yang tunggal mengenai relasi data.",
+                "claude": "Empat dari enam pertanyaan identik persis, menunjukkan koherensi tinggi. Pertanyaan 5 sedikit lebih umum tetapi masih dalam tema relasi data. Pertanyaan 6 singkat namun relevan. Label cukup akurat menangkap inti cluster.",
+                "glm": "Koherensi sempurna karena semua pertanyaan menanyakan hal yang persis sama tentang relasi antar data, dan label sangat tepat."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini berisi pertanyaan tentang cara menentukan dan mengaplikasikan relasi antar data.",
+                        "outlier_check": "Pertanyaan 1-4 identik, pertanyaan 5-6 juga membahas hubungan/relasi data.",
+                        "label_assessment": "Label secara tepat menggambarkan fokus pada relasi dan koneksi antar data."
+                    },
+                    "rationale": "Koherensi sangat tinggi karena adanya repetisi pertanyaan yang identik dan tema yang tunggal mengenai relasi data.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan berfokus pada relasi antar data, cara pengaplikasiannya, dan kapan digunakan.",
+                        "outlier_check": "Pertanyaan 1-4 identik persis. Pertanyaan 5 ('saya ingin tau sistemnya, datanya apa saja, isinya apa saja dan apa hubungannya') lebih umum dan melenceng ke arah konten sistem secara keseluruhan. Pertanyaan 6 ('gimana hubungan antar data?') sangat singkat tetapi masih relevan.",
+                        "label_assessment": "Label 'Relationships and Connections Between Data' cukup akurat menangkap inti cluster, yaitu relasi antar data."
+                    },
+                    "rationale": "Empat dari enam pertanyaan identik persis, menunjukkan koherensi tinggi. Pertanyaan 5 sedikit lebih umum tetapi masih dalam tema relasi data. Pertanyaan 6 singkat namun relevan. Label cukup akurat menangkap inti cluster.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Seluruh pertanyaan secara tegas menanyakan tentang relasi atau hubungan antar data, bagaimana cara mengaplikasikannya, dan kapan menggunakannya.",
+                        "outlier_check": "Tidak ditemukan outlier atau pertanyaan yang melayang; semua pertanyaan memiliki niat semantik yang identik mengenai hubungan data.",
+                        "label_assessment": "Label 'Relationships and Connections Between Data' mencerminkan dengan sempurna tema inti dari kluster ini."
+                    },
+                    "rationale": "Koherensi sempurna karena semua pertanyaan menanyakan hal yang persis sama tentang relasi antar data, dan label sangat tepat.",
+                    "model": "z-ai/glm-5-turbo"
+                }
+            },
+            "extraction_confidence": 0.95
+        },
+        {
+            "cluster_id": 3,
+            "cluster_size": 8,
+            "topic_label": "ERD Components and Key Management",
+            "representative_question": "Bagaimana langkah praktis dalam menentukan entitas, atribut, serta pengelolaan primary dan foreign key saat mentransformasi relasi ke dalam logical data model?",
+            "is_noise": false,
+            "coherence_score": 3.67,
+            "label_accuracy_score": 4.0,
+            "coherence_scores_raw": [
+                4,
+                3,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                4,
+                3,
+                5
+            ],
+            "rationales": {
+                "gemini": "Pertanyaan-pertanyaannya sangat mirip dalam hal teknis pemodelan, namun cakupannya cukup luas dari komponen dasar hingga normalisasi.",
+                "claude": "Sebagian besar pertanyaan relevan dengan komponen ERD dan pengelolaan primary/foreign key. Namun, pertanyaan 3 terlalu umum dan pertanyaan 8 lebih fokus pada jenis relasi kardinalitas. Ada sedikit pergeseran subtopik dalam cluster ini. Label cukup menangkap inti namun tidak sempurna.",
+                "glm": "Pertanyaan-pertanyaan sangat mirip dengan sedikit variasi sudut pandang, dan label mampu merangkum secara ringkas dan tepat inti pembahasan komponen ERD dan key."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini membahas komponen teknis ERD seperti entitas, atribut, relasi, serta kunci (Primary/Foreign Key).",
+                        "outlier_check": "Terdapat penyebutan normalisasi (3NF) dan jenis relasi spesifik yang sedikit meluas dari sekadar 'komponen', tapi masih dalam ranah teknis pemodelan data.",
+                        "label_assessment": "Label sudah baik namun tidak menyebutkan aspek normalisasi yang muncul di beberapa pertanyaan."
+                    },
+                    "rationale": "Pertanyaan-pertanyaannya sangat mirip dalam hal teknis pemodelan, namun cakupannya cukup luas dari komponen dasar hingga normalisasi.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan berfokus pada komponen ERD/logical data model seperti entitas, atribut, primary key, foreign key, dan relasi antar tabel.",
+                        "outlier_check": "Pertanyaan nomor 3 ('mengetahui apa itu data model, jenis-jenisnya, dan komponennya') lebih umum dan tidak secara spesifik menyebut primary/foreign key atau ERD. Pertanyaan nomor 8 ('apa itu relasi one-to-me, one-to-many, dan many-to-many?') lebih fokus pada jenis kardinalitas, sedikit berbeda dari fokus key management.",
+                        "label_assessment": "Label 'ERD Components and Key Management' cukup akurat untuk sebagian besar pertanyaan, tetapi tidak semua pertanyaan membahas key management secara eksplisit."
+                    },
+                    "rationale": "Sebagian besar pertanyaan relevan dengan komponen ERD dan pengelolaan primary/foreign key. Namun, pertanyaan 3 terlalu umum dan pertanyaan 8 lebih fokus pada jenis relasi kardinalitas. Ada sedikit pergeseran subtopik dalam cluster ini. Label cukup menangkap inti namun tidak sempurna.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Inti pertanyaan adalah memahami komponen ERD/LDM (entitas, atribut) serta pengelolaan kunci (primary key, foreign key) dan jenis relasi.",
+                        "outlier_check": "Pertanyaan 1 dan 3 sedikit lebih umum (menanyakan definisi dan jenis data model secara luas), namun tetap berada dalam koridor topik yang sama tanpa menjadi outlier yang parah.",
+                        "label_assessment": "Label 'ERD Components and Key Management' sangat presisi dan tepat sasaran untuk mendeskripsikan fokus utama mayoritas pertanyaan di kluster ini."
+                    },
+                    "rationale": "Pertanyaan-pertanyaan sangat mirip dengan sedikit variasi sudut pandang, dan label mampu merangkum secara ringkas dan tepat inti pembahasan komponen ERD dan key.",
+                    "model": "z-ai/glm-5-turbo"
+                }
+            },
+            "extraction_confidence": 0.94
+        },
+        {
+            "cluster_id": 4,
+            "cluster_size": 5,
+            "topic_label": "General Inquiries and Ambiguous Feedback",
+            "representative_question": "Bagaimana cara menggunakan sistem ini secara efektif untuk semua jenis relasi dan jaringan internet?",
+            "is_noise": true,
+            "coherence_score": 2.0,
+            "label_accuracy_score": 4.67,
+            "coherence_scores_raw": [
+                2,
+                2,
+                2
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "rationales": {
+                "gemini": "Secara substansi, pertanyaan-pertanyaannya tidak koheren satu sama lain karena sifatnya yang ambigu, namun label berhasil menangkap fenomena tersebut dengan tepat.",
+                "claude": "Pertanyaan-pertanyaan sangat ambigu dan tidak koheren satu sama lain—'jaringan internet' sama sekali tidak berkaitan dengan pertanyaan lain. Koherensi rendah karena pertanyaan-pertanyaan ini tidak berbagi tema spesifik yang sama. Label 'General Inquiries and Ambiguous Feedback' cukup akurat mendeskripsikan karakter cluster ini.",
+                "glm": "Koherensi buruk karena campuran respons generik, vagu, dan outlier yang tidak terkait. Namun, label sangat sempurna dalam mengkategorikan noise ini."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini berisi pertanyaan yang sangat singkat, ambigu, atau tidak memiliki konteks teknis yang jelas.",
+                        "outlier_check": "Semua pertanyaan bersifat fragmentaris ('semua relasi', 'jaringan internet').",
+                        "label_assessment": "Label 'General Inquiries and Ambiguous Feedback' sangat tepat untuk mengkategorikan noise semacam ini."
+                    },
+                    "rationale": "Secara substansi, pertanyaan-pertanyaannya tidak koheren satu sama lain karena sifatnya yang ambigu, namun label berhasil menangkap fenomena tersebut dengan tepat.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan sangat umum, ambigu, dan tidak memiliki tema yang jelas atau spesifik.",
+                        "outlier_check": "Semua pertanyaan sangat vague: 'semua relasi', 'jaringan internet', 'semuanya mau mungkin', 'buat apa, cara penggunaan'. Pertanyaan 'jaringan internet' tampak benar-benar tidak relevan dengan konteks database.",
+                        "label_assessment": "Label 'General Inquiries and Ambiguous Feedback' tepat menggambarkan sifat pertanyaan-pertanyaan yang sangat umum dan tidak spesifik ini."
+                    },
+                    "rationale": "Pertanyaan-pertanyaan sangat ambigu dan tidak koheren satu sama lain—'jaringan internet' sama sekali tidak berkaitan dengan pertanyaan lain. Koherensi rendah karena pertanyaan-pertanyaan ini tidak berbagi tema spesifik yang sama. Label 'General Inquiries and Ambiguous Feedback' cukup akurat mendeskripsikan karakter cluster ini.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Kluster ini berisi pertanyaan yang sangat generik, ambigu, dan tidak memiliki fokus topik yang jelas.",
+                        "outlier_check": "Terdapat pertanyaan sangat vagu seperti 'semuanya mau mungkin', 'buat apa', hingga outlier total seperti 'jaringan internet' yang tidak ada hubungannya dengan basis data.",
+                        "label_assessment": "Label 'General Inquiries and Ambiguous Feedback' adalah deskripsi yang sangat akurat untuk kumpulan noise dan pertanyaan tidak jelas ini."
+                    },
+                    "rationale": "Koherensi buruk karena campuran respons generik, vagu, dan outlier yang tidak terkait. Namun, label sangat sempurna dalam mengkategorikan noise ini.",
+                    "model": "z-ai/glm-5-turbo"
+                }
+            },
+            "extraction_confidence": 0.8
+        },
+        {
+            "cluster_id": 5,
+            "cluster_size": 9,
+            "topic_label": "Practical Functions and Implementation Tools",
+            "representative_question": "Apa saja fungsi utama dari materi ini dan tools perangkat lunak apa yang paling efektif digunakan untuk mengimplementasikannya?",
+            "is_noise": false,
+            "coherence_score": 3.0,
+            "label_accuracy_score": 3.33,
+            "coherence_scores_raw": [
+                3,
+                3,
+                3
+            ],
+            "label_accuracy_scores_raw": [
+                3,
+                3,
+                4
+            ],
+            "rationales": {
+                "gemini": "Terdapat pergeseran topik dari sekadar tools/fungsi ke arah teknis implementasi (SQL/server) yang membuat klaster ini agak kurang fokus.",
+                "claude": "Cluster ini memiliki tema umum tentang fungsi dan implementasi, tetapi ada variasi subtopik yang cukup signifikan: tools, cara kerja, SQL commands, tipe data/indeks, dan pertanyaan sangat umum. Pertanyaan 4 tentang SQL (SELECT, INSERT, DELETE) cukup melenceng. Label cukup akurat tetapi tidak sepenuhnya tepat.",
+                "glm": "Koherensi sedang karena beberapa pertanyaan menyimpang ke subtopik spesifik seperti SQL dan Physical Data Model. Label cukup akurat untuk mewakili kluster campuran ini."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini mencakup fungsi materi, tools implementasi, serta beberapa detail teknis implementasi fisik.",
+                        "outlier_check": "Pertanyaan nomor 4 (SQL code) dan nomor 6 (server/index) agak melenceng dari sekadar 'tools' ke arah implementasi fisik/teknis database.",
+                        "label_assessment": "Label cukup akurat untuk mayoritas pertanyaan, namun kurang mencakup aspek detail teknis fisik seperti indeks dan server."
+                    },
+                    "rationale": "Terdapat pergeseran topik dari sekadar tools/fungsi ke arah teknis implementasi (SQL/server) yang membuat klaster ini agak kurang fokus.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan berfokus pada fungsi, tools, cara kerja, dan implementasi teknis dari suatu materi (kemungkinan logical data model).",
+                        "outlier_check": "Pertanyaan nomor 3 ('karakteristik, manfaat, dan komponen') lebih umum. Pertanyaan nomor 4 (tentang SQL seperti SELECT, INSERT, DELETE) melenceng ke implementasi SQL/coding yang berbeda dari tema tools dan fungsi umum. Pertanyaan nomor 8 ('hal yang lebih mendalam tentang materi ini') sangat vague.",
+                        "label_assessment": "Label 'Practical Functions and Implementation Tools' cukup menangkap tema cluster, meski beberapa pertanyaan lebih ke fungsi/karakteristik umum daripada tools spesifik."
+                    },
+                    "rationale": "Cluster ini memiliki tema umum tentang fungsi dan implementasi, tetapi ada variasi subtopik yang cukup signifikan: tools, cara kerja, SQL commands, tipe data/indeks, dan pertanyaan sangat umum. Pertanyaan 4 tentang SQL (SELECT, INSERT, DELETE) cukup melenceng. Label cukup akurat tetapi tidak sepenuhnya tepat.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan ini menanyakan tentang fungsi, tools, dan aspek implementasi teknis dari materi yang dipelajari.",
+                        "outlier_check": "Terdapat 1-2 pertanyaan yang melayang ke subtopik yang berbeda secara teknis, seperti pertanyaan tentang kode SQL (select, insert) dan detail fisik (indeks, server), yang melampaui sekadar fungsi dan tools umum.",
+                        "label_assessment": "Label 'Practical Functions and Implementation Tools' cukup baik sebagai payung untuk pertanyaan-pertanyaan praktis yang beragam ini, meskipun sedikit terlalu luas."
+                    },
+                    "rationale": "Koherensi sedang karena beberapa pertanyaan menyimpang ke subtopik spesifik seperti SQL dan Physical Data Model. Label cukup akurat untuk mewakili kluster campuran ini.",
+                    "model": "z-ai/glm-5-turbo"
+                }
+            },
+            "extraction_confidence": 0.88
+        },
+        {
+            "cluster_id": 6,
+            "cluster_size": 3,
+            "topic_label": "Real-World Logical Data Model Application",
+            "representative_question": "Kapan sebaiknya logical data model digunakan dalam siklus pengembangan dan bagaimana penerapannya pada berbagai jenis industri di dunia nyata?",
+            "is_noise": false,
+            "coherence_score": 4.67,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "Pertanyaan dalam sampel ini memiliki kesamaan tema yang sangat spesifik mengenai waktu penggunaan dan implementasi nyata LDM.",
+                "claude": "Ketiga pertanyaan sangat koheren dan berfokus pada penerapan nyata LDM: kapan digunakan, di industri apa, dan bagaimana implementasinya. Tidak ada outlier. Label sangat tepat dan akurat menggambarkan inti cluster.",
+                "glm": "Koherensi sangat sempurna karena semua pertanyaan memiliki niat identik mengenai aplikasi nyata LDM, dan label yang diberikan sangat akurat."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini secara spesifik menanyakan kapan LDM digunakan dan bagaimana penerapannya di dunia industri/nyata.",
+                        "outlier_check": "Tidak ada outlier; ketiga pertanyaan memiliki intensi yang sama.",
+                        "label_assessment": "Label sangat akurat dan meringkas isi klaster dengan sempurna."
+                    },
+                    "rationale": "Pertanyaan dalam sampel ini memiliki kesamaan tema yang sangat spesifik mengenai waktu penggunaan dan implementasi nyata LDM.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan berfokus pada kapan dan bagaimana logical data model (LDM) digunakan dalam konteks nyata, termasuk jenis industri dan urutannya dalam siklus pengembangan.",
+                        "outlier_check": "Tidak ada outlier yang signifikan. Ketiga pertanyaan membahas aspek penerapan LDM di dunia nyata dengan sudut pandang yang saling melengkapi.",
+                        "label_assessment": "Label 'Real-World Logical Data Model Application' sangat akurat menangkap inti dari ketiga pertanyaan yang membahas penerapan LDM di dunia nyata."
+                    },
+                    "rationale": "Ketiga pertanyaan sangat koheren dan berfokus pada penerapan nyata LDM: kapan digunakan, di industri apa, dan bagaimana implementasinya. Tidak ada outlier. Label sangat tepat dan akurat menggambarkan inti cluster.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan ini secara spesifik menanyakan tentang kapan, di mana, dan bagaimana Logical Data Model (LDM) diterapkan dalam skenario dunia nyata dan industri.",
+                        "outlier_check": "Tidak ada outlier; semua pertanyaan sepakat membahas penerapan LDM di dunia nyata, siklus pengembangannya, dan konteks bisnisnya.",
+                        "label_assessment": "Label 'Real-World Logical Data Model Application' mencerminkan dengan tepat dan presisi apa yang sebenarnya ditanyakan oleh seluruh pengguna di kluster ini."
+                    },
+                    "rationale": "Koherensi sangat sempurna karena semua pertanyaan memiliki niat identik mengenai aplikasi nyata LDM, dan label yang diberikan sangat akurat.",
+                    "model": "z-ai/glm-5-turbo"
+                }
+            },
+            "extraction_confidence": 0.93
+        },
+        {
+            "cluster_id": 7,
+            "cluster_size": 6,
+            "topic_label": "Data Structuring and Organizational Principles",
+            "representative_question": "Bagaimana cara menyusun dan mendokumentasikan struktur data yang kompleks agar mudah dipahami oleh pengembang maupun pemangku kepentingan bisnis?",
+            "is_noise": false,
+            "coherence_score": 4.0,
+            "label_accuracy_score": 4.67,
+            "coherence_scores_raw": [
+                4,
+                3,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "rationales": {
+                "gemini": "Pertanyaan-pertanyaan di sini memiliki kesamaan dalam hal bagaimana data disusun secara logis dan dikomunikasikan kepada pemangku kepentingan.",
+                "claude": "Sebagian besar pertanyaan relevan dengan struktur dan organisasi data. Namun, pertanyaan 2 sangat ambigu dan pertanyaan 5 sedikit melenceng ke topik DBMS dan diagram bisnis. Label cukup akurat menangkap inti cluster meskipun tidak sempurna.",
+                "glm": "Semua pertanyaan menanyakan hal yang sama persis mengenai prinsip penstrukturan data konseptual, menghasilkan koherensi tertinggi dan akurasi label yang sempurna."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini membahas tentang pengorganisasian data secara struktural dan dokumentasi untuk kepentingan bisnis/stakeholder.",
+                        "outlier_check": "Terdapat variasi antara dokumentasi formal dengan diagram kebutuhan bisnis tanpa DBMS, namun intinya tetap pada pengorganisasian struktur.",
+                        "label_assessment": "Label mencakup poin utama tentang struktur data dan prinsip organisasi dengan sangat baik."
+                    },
+                    "rationale": "Pertanyaan-pertanyaan di sini memiliki kesamaan dalam hal bagaimana data disusun secara logis dan dikomunikasikan kepada pemangku kepentingan.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan berfokus pada cara data diorganisasikan, didokumentasikan, dan disusun secara terstruktur dalam basis data.",
+                        "outlier_check": "Pertanyaan nomor 2 ('konseptual untuk menghubungkan antara data') sangat singkat dan ambigu, tidak jelas konteksnya. Pertanyaan nomor 5 ('bagaimana cara melihat diagram kebutuhan data pada sebuah bisnis tanpa atau dengan melihat DBMS?') sedikit melenceng ke arah diagram bisnis dan DBMS.",
+                        "label_assessment": "Label 'Data Structuring and Organizational Principles' cukup akurat menangkap tema utama cluster tentang struktur dan organisasi data."
+                    },
+                    "rationale": "Sebagian besar pertanyaan relevan dengan struktur dan organisasi data. Namun, pertanyaan 2 sangat ambigu dan pertanyaan 5 sedikit melenceng ke topik DBMS dan diagram bisnis. Label cukup akurat menangkap inti cluster meskipun tidak sempurna.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan ini berfokus pada prinsip-prinsip bagaimana data diorganisasikan, disusun, dan didokumentasikan secara konseptual sebelum implementasi teknis.",
+                        "outlier_check": "Tidak ada outlier yang terdeteksi; semua pertanyaan membahas struktur data, dokumentasi, dan kebutuhan pemangku kepentingan bisnis pada tahap pra-implementasi.",
+                        "label_assessment": "Label 'Data Structuring and Organizational Principles' sangat pas dan secara ringkas menangkap esensi dari upaya penyusunan data konseptual yang menjadi inti kluster ini."
+                    },
+                    "rationale": "Semua pertanyaan menanyakan hal yang sama persis mengenai prinsip penstrukturan data konseptual, menghasilkan koherensi tertinggi dan akurasi label yang sempurna.",
+                    "model": "z-ai/glm-5-turbo"
+                }
+            },
+            "extraction_confidence": 0.91
+        }
+    ],
+    "summary": {
+        "total_clusters_evaluated": 8,
+        "judge_mode": "triple",
+        "evaluation_models": {
+            "gemini": "gemini-3-flash-preview",
+            "claude": "anthropic/claude-sonnet-4.6",
+            "glm": "z-ai/glm-5-turbo"
+        },
+        "judges_succeeded": [
+            "gemini",
+            "claude",
+            "glm"
+        ],
+        "agreement_metrics_computed": [
+            "fleiss_kappa",
+            "gwet_ac2"
+        ],
+        "fleiss_kappa": {
+            "coherence": {
+                "kappa": 0.1962,
+                "interpretation": "Slight"
+            },
+            "label_accuracy": {
+                "kappa": -0.1098,
+                "interpretation": "Poor"
+            },
+            "note": "Fleiss' κ measures agreement beyond chance. Susceptible to the 'Kappa Paradox' if most ratings are perfect."
+        },
+        "gwet_ac2": {
+            "coherence": {
+                "ac2": 0.8371,
+                "interpretation": "Very Good"
+            },
+            "label_accuracy": {
+                "ac2": 0.8331,
+                "interpretation": "Very Good"
+            },
+            "note": "Gwet's AC2 (2008) with Quadratic Weights. Resolves the Kappa Paradox for ordinal data. Interpreted via Altman's (1991) guidelines."
+        },
+        "coherence": {
+            "mean": 3.71,
+            "median": 3.83,
+            "std": 0.82,
+            "min": 2.0,
+            "max": 4.67,
+            "score_distribution": {
+                "1": 0,
+                "2": 1,
+                "3": 1,
+                "4": 4,
+                "5": 2
+            }
+        },
+        "label_accuracy": {
+            "mean": 4.33,
+            "median": 4.5,
+            "std": 0.5,
+            "min": 3.33,
+            "max": 5.0,
+            "score_distribution": {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 3,
+                "5": 4
+            }
+        },
+        "overall_quality_score": 4.02,
+        "overall_quality_grade": "Good"
+    },
+    "max_samples_per_cluster": 8
+}

@@ -1,0 +1,88 @@
+{
+    "run_id": "20260309_182328",
+    "timestamp": "2026-03-09T18:27:15.234707",
+    "inputs": {
+        "cluster_input": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data\\clusters\\20260305_164840",
+        "extraction_input": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data\\extraction_results\\20260305_164840"
+    },
+    "config": {
+        "text_column": "Cleaned_Content",
+        "judges": 3,
+        "agreement_metric": "both",
+        "target_step": "extraction",
+        "skip_steps": []
+    },
+    "results_files": [
+        "extraction_eval.json"
+    ],
+    "extraction_summary_snapshot": {
+        "total_clusters_evaluated": 12,
+        "judge_mode": "triple",
+        "evaluation_models": {
+            "gemini": "gemini-3-flash-preview",
+            "claude": "claude-sonnet-4-6",
+            "glm": "glm-5"
+        },
+        "judges_succeeded": [
+            "gemini",
+            "claude",
+            "glm"
+        ],
+        "agreement_metrics_computed": [
+            "fleiss_kappa",
+            "gwet_ac2"
+        ],
+        "fleiss_kappa": {
+            "coherence": {
+                "kappa": 0.122,
+                "interpretation": "Slight"
+            },
+            "label_accuracy": {
+                "kappa": 0.3292,
+                "interpretation": "Fair"
+            },
+            "note": "Fleiss' κ measures agreement beyond chance. Susceptible to the 'Kappa Paradox' if most ratings are perfect."
+        },
+        "gwet_ac2": {
+            "coherence": {
+                "ac2": 0.8753,
+                "interpretation": "Very Good"
+            },
+            "label_accuracy": {
+                "ac2": 0.9728,
+                "interpretation": "Very Good"
+            },
+            "note": "Gwet's AC2 (2008) with Quadratic Weights. Resolves the Kappa Paradox for ordinal data. Interpreted via Altman's (1991) guidelines."
+        },
+        "coherence": {
+            "mean": 4.53,
+            "median": 4.67,
+            "std": 0.64,
+            "min": 2.67,
+            "max": 5.0,
+            "score_distribution": {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 3,
+                "5": 8
+            }
+        },
+        "label_accuracy": {
+            "mean": 4.75,
+            "median": 5.0,
+            "std": 0.64,
+            "min": 2.67,
+            "max": 5.0,
+            "score_distribution": {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 0,
+                "5": 11
+            }
+        },
+        "overall_quality_score": 4.64,
+        "overall_quality_grade": "Excellent"
+    }
+}

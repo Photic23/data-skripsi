@@ -1,0 +1,330 @@
+{
+    "per_cluster": [
+        {
+            "cluster_id": 0,
+            "cluster_size": 23,
+            "topic_label": "Hadoop Architecture and Component Integration",
+            "representative_question": "How do Hadoop components like HDFS, YARN, and MapReduce integrate with tools like Hive and Spark to process big data in real-world industrial settings?",
+            "is_noise": false,
+            "coherence_score": 4.33,
+            "label_accuracy_score": 4.67,
+            "coherence_scores_raw": [
+                5,
+                4,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "rationales": {
+                "gemini": "The questions are highly specific and consistently focus on the integration of various components like HDFS, YARN, and MapReduce within the ecosystem.",
+                "claude": "The questions consistently focus on Hadoop ecosystem architecture, component integration (HDFS, YARN, MapReduce, Hive, Spark), and real-world implementation, which aligns well with the label. There is slight overlap with other clusters on basic definitions, but the emphasis on integration and architecture is coherent.",
+                "gpt": "Nearly all questions ask about Hadoop ecosystem architecture, roles of core components (HDFS/YARN/MapReduce) and how tools integrate in real use; a few also request setup/intro, but still within the same theme. The label precisely matches the dominant focus on architecture and integration."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "The questions are highly specific and consistently focus on the integration of various components like HDFS, YARN, and MapReduce within the ecosystem.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "rationale": "The questions consistently focus on Hadoop ecosystem architecture, component integration (HDFS, YARN, MapReduce, Hive, Spark), and real-world implementation, which aligns well with the label. There is slight overlap with other clusters on basic definitions, but the emphasis on integration and architecture is coherent.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "rationale": "Nearly all questions ask about Hadoop ecosystem architecture, roles of core components (HDFS/YARN/MapReduce) and how tools integrate in real use; a few also request setup/intro, but still within the same theme. The label precisely matches the dominant focus on architecture and integration.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.95
+        },
+        {
+            "cluster_id": 1,
+            "cluster_size": 10,
+            "topic_label": "Big Data Storage and Processing Techniques",
+            "representative_question": "What are the most efficient tools and methods within the Hadoop ecosystem for storing and processing massive datasets simultaneously?",
+            "is_noise": false,
+            "coherence_score": 3.0,
+            "label_accuracy_score": 3.33,
+            "coherence_scores_raw": [
+                4,
+                2,
+                3
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                2,
+                3
+            ],
+            "rationales": {
+                "gemini": "The cluster effectively groups questions regarding the technical mechanics of how Hadoop stores and processes data in parallel.",
+                "claude": "This cluster is weakly coherent — it mixes very specific questions about parallel/batch processing with vague questions like 'tidak bagus untuk yang memiliki data besar' and generic component questions that appear in other clusters. The label overstates the specificity of what is a loosely grouped set of questions.",
+                "gpt": "Several questions relate to storing/processing big data with Hadoop, but others are vague or off (e.g., unclear phrasing and a generic complaint), reducing thematic tightness. The label is broadly plausible but overstates “efficient tools/methods” and “within Hadoop” given the mixed, partly generic content."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "rationale": "The cluster effectively groups questions regarding the technical mechanics of how Hadoop stores and processes data in parallel.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 2,
+                    "rationale": "This cluster is weakly coherent — it mixes very specific questions about parallel/batch processing with vague questions like 'tidak bagus untuk yang memiliki data besar' and generic component questions that appear in other clusters. The label overstates the specificity of what is a loosely grouped set of questions.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "rationale": "Several questions relate to storing/processing big data with Hadoop, but others are vague or off (e.g., unclear phrasing and a generic complaint), reducing thematic tightness. The label is broadly plausible but overstates “efficient tools/methods” and “within Hadoop” given the mixed, partly generic content.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.85
+        },
+        {
+            "cluster_id": 2,
+            "cluster_size": 23,
+            "topic_label": "Hadoop Operation and Practical Application",
+            "representative_question": "What are the best practices for operating Hadoop and applying its features to solve real-world data problems effectively?",
+            "is_noise": false,
+            "coherence_score": 2.33,
+            "label_accuracy_score": 2.67,
+            "coherence_scores_raw": [
+                3,
+                2,
+                2
+            ],
+            "label_accuracy_scores_raw": [
+                3,
+                2,
+                3
+            ],
+            "rationales": {
+                "gemini": "This cluster contains significant noise, such as 'I don't know,' and the label's focus on 'best practices' is too specific for the mostly vague questions provided.",
+                "claude": "The cluster contains highly generic and vague responses like 'saya tidak tahu' and 'semua yang diperlukan,' which are not genuine topical questions. The remaining questions overlap heavily with clusters 3 and 5, making the label 'Hadoop Operation and Practical Application' inaccurate and the grouping incoherent.",
+                "gpt": "Many entries are extremely generic (\"I don't know\", \"all that is needed\") and mix basic understanding with workflow, usage, and real-world application, so the cluster lacks a crisp shared intent. The label somewhat fits the operation/application angle, but the content reads more like general introductory requests than best practices for operating Hadoop."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "rationale": "This cluster contains significant noise, such as 'I don't know,' and the label's focus on 'best practices' is too specific for the mostly vague questions provided.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 2,
+                    "rationale": "The cluster contains highly generic and vague responses like 'saya tidak tahu' and 'semua yang diperlukan,' which are not genuine topical questions. The remaining questions overlap heavily with clusters 3 and 5, making the label 'Hadoop Operation and Practical Application' inaccurate and the grouping incoherent.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 3,
+                    "rationale": "Many entries are extremely generic (\"I don't know\", \"all that is needed\") and mix basic understanding with workflow, usage, and real-world application, so the cluster lacks a crisp shared intent. The label somewhat fits the operation/application angle, but the content reads more like general introductory requests than best practices for operating Hadoop.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.8
+        },
+        {
+            "cluster_id": 3,
+            "cluster_size": 24,
+            "topic_label": "Introduction to the Hadoop Ecosystem",
+            "representative_question": "Can you explain what the Hadoop ecosystem is, how it has evolved, and the basic principles of how it works?",
+            "is_noise": false,
+            "coherence_score": 4.33,
+            "label_accuracy_score": 4.33,
+            "coherence_scores_raw": [
+                5,
+                3,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                3,
+                5
+            ],
+            "rationales": {
+                "gemini": "The cluster is very coherent, grouping high-level introductory questions about the definition and general workflow of the ecosystem.",
+                "claude": "Questions generally revolve around the Hadoop ecosystem's components, functioning, and real-world use, but there is significant overlap with clusters 0 and 5. The label 'Introduction to the Hadoop Ecosystem' is reasonable but not precise enough to distinguish this cluster from adjacent ones.",
+                "gpt": "Questions consistently ask for an introduction to the Hadoop ecosystem: what it is, components/tools, how it works, typical use, and pros/cons. The label cleanly and accurately captures this introductory scope."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "The cluster is very coherent, grouping high-level introductory questions about the definition and general workflow of the ecosystem.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "rationale": "Questions generally revolve around the Hadoop ecosystem's components, functioning, and real-world use, but there is significant overlap with clusters 0 and 5. The label 'Introduction to the Hadoop Ecosystem' is reasonable but not precise enough to distinguish this cluster from adjacent ones.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "Questions consistently ask for an introduction to the Hadoop ecosystem: what it is, components/tools, how it works, typical use, and pros/cons. The label cleanly and accurately captures this introductory scope.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.9
+        },
+        {
+            "cluster_id": 4,
+            "cluster_size": 14,
+            "topic_label": "Hadoop Purpose and Comparative Advantages",
+            "representative_question": "Why was Hadoop specifically designed for big data, and what are its architectural advantages compared to traditional databases or cloud-based alternatives?",
+            "is_noise": false,
+            "coherence_score": 3.0,
+            "label_accuracy_score": 3.0,
+            "coherence_scores_raw": [
+                4,
+                2,
+                3
+            ],
+            "label_accuracy_scores_raw": [
+                4,
+                2,
+                3
+            ],
+            "rationales": {
+                "gemini": "While the focus on comparative advantages is clear in some questions, others are more general 'how-to' queries that overlap with other clusters.",
+                "claude": "The cluster is weakly coherent — it mixes questions about Hadoop's purpose and advantages with very generic ones ('saya kurang mengerti jadi ingin dijelaskan lagi') and specific component questions about HDFS/YARN/MapReduce. The label 'Hadoop Purpose and Comparative Advantages' only fits a minority of the sampled questions.",
+                "gpt": "The cluster mixes comparative/purpose questions with basic definitions, architecture, component explanations, and how-to-use requests, making it only moderately coherent. The label matches some items (why Hadoop for big data, comparisons) but is too specific for the many general beginner/how-to questions present."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "rationale": "While the focus on comparative advantages is clear in some questions, others are more general 'how-to' queries that overlap with other clusters.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 2,
+                    "rationale": "The cluster is weakly coherent — it mixes questions about Hadoop's purpose and advantages with very generic ones ('saya kurang mengerti jadi ingin dijelaskan lagi') and specific component questions about HDFS/YARN/MapReduce. The label 'Hadoop Purpose and Comparative Advantages' only fits a minority of the sampled questions.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "rationale": "The cluster mixes comparative/purpose questions with basic definitions, architecture, component explanations, and how-to-use requests, making it only moderately coherent. The label matches some items (why Hadoop for big data, comparisons) but is too specific for the many general beginner/how-to questions present.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.9
+        },
+        {
+            "cluster_id": 5,
+            "cluster_size": 21,
+            "topic_label": "Defining the Hadoop Ecosystem Components",
+            "representative_question": "Could you provide a detailed and comprehensive explanation of what constitutes the Hadoop ecosystem and its general structure?",
+            "is_noise": false,
+            "coherence_score": 4.33,
+            "label_accuracy_score": 4.33,
+            "coherence_scores_raw": [
+                5,
+                3,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                3,
+                5
+            ],
+            "rationales": {
+                "gemini": "The questions in this group are perfectly aligned, all seeking a foundational definition and an itemization of the components within the Hadoop ecosystem.",
+                "claude": "Questions broadly ask about Hadoop ecosystem definitions, components, and usage, giving moderate coherence. However, the cluster heavily overlaps with clusters 0 and 3, and the label 'Defining the Hadoop Ecosystem Components' is only partially accurate since many questions go beyond definition to ask about workflow and application.",
+                "gpt": "All sampled questions focus on defining the Hadoop ecosystem, listing its components, explaining how it works, why it’s needed, and how it’s used/applied. The label precisely reflects this “what constitutes the ecosystem” intent."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "The questions in this group are perfectly aligned, all seeking a foundational definition and an itemization of the components within the Hadoop ecosystem.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "rationale": "Questions broadly ask about Hadoop ecosystem definitions, components, and usage, giving moderate coherence. However, the cluster heavily overlaps with clusters 0 and 3, and the label 'Defining the Hadoop Ecosystem Components' is only partially accurate since many questions go beyond definition to ask about workflow and application.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "All sampled questions focus on defining the Hadoop ecosystem, listing its components, explaining how it works, why it’s needed, and how it’s used/applied. The label precisely reflects this “what constitutes the ecosystem” intent.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.95
+        }
+    ],
+    "summary": {
+        "total_clusters_evaluated": 6,
+        "judge_mode": "triple",
+        "evaluation_models": {
+            "gemini": "gemini-3-flash-preview",
+            "claude": "anthropic/claude-sonnet-4.6",
+            "gpt": "openai/gpt-5.2"
+        },
+        "judges_succeeded": [
+            "gemini",
+            "claude",
+            "gpt"
+        ],
+        "fleiss_kappa": {
+            "coherence": {
+                "kappa": -0.0413,
+                "interpretation": "Poor"
+            },
+            "label_accuracy": {
+                "kappa": -0.115,
+                "interpretation": "Poor"
+            },
+            "note": "Fleiss' κ measures inter-judge agreement beyond chance. κ > 0.61 = Substantial, κ > 0.41 = Moderate (Landis & Koch, 1977)."
+        },
+        "coherence": {
+            "mean": 3.55,
+            "median": 3.67,
+            "std": 0.81,
+            "min": 2.33,
+            "max": 4.33,
+            "score_distribution": {
+                "1": 0,
+                "2": 1,
+                "3": 2,
+                "4": 3,
+                "5": 0
+            }
+        },
+        "label_accuracy": {
+            "mean": 3.72,
+            "median": 3.83,
+            "std": 0.75,
+            "min": 2.67,
+            "max": 4.67,
+            "score_distribution": {
+                "1": 0,
+                "2": 0,
+                "3": 3,
+                "4": 2,
+                "5": 1
+            }
+        },
+        "overall_quality_score": 3.64,
+        "overall_quality_grade": "Good"
+    },
+    "max_samples_per_cluster": 8
+}

@@ -1,0 +1,34 @@
+{
+    "best_k": 8,
+    "best_silhouette": 0.2533,
+    "all_results": [
+        {
+            "k": 6,
+            "silhouette_score": 0.1738
+        },
+        {
+            "k": 7,
+            "silhouette_score": 0.1878
+        },
+        {
+            "k": 8,
+            "silhouette_score": 0.2533
+        },
+        {
+            "k": 9,
+            "silhouette_score": 0.2307
+        },
+        {
+            "k": 10,
+            "silhouette_score": 0.2215
+        },
+        {
+            "k": 11,
+            "silhouette_score": 0.2252
+        },
+        {
+            "k": 12,
+            "silhouette_score": 0.2364
+        }
+    ]
+}

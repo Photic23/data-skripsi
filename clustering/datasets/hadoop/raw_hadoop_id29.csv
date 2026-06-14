@@ -1,0 +1,140 @@
+id,created_at,reflection,student_id,wtk_ref_id
+2054,2026-02-26 08:22:10.558216+00,"Apa itu hadoop, dan arsitekturnya",572,29
+2055,2026-02-26 08:22:29.306394+00,mulai dari latar belakangnya sampai cara pengaplikasiannya,593,29
+2056,2026-02-26 08:22:49.489791+00,tools nya apa saja dan fungsinya buat apa saja kemudian bagaimana workflow atau cara kerjanya,563,29
+2057,2026-02-26 08:22:49.654123+00,mengetahui bagian dari ekosistem hadoop,524,29
+2058,2026-02-26 08:22:55.649816+00,saya tidak tahu,567,29
+2059,2026-02-26 08:22:56.219393+00,"definisi, fungsi, cara kerja contoh cara penerapan",527,29
+2060,2026-02-26 08:23:06.372855+00,cara kerja dan memahami nya,597,29
+2061,2026-02-26 08:23:09.419207+00,cara kerja dan tools-tools tambahan,544,29
+2062,2026-02-26 08:23:10.655772+00,fungsi HDFS dalam ekosistem hadoop,556,29
+2063,2026-02-26 08:23:14.107894+00,Tentang apa itu ekosistem Hadoop dan bagaimana ekosistem ini bekerja,573,29
+2064,2026-02-26 08:23:20.878978+00,"Pengenalan ke ekosistem Hadoop, tools yang tersedia, dan cara penggunannya",532,29
+2065,2026-02-26 08:23:21.374438+00,cara penggunannya,549,29
+2066,2026-02-26 08:23:23.701806+00,makna ekosistem hadoop dan bagaimana praktik nya di bidang profesional,515,29
+2067,2026-02-26 08:23:23.871101+00,digunakan untuk apa dan kapan dipakainya,603,29
+2068,2026-02-26 08:23:40.629191+00,cara menggunakan hadoop,516,29
+2069,2026-02-26 08:23:42.732533+00,"Mengenai apaitu hadoop, bagaimana ekosistem hadoop itu bekerja, untuk apa itu digunakan",566,29
+2070,2026-02-26 08:23:48.127984+00,Saya ingin tahu cara kerja dan penerapannya dalam kasus yang nyata,525,29
+2071,2026-02-26 08:23:49.048865+00,"Mengenal apa itu Ekosistem Hadoop, kenapa harus ada ekosistem Hadoop, apa hubungannya dengan big Data, perannya apa, dan bagaimana supaya kita bisa menguasai materi ini",555,29
+2072,2026-02-26 08:23:52.520939+00,Bagaimana data diproses dalam waktu persamaan.,583,29
+2073,2026-02-26 08:24:33.138222+00,Saya tidak tahu,560,29
+2074,2026-02-26 08:24:39.291664+00,"Ingin mengetahui apa itu ekosistem hadoop, fungsi, cara kerja, dan penerapannya",575,29
+2075,2026-02-26 08:24:46.999365+00,ingin lebih mengetahui cara kerja ekosistem hadoop dan kenapa harus dipakai,568,29
+2076,2026-02-26 08:24:48.363555+00,Saya ingin mengetahui apa itu ekosistem hadoop dan seperti apa ekosistem hadoop,565,29
+2077,2026-02-26 08:24:48.365596+00,Saya ingin mengetahui apa definisi Ekosistem Hadoop serta kegunaannya,582,29
+2078,2026-02-26 08:24:48.739714+00,Saya ingin mengetahui seberapa penting ekosistem hadoop dan bagaimana cara penggunannya,517,29
+2079,2026-02-26 08:24:50.548789+00,"Bagaimana cara kerja ekosistem hadoop, apa korelasinya dengan teknologi big data dan bagaimana ekosistem hadoop ini dapat membantu mengelola teknologi big data",528,29
+2080,2026-02-26 08:24:53.919175+00,"apa itu hadoop, cara menggunakannya, dan bagaimana hadoop itu akan berdampak atau berkontribusi terhadap mata kuliah teknologi big data dan project yang akan kami buat di semester kelas ini",529,29
+2081,2026-02-26 08:24:54.609151+00,ingin mengetahui lebih lanjut tentang ekosistem hadoop seperti komponennya apa terus Ekosistem Hadoop buat apa dan juga kenapa Ekosistem ini penting serta bagaimana cara kerja dari ekosistem Hadoop ini,542,29
+2082,2026-02-26 08:24:56.459011+00,"Saya ingin tahu seperti apa cara kerja teknologi big data dan bagaimana implementasinya di dunia nyata. Selain itu, saya juga ingin tahu apa perbedaan antara pemrosesan data biasa dengan pemrosesan data besar, baik itu secara batch ataupun secara real-time.",546,29
+2085,2026-02-26 08:25:11.919233+00,"Ekosistem Hadoop sebenarnya adalah sebuah strategi cerdas untuk mengelola data raksasa dengan cara memecah file besar ke dalam banyak komputer biasa melalui HDFS, lalu memprosesnya secara bersamaan menggunakan MapReduce agar tugas berat jadi terasa ringan. Sistem ini tidak takut pada kerusakan hardware karena ia selalu menduplikasi data di beberapa tempat sekaligus, dan alih-alih memindahkan data yang sangat berat ke aplikasi, Hadoop justru mengirimkan instruksi programnya langsung ke lokasi data tersebut berada demi efisiensi jaringan. Dengan alat bantu seperti Hive untuk query data atau Spark untuk pemrosesan super cepat, kita jadi bisa mengubah tumpukan data mentah yang berantakan menjadi informasi yang berharga tanpa harus memiliki supercomputer yang mahal",587,29
+2083,2026-02-26 08:25:01.278462+00,"saya ingin mengetahui
+1. apa saja yang dapat dilakukan dalam ekosistem hadoop, 
+2. bagaimana cara menggunakan hadoop
+3. bahasa yang digunakan hadoop
+4. proyek yang telah dihasilkan dari menggunakan hadoop",530,29
+2084,2026-02-26 08:25:07.252143+00,"Yang saya ingin ketahui perannya dalam big data itu seperti apa, bagaimana alur ekosistemnya dan manfaat yang didapat jika menggunakan ekosistem ini",541,29
+2086,2026-02-26 08:25:13.218502+00,"Saya ingin mengetahui bagaimana proses Apache Hadoop yang dirancang untuk menyimpan, mengelola, dan memproses big data skala gigabyte hingga petabyte secara terdistribusi dan paralel.",581,29
+2087,2026-02-26 08:25:19.412779+00,"Saya ingin mengetahui definis dari Ekosistem Hadoop, apa saja komponen di dalamnya, bagaimana cara kerjanya, serta bagaimana kegunaan dan penerapannya dalam Big Data.",547,29
+2088,2026-02-26 08:25:23.404438+00,"Apa yang dimaksud dari Ekosistem Hadoop? 
+Apa hubungannya dengan Teknologi Big Data?
+Apa kelebihan dan kekurangan Ekosistem Hadoop?",537,29
+2089,2026-02-26 08:25:25.432897+00,saya ingin mengetahui apa itu hadoop dan fungsi nya sekaligus cara menggunakannya,518,29
+2090,2026-02-26 08:25:28.388981+00,"mungkin teknologi apa saja yang digunakan, dan kira kira dengan hadoop ini bisa diapaki untuk apa saja dalam big data",580,29
+2091,2026-02-26 08:25:35.842081+00,"Saya ingin mengetahui apa itu ekosistem hadoop, arsitektur hadoop dan penerapannya beserta contoh-contohnya.",531,29
+2092,2026-02-26 08:25:52.454067+00,Hal yang ingin saya ketahui adalah bagaimana cara menggunakan tools Hadoop ini sesuai dengan best practice-nya di industri data. Saya juga ingin mengetahui apakah kelebihan dan kekurangan ekosistem hadoop dibandingkan dengan tools-tools lainnya.,588,29
+2093,2026-02-26 08:25:53.709107+00,"Hal yang saya ingin ketahui tentang topik ini meliputi kegunaan utama hadoop, manfaat penggunaannya, peran hadoop dalam industri, dan Core Knowledge yang dibutuhkan untuk mengerti dan menggunakan ekosistem hadoop.",606,29
+2094,2026-02-26 08:25:56.955668+00,"Pertama saya perlu tahu apa definisi, fungsi serta penerapannya dalam konteks big data processing. Selain itu, saya juga ingin untuk mempraktikan secara langsung materi praktikal dari Ekosistem Hadoop ini.",602,29
+2095,2026-02-26 08:25:59.982775+00,mengetahui mengenai apa itu ekosistem hadoop,608,29
+2096,2026-02-26 08:26:00.389795+00,bagaimana perkembangan ekosistem hadoop,539,29
+2097,2026-02-26 08:26:06.322037+00,Bagaimana cara kerja HDFS,589,29
+2098,2026-02-26 08:26:07.3828+00,"Karena saya masih belum terlalu memahami Ekosistem Hadoop, saya ingin mengetahui lebih jelas tentang bagaimana cara kerjanya secara keseluruhan, terutama bagaimana data bisa diproses secara terdistribusi dalam banyak komputer.",551,29
+2099,2026-02-26 08:26:15.466174+00,Mengetahui lebih lanjut terkait ekosistem Hadoop dan cara implementasinya,590,29
+2100,2026-02-26 08:26:27.975212+00,"Saya ingin mengetahui pengertiannya, kegunaanya, tujuannya, cara kerjanya, dan lain-lain terkait  Ekosistem Hadoop",543,29
+2101,2026-02-26 08:26:34.005185+00,"Definisi Ekosistem Hadoop, cara kerja Ekosistem Hadoop, dan cara penggunaannya.",559,29
+2102,2026-02-26 08:26:36.73621+00,Saya kurang mengerti jadi ingin dijelaskan lagi tentang hadoop,519,29
+2103,2026-02-26 08:26:37.014277+00,cara untuk mengoperasikannya,534,29
+2104,2026-02-26 08:26:38.384744+00,saya ingin mengetahui Apa itu Ekosistem Hadoop secara keseluruhan,545,29
+2117,2026-02-26 08:27:50.174353+00,apa saja komponen Ekosistem Hadoop? apa saja yang termasuk open source Apache? apa fungsi masing-masing open source?,562,29
+2105,2026-02-26 08:26:39.994909+00,semua yang diperlukan,548,29
+2106,2026-02-26 08:26:46.356269+00,"alat dari apache untuk menyimpan, mengelola data dalam kluster komputer",584,29
+2107,2026-02-26 08:26:51.994042+00,keunggulan dan fungsi hadoop itu sendiri,550,29
+2108,2026-02-26 08:26:59.243997+00,"Segala hal yang bisa dibahas tentang Ekosistemn Hadoop itu sebenernya apa, penggunaan dan pemanfaatannya bagaimana.",586,29
+2109,2026-02-26 08:27:00.123806+00,Pengertian dan implementasinya dengan lebih dalam,569,29
+2110,2026-02-26 08:27:07.879144+00,Saya ingin mengetahui apa itu ekosistem Hadoop dan apa kaitannya dengan mata kuliah big data maupun prodi Teknologi Rekayasa Perangkat Lunak,601,29
+2111,2026-02-26 08:27:21.308093+00,"mengetauhi definisi, teknologi apa saja yang menyusun ekosistem hadoop, dan bagaimana cara kerja nya",598,29
+2112,2026-02-26 08:27:22.602476+00,Saya ingin mengetahui penjelasan Ekosistem Hadoop secara lebih detail.,574,29
+2113,2026-02-26 08:27:27.714751+00,saya belum mengetahui,604,29
+2114,2026-02-26 08:27:30.597966+00,Saya ingin mengetahui apa itu Ekosistem Hadoop.,523,29
+2116,2026-02-26 08:27:42.39648+00,"Komponen-komponennya, framework-frameworknya apa saja, dan bagaimana cara kita tahu kapan saatnya memakai ekosistem hadoop dalam pengembangan model machine learning",533,29
+2115,2026-02-26 08:27:42.146992+00,"Ingin mengetahui lebih lanjut apa itu hadoop, seperti apa cara penggunaannya dalam mengelola database, bagaimana cara kerja hadoop, kelebihan dan kekurangan hadoop dibandingkan dengan framework yang lain.",600,29
+2118,2026-02-26 08:27:54.093848+00,Saya ingin mengetahui apa itu Ekosistem Hadoop secara umum dan jelas,605,29
+2119,2026-02-26 08:27:54.394327+00,"yang ingin saya ketahui mengenai ekosistem hadoop itu deskripsi rincinya, cara memakai & menjalankannya (setup)",599,29
+2120,2026-02-26 08:28:09.335982+00,"Yang saya ingin ketahui itu adalah bagaimana Ekosistem Hadoop bekerja secara end-to-end, mulai dari data ingestion, storage, hingga processing dan analytics. Selain itu, saya juga tertarik memahami peran dari Apache Hadoop, seperti HDFS, YARN, dan MapReduce, serta bagaimana integrasinya dengan tools lain seperti Hive atau Spark.",522,29
+2121,2026-02-26 08:28:13.147442+00,"Saya ingin mengetahui lebih lanjut detail dari ekosistem Hadoop ini, seperti bagaimana sejarahnya itu bisa terbentuk, dan alasan mengapa orang awam kurang mengenal ekosistem ini dengan nama aslinya.",538,29
+2122,2026-02-26 08:28:17.53106+00,"Arsitektur
+
+Cara kerja
+
+Implementasi
+
+Perbandingan dengan teknologi lain
+
+Studi kasus nyata",552,29
+2123,2026-02-26 08:28:17.56661+00,saya ingin mengetahui lebih mendalam mengenai ekosistem hadoop ini karena saya baru mengetahui dasar penjelasan dari ekosistem hadoop itu apa tapi belum tau isinya bagaimana,558,29
+2124,2026-02-26 08:28:23.898325+00,"Saya ingin mengetahui cara kerja dan arsitektur yang digunakan pada ekosistem hadoop, bagaimana implementasinya pada case dunia nyata, dan apa bedanya dengan database lainnya.",579,29
+2125,2026-02-26 08:28:30.857625+00,"yang saya ingin ketahui terkait ekosistem hadoop adalah cara pengunaannya, pemakaiannya, dalam lingkup seberapa besar, seberapa efisien dan mudahnya dalam penggunaannya",612,29
+2126,2026-02-26 08:28:50.559758+00,kelebihan dan kekurangan ekosistem hadoop dibanding teknologi big data yang lain,610,29
+2127,2026-02-26 08:29:22.802082+00,Penerapan praktis untuk analisis data dan implementasi sistem dalam ekosistem Hadoop,520,29
+2128,2026-02-26 08:30:09.733387+00,"ingin mengetahui, mengerti bagaimana cara kerja nya",596,29
+2129,2026-02-26 08:30:30.359874+00,bagaimana ekosistem hadoop ini bekerja dalam dunia nyata,585,29
+2130,2026-02-26 08:31:04.251456+00,Bagaimana komponen-komponennya saling terintegrasi untuk mengolah data raksasa secara efisien.,553,29
+2131,2026-02-26 08:31:17.850368+00,bagaimana ekosistem hadoop bekerja? dan biasanya hadoop digunakan untuk apa?,554,29
+2142,2026-02-26 08:40:15.089839+00,"Saya ingin mengetahui tentang HDFS, YARN, dan MAPREDUCE",571,29
+2132,2026-02-26 08:31:45.347007+00,"hal yang ingin diketahui tentang ekosistem hadoop adalah, bagaimana cara kerja dari ekosistem hadoop tersebut kemudian apa saja tools yang bisa digunakan serta kapan hadoop ini perlu digunakan.",577,29
+2133,2026-02-26 08:32:13.432245+00,"Cara kerja ekosistem hadoop, kegunaan atau fungsi komponen dan penerapannya",561,29
+2134,2026-02-26 08:32:39.341369+00,"Apa saja komponen, cara kerja, tools pendukung, serta kelebihan dan kekurangan dalam Ekosistem Hadoop yang perlu dipahami sebelum mengimplementasikannya",614,29
+2135,2026-02-26 08:32:39.489744+00,"Hal yang ingin saya ketahui tentang Ekosistem Hadoop adalah bagaimana cara kerjanya secara nyata di lapangan, fungsi masing-masing komponennya seperti HDFS, YARN, dan MapReduce, bagaimana tools seperti Hive dan Spark saling terhubung, serta apa saja kelebihan dan kekurangannya dalam mengelola big data.",613,29
+2136,2026-02-26 08:32:51.308313+00,bagaimana cara kerja dan tools apa saja yang digunakan di ekosistem hadoop,615,29
+2137,2026-02-26 08:33:53.784199+00,"Cara kerjanya seperti apa, apa kelebihan dan kekurangan dibanding software yang lain, kapan harus menggunakan hadoop dibanding software lain, kenapa harus hadoop dibanding software lain,",620,29
+2138,2026-02-26 08:34:11.783266+00,"Saya ingin mengetahui apa itu ekosistem Hadoop, bagaimana cara kerjanya, serta apa itu HDFS, YARN, dan MapReduce.",521,29
+2139,2026-02-26 08:35:22.331465+00,tools atau ekosistem untuk menyimpan dan memproses big data,619,29
+2140,2026-02-26 08:35:42.768866+00,mau ketahui cara melakukan Ekosistem Hadoop,617,29
+2141,2026-02-26 08:38:37.811809+00,Tujuan dan manfaat nya,578,29
+2143,2026-02-26 08:40:22.215524+00,"apa itu, bagaimana cara menggunakan, konsep / cara kerja",557,29
+2144,2026-02-26 08:41:02.465401+00,"Saya ingin mengetahui bagaimana alur Ekosistem Hadoop. Selain itu, saya juga ingin mengetahui bagaimana penggunaan secara nyata menggunakan Ekosistem Hadoop.",629,29
+2148,2026-02-26 08:44:43.488656+00,bagaimana cara menggunakan ekosistem hadoop,594,29
+2145,2026-02-26 08:41:24.076487+00,"saya ingin tau lebib soal hadoop ini, karena saya baru membaca sekilas sajaa",628,29
+2146,2026-02-26 08:41:58.988608+00,"Hal yang ingin saya ketahui tentang Ekosistem Hadoop meliputi bagaimana cara kerja dasarnya dalam menyimpan dan memproses big data secara terdistribusi, khususnya peran HDFS sebagai sistem penyimpanan dan MapReduce sebagai mesin pemrosesan data. Selain itu, saya juga ingin memahami fungsi masing-masing komponen seperti Hive untuk query berbasis SQL, Pig untuk scripting, HBase sebagai database NoSQL, serta ZooKeeper dan Oozie dalam mengatur koordinasi dan workflow. Saya juga tertarik mengetahui bagaimana integrasi data dilakukan menggunakan Sqoop, bagaimana monitoring cluster dilakukan dengan Ambari, serta bagaimana penerapan Hadoop di dunia industri dan perbandingannya dengan teknologi big data modern seperti Spark.",592,29
+2147,2026-02-26 08:43:23.138012+00,"Komponen, cara kerja, fungsi tiap tools, serta manfaatnya dalam pengolahan big data",625,29
+2149,2026-02-26 08:46:31.853892+00,"Arsitektur, Cara kerja, Fungsi tools, dan keunggulan menggunakan Hadoop",631,29
+2150,2026-02-26 08:47:07.7072+00,"fungsi tiap komponen, cara kerja alur sistem, instalasi dan penerapannya",616,29
+2151,2026-02-26 08:47:35.573647+00,"kenapa hadoop dibuat hanya untuk data besar saja bukan data biasa, apakah kelebihan hadoop di banding teknologi lain seperti spark, database biasa, cloud",564,29
+2152,2026-02-26 08:53:56.39603+00,yarn,630,29
+2153,2026-02-26 08:53:59.888127+00,apa itu fault tolerance,632,29
+2154,2026-02-26 09:00:07.89916+00,"Hal yang ingin saya ketahui lebih dalam tentang Ekosistem Hadoop adalah bagaimana cara kerja antar komponennya secara terintegrasi, terutama hubungan antara Hadoop Distributed File System (HDFS), YARN, dan MapReduce dalam satu proses pengolahan data. 
+
+Selain itu, saya juga ingin memahami perbedaan penggunaan antara MapReduce dan Apache Spark, terutama dari segi performa dan efisiensi ketika menangani data dalam jumlah sangat besar.",626,29
+2155,2026-02-26 09:00:29.631102+00,"saya ingin memahami bagaimana arsitektur tiap komponennya saling terintegrasi, terutama peran HDFS, YARN, dan MapReduce dalam pengolahan data besar. Selain itu, saya juga ingin mengetahui perbedaan penggunaan antara Hadoop dengan teknologi lain seperti Apache Spark, serta bagaimana implementasi nyatanya di industri, termasuk tantangan dalam manajemen cluster, keamanan data, dan skalabilitas sistem ketika menangani data dalam skala besar.",591,29
+2156,2026-02-26 09:03:27.655579+00,"Karena saya masih belum memahami Hadoop, saya ingin mengetahui terlebih dahulu apa itu Ekosistem Hadoop dan apa perannya dalam pengolahan Big Data.",633,29
+2158,2026-02-26 09:21:35.664442+00,"Ekosistem Hadoop itu kumpulan tools dan framework buat ngolah dan nyimpen Big Data secara terdistribusi (pakai banyak komputer dalam satu cluster). Komponen utamanya ada HDFS buat penyimpanan data, MapReduce buat proses data, dan YARN buat ngatur resource. Selain itu ada juga tools pendukung kayak Hive (query mirip SQL), Pig, HBase (database NoSQL), Sqoop, Flume, dan Spark. Intinya, Hadoop dipakai buat ngolah data dalam jumlah besar biar lebih cepat dan efisien.",634,29
+2160,2026-02-26 09:36:12.679926+00,"Komponen Utama Hadoopnya, ekosistemnya, manfaat detail serta keunggulannya apa dan kekurangan batasannya apa",609,29
+2161,2026-02-26 09:43:42.66648+00,bagaimana cara mereka bekerja,627,29
+2163,2026-02-26 09:44:14.878554+00,"pengertian, kelebihan & kekurangan dalam penggunaannya",535,29
+2164,2026-02-26 09:44:43.592598+00,Tidak bagus untuk yang memiliki data besar,595,29
+2165,2026-02-26 09:45:17.633766+00,"pengertian secara detail tentang hadoop, komponen penting dalam hadoop, cara kerja hadoop, dan manfaat pemakaian hadoop.",540,29
+2166,2026-02-26 09:45:25.559698+00,Bagaimana cara memyimpan data di hadoop,611,29
+2171,2026-02-26 09:47:21.661609+00,apa itu ekosistem hadoop dan cara penggunaanya,570,29
+2177,2026-02-26 09:53:46.924166+00,detail2 ekosistem nya dan implementasinya,618,29
+2178,2026-02-26 09:55:14.256354+00,"Apa itu eksostem hadoop?
+mengapa hadoop dibutuhkan?
+bagaimana cara kerja ekosistem hadoop",621,29
+2180,2026-02-26 09:58:33.104752+00,Saya ingin megrtahui tujuan hadoop,624,29
+2182,2026-02-26 10:00:48.660567+00,"Hadoop dikembangkan oleh Doug Cutting dan Mike Cafarella terisnpirasi oleh google file system
+
+HDFS berperan sebagai tempat penyimpanan data, YARN pengatur tugas dan resource, MapReduce adalah mesin proses bersifat batch yang mengolah data secara paralel. Alur kerja nya Submit job > YARN alokasikan resource > baca data dari HDFS > Map > Shuffle/Sort > Reduce > simpan hasil ke HDFS.
+
+Hadoop punya kelebihan biaya relatif rendah karena open-source dan bisa jalan di hardware komoditas, skalabilitas tinggi dengan menambah node untuk data sangat besar, tahan gagal, dan leksibel untuk data tersrtuktur dan tidak terstruktur. tetapi pemrosesannya cenderung lambat untuk kebutuhan real-time karena modelnya dominan batch, manajemen cluster cukup kompleks sehingga kurang cocok untuk aplikasi yang butuh respon instan meskipun tetap dapat digunakan.",576,29
+2187,2026-02-26 10:23:26.56332+00,Bagaimana cara mengolah big data dengan hadoo,637,29
+2189,2026-02-26 12:17:00.801166+00,cara penggunaannya yg baik dan benar,638,29

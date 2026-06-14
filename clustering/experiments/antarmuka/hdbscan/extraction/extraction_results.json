@@ -1,0 +1,153 @@
+[
+    {
+        "cluster_id": 0,
+        "topic_label": "Pendalaman dan Urgensi UI/UX",
+        "representative_question": "Bagaimana cara mendalami prinsip UI/UX untuk menciptakan antarmuka yang lebih profesional dan memahami urgensinya dalam pengembangan aplikasi?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "Cluster ini berisi pertanyaan mengenai keinginan mahasiswa untuk mempelajari UI/UX secara lebih mendalam dan profesional.",
+        "cluster_size": 8,
+        "representative_texts": [
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",
+            "karena ini dapat dibilang salah satu materi inti dari pembelajaran sister, yaitu tentang ui/ux, saya ingin mengetahui lebih dalam apasih urgensi dari ui/ux dalam mengembangkan suatu aplikasi.",
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this"
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "topic_label": "Kriteria dan Aturan Desain Antarmuka",
+        "representative_question": "Apa saja kriteria, teknik, atau framework yang harus diikuti untuk merancang desain antarmuka yang baik dan benar?",
+        "is_noise": false,
+        "confidence": 0.95,
+        "reasoning": "Mahasiswa menanyakan tentang standarisasi, aturan, dan kriteria teknis dalam membangun antarmuka.",
+        "cluster_size": 7,
+        "representative_texts": [
+            "saya ingin tahu bagaimana antarmuka dibentuk dengan baik dan sesuai dengan kriteria",
+            "hal-hal penting apa yang harus aku pahami agar bisa merancang antarmuka yang paling baik",
+            "saya ingin tau tentang kriteria, apa saja yang membuat sebuah antarmuka itu baik",
+            "saya ingin mengetahui desain yang baik dan benar.",
+            "aturan apa saja yang perlu diperhatikan ketika merancang antarmuka. adakah teknik atau framework tertentu untuk membuat antarmuka"
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "topic_label": "Peran dan Dampak Antarmuka Pengguna",
+        "representative_question": "Bagaimana peran antarmuka dalam menjembatani interaksi manusia dengan sistem serta pengaruhnya terhadap perilaku pengguna?",
+        "is_noise": false,
+        "confidence": 0.88,
+        "reasoning": "Fokus cluster ini adalah pada fungsi dasar UI dan bagaimana elemen tersebut mempengaruhi perspektif serta tindakan pengguna.",
+        "cluster_size": 6,
+        "representative_texts": [
+            "apa fungsi dari ui",
+            "peran antarmula di ui/ux",
+            "peran antarmula di ui/ux",
+            "saya ingin tahu bagaimana ui mempengaruhi user dalam menggunakan aplikasi",
+            "cara pandang manusia terhadap antarmuka"
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "topic_label": "Cara Membuat Desain Antarmuka Baik",
+        "representative_question": "Bagaimana langkah-langkah praktis dalam merancang sistem antarmuka yang berkualitas dan menarik bagi pengguna?",
+        "is_noise": false,
+        "confidence": 0.85,
+        "reasoning": "Berisi pertanyaan umum mengenai cara atau metode untuk menghasilkan desain antarmuka yang bagus secara visual maupun fungsional.",
+        "cluster_size": 5,
+        "representative_texts": [
+            "gimana caranya membuat sistem antarmuka yang baik? :o",
+            "gimana caranya membuat sistem antarmuka yang baik? :o",
+            "bagaimana antarmuka yang baik",
+            "cara membuat desain antarmuka yang bagus",
+            "bagaimana membuat antarmuka yang baik?"
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "topic_label": "Efektivitas dan Efisiensi Desain Antarmuka",
+        "representative_question": "Bagaimana cara merancang antarmuka yang efektif, efisien, dan sesuai dengan best practice industri modern?",
+        "is_noise": false,
+        "confidence": 0.92,
+        "reasoning": "Pertanyaan dalam cluster ini lebih spesifik pada aspek efisiensi, efektivitas, dan standar industri dalam desain interface.",
+        "cluster_size": 4,
+        "representative_texts": [
+            "cara mendesain interface yang effective, cara menentukan interface yang bagaimana yang cocok diterapkan untuk suatu aplikasi/program tertentu, bagaimana cara membuat interface yang tepat dan tidak boros, klasifikasi interface yang baik dan buruk.",
+            "cara membuat desain antarmuka yang efektif, efisien dan best practice di dunia modern.",
+            "how do you design a good interface? what makes it good?",
+            "bagaimana mendesain interface yang mudahdan nyaman digunakan?"
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "topic_label": "Definisi dan Karakteristik Dasar Antarmuka",
+        "representative_question": "Apa definisi teknis dari antarmuka dan karakteristik dasar apa yang membedakannya dari elemen sistem lainnya?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "Cluster ini berfokus pada pemahaman fundamental dan definisi terminologi mengenai apa itu antarmuka.",
+        "cluster_size": 4,
+        "representative_texts": [
+            "saya ingin tau antarmuka itu secara technical definisi nya bagaimana",
+            "pengertian dan karakteristik dari antarmuka itu sendiri karena jujur saya belum terlalu tau",
+            "i want to know what an interface is",
+            "mau tau sebenernya antarmuka itu apa? mau tau gimana bisa implement antarmuka yg baik"
+        ]
+    },
+    {
+        "cluster_id": 6,
+        "topic_label": "Antarmuka sebagai Media Interaksi",
+        "representative_question": "Sejauh mana peran antarmuka dapat dipahami sebagai gerbang interaksi utama antara pengguna dan program perangkat lunak?",
+        "is_noise": false,
+        "confidence": 0.85,
+        "reasoning": "Meskipun datanya repetitif, temanya jelas mengenai konsep antarmuka sebagai perantara (gateway) antara user dan sistem.",
+        "cluster_size": 4,
+        "representative_texts": [
+            "yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",
+            "yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",
+            "yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",
+            "yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi."
+        ]
+    },
+    {
+        "cluster_id": 7,
+        "topic_label": "Desain Intuitif dan Pengalaman Pengguna",
+        "representative_question": "Bagaimana prinsip desain intuitif dan model mental pengguna dapat diterapkan untuk menciptakan antarmuka yang usable dan nyaman?",
+        "is_noise": false,
+        "confidence": 0.95,
+        "reasoning": "Cluster ini mencakup topik yang lebih luas seperti usability, model mental, dan kenyamanan alur interaksi pengguna.",
+        "cluster_size": 18,
+        "representative_texts": [
+            "bagaimana cara merancang antarmuka yang intuitif? bagaimana ilmu yang dipelajari di pekan sebelumnya bisa membantu merancang antarmuka yang ramah pengguna?",
+            "memahami bagaimana alur interaksi antara pengguna dan sistem. terutama dalam efisiensi dan juga pengalaman visual (estetik) pengguna",
+            "bagaimana antarmuka memediasi interaksi antara mental model pengguna dengan system model? bagaimana cara mendesain antarmuka yang usable dan nyaman?",
+            "saya ingin mengetahui bagaimana antarmuka dapat mempengaruhi user, dan cara membuat antarmuka yang baik dan memenuhi kebutuhan user.",
+            "saya ingin mengetahui bagaimana antarmuka dirancang agar mudah digunakan, apa saja prinsip-prinsip dasar dalam membuat antarmuka yang baik, bagaimana cara menguji apakah antarmuka sudah efektif atau belum, serta bagaimana peran antarmuka dalam meningkatkan pengalaman dan kenyamanan pengguna saat menggunakan suatu sistem."
+        ]
+    },
+    {
+        "cluster_id": 8,
+        "topic_label": "Perbandingan Antarmuka dan Desain Interaksi",
+        "representative_question": "Apa perbedaan mendasar antara desain antarmuka dan desain interaksi, serta bagaimana keduanya saling berhubungan dalam sebuah sistem?",
+        "is_noise": false,
+        "confidence": 0.88,
+        "reasoning": "Fokus pada hubungan dan perbedaan antara elemen visual (UI) dengan alur interaksi (Interaction Design).",
+        "cluster_size": 6,
+        "representative_texts": [
+            "apa yang menjadi pembeda antarmuka dengan desain interaksi??",
+            "saya ingin mengetahui lebih dalam mengenai seberapa penting aspek antar muka dalam desain interaksi",
+            "apakah antarmuka hanya tentang desain yang bagus dan efektif atau ada hal yang lebih mendalam terkait antarmuka ini",
+            "saya ingin mengetahui tentang bagaimana antar muka ada di sistem interaksi",
+            "mau tau lebih dalam apa yang sebelumnya tidak diketahui"
+        ]
+    },
+    {
+        "cluster_id": -1,
+        "cluster_size": 9,
+        "topic_label": "Rare/Singular Topics",
+        "representative_question": "N/A (unassigned outlier questions)",
+        "is_noise": true,
+        "confidence": 1.0,
+        "reasoning": "Points not assigned to any cluster by HDBSCAN.",
+        "representative_texts": []
+    }
+]

@@ -1,0 +1,132 @@
+{
+    "algorithm": "agglomerative",
+    "total_points": 62,
+    "n_clusters": 6,
+    "n_noise_points": 11,
+    "noise_ratio": 0.1774,
+    "metrics": {
+        "silhouette_cosine": 0.3151,
+        "silhouette_cosine_std": 0.1431,
+        "silhouette_euclidean": 0.1921,
+        "silhouette_euclidean_std": 0.0971,
+        "davies_bouldin_index": 1.5486,
+        "calinski_harabasz_index": 5.7307,
+        "dbcv_score": "N/A (Agglomerative)"
+    },
+    "original_space_metrics": {
+        "silhouette_score": 0.2258,
+        "davies_bouldin_score": 2.2393,
+        "calinski_harabasz_score": 4.5627,
+        "dbcv_score": null
+    },
+    "dimensionality_reduction": {},
+    "cluster_statistics": {
+        "size_distribution": {
+            "mean_cluster_size": 8.5,
+            "median_cluster_size": 4.5,
+            "std_cluster_size": 7.85,
+            "min_cluster_size": 2,
+            "max_cluster_size": 24,
+            "size_imbalance_ratio": 12.0
+        },
+        "per_cluster": [
+            {
+                "cluster_id": -1,
+                "size": 11,
+                "is_noise": "True",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 0,
+                "size": 13,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 1,
+                "size": 3,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 2,
+                "size": 6,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 4,
+                "size": 24,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 5,
+                "size": 3,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 11,
+                "size": 2,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            }
+        ]
+    },
+    "run_config_summary": {
+        "algorithm": "agglomerative",
+        "model": "qwen/qwen3-embedding-8b",
+        "infra": "openrouter",
+        "dim_components": 10,
+        "min_cluster_size": "auto",
+        "min_samples": "auto",
+        "k": "auto",
+        "embeddings_file": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data\\embeddings\\embeddings_23_qwen-qwen3-embedding-8b_20260409.parquet"
+    },
+    "raw_pipeline_metrics": {
+        "n_clusters": 6,
+        "n_noise_before_reassignment": 0,
+        "n_reassigned": 11,
+        "n_remaining_outliers": 11,
+        "noise_ratio": 0.1774193548387097,
+        "params_used": {
+            "distance_threshold": 0.4406,
+            "metric": "cosine",
+            "linkage": "average",
+            "enable_unique_insights": true
+        },
+        "auto_tuned": true,
+        "silhouette_score": 0.2258,
+        "davies_bouldin_score": 2.2393,
+        "calinski_harabasz_score": 4.5627,
+        "dbcv_score": null,
+        "original_space_metrics": {
+            "silhouette_score": 0.2258,
+            "davies_bouldin_score": 2.2393,
+            "calinski_harabasz_score": 4.5627,
+            "dbcv_score": null
+        }
+    }
+}

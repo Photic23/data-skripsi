@@ -1,0 +1,555 @@
+{
+    "per_cluster": [
+        {
+            "cluster_id": 0,
+            "cluster_size": 33,
+            "topic_label": "Prinsip dan Kriteria Desain Antarmuka",
+            "representative_question": "Apa saja kriteria dan prinsip dasar yang harus dipenuhi dalam merancang antarmuka agar efektif dan mampu meningkatkan pengalaman pengguna secara keseluruhan?",
+            "is_noise": false,
+            "coherence_score": 4.33,
+            "label_accuracy_score": 4.67,
+            "coherence_scores_raw": [
+                5,
+                4,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "rationales": {
+                "gemini": "Pertanyaan-pertanyaan dalam klaster ini memiliki niat yang seragam mengenai prinsip dan kriteria desain tanpa ada penyimpangan tema.",
+                "claude": "Hampir semua pertanyaan menanyakan prinsip dan kriteria desain antarmuka yang baik. Ada sedikit perbedaan sudut pandang (definisi antarmuka, UX, usability) namun masih dalam tema yang sama. Label cukup akurat dan ringkas, meski tidak sempurna karena beberapa pertanyaan juga menyentuh aspek UX dan usability secara lebih luas.",
+                "glm": "Coherence Score 4 karena mayoritas pertanyaan sangat koheren membahas prinsip/kriteria desain, dengan sedikit variasi sudut pandang (definisi vs aplikasi). Label Accuracy Score 5 karena label menangkap esensi klaster secara sempurna."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini berfokus pada prinsip-prinsip dasar, kriteria, dan aturan untuk merancang antarmuka yang baik dan efektif.",
+                        "outlier_check": "Seluruh pertanyaan konsisten membahas 'cara membuat antarmuka yang baik' atau 'prinsip desain'. Tidak ada outlier yang benar-benar menyimpang.",
+                        "label_assessment": "Label 'Prinsip dan Kriteria Desain Antarmuka' sangat akurat mencerminkan isi pertanyaan tentang aturan dan prinsip desain."
+                    },
+                    "rationale": "Pertanyaan-pertanyaan dalam klaster ini memiliki niat yang seragam mengenai prinsip dan kriteria desain tanpa ada penyimpangan tema.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Semua pertanyaan berfokus pada prinsip, kriteria, dan cara membuat antarmuka yang baik untuk meningkatkan pengalaman pengguna.",
+                        "outlier_check": "Pertanyaan 1 ('mau tau sebenernya antarmuka itu apa?') sedikit melenceng ke definisi antarmuka, bukan hanya prinsip/kriteria desain. Pertanyaan 2 mencakup banyak subtopik (UX, usability, bentuk interface) yang sedikit lebih luas. Namun secara keseluruhan, inti pertanyaan masih berputar pada prinsip dan kriteria desain antarmuka yang baik.",
+                        "label_assessment": "Label 'Prinsip dan Kriteria Desain Antarmuka' cukup tepat menangkap inti cluster ini. Mayoritas pertanyaan memang menanyakan prinsip dan kriteria antarmuka yang baik."
+                    },
+                    "rationale": "Hampir semua pertanyaan menanyakan prinsip dan kriteria desain antarmuka yang baik. Ada sedikit perbedaan sudut pandang (definisi antarmuka, UX, usability) namun masih dalam tema yang sama. Label cukup akurat dan ringkas, meski tidak sempurna karena beberapa pertanyaan juga menyentuh aspek UX dan usability secara lebih luas.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Inti dari klaster ini adalah mencari kriteria, prinsip, dan cara merancang antarmuka yang baik dan efektif.",
+                        "outlier_check": "Pertanyaan nomor 1 sedikit melebar ke definisi dasar ('antarmuka itu apa'), namun tetap menyentuh topik implementasi yang baik. Pertanyaan lainnya sangat fokus pada 'kriteria' dan 'prinsip'.",
+                        "label_assessment": "Label 'Prinsip dan Kriteria Desain Antarmuka' sangat akurat dan ringkas, mencerminkan isi mayoritas pertanyaan dengan tepat."
+                    },
+                    "rationale": "Coherence Score 4 karena mayoritas pertanyaan sangat koheren membahas prinsip/kriteria desain, dengan sedikit variasi sudut pandang (definisi vs aplikasi). Label Accuracy Score 5 karena label menangkap esensi klaster secara sempurna.",
+                    "model": "z-ai/glm-5"
+                }
+            },
+            "extraction_confidence": 0.95
+        },
+        {
+            "cluster_id": 1,
+            "cluster_size": 7,
+            "topic_label": "Pengembangan Kompetensi Profesional UI/UX",
+            "representative_question": "Bagaimana langkah-langkah untuk mendalami bidang UI/UX secara lebih lanjut agar dapat menciptakan desain antarmuka yang familiar dan mudah digunakan oleh pengguna?",
+            "is_noise": false,
+            "coherence_score": 3.33,
+            "label_accuracy_score": 4.0,
+            "coherence_scores_raw": [
+                4,
+                3,
+                3
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                3,
+                4
+            ],
+            "rationales": {
+                "gemini": "Meskipun sangat koheren karena banyak duplikasi, ada sedikit variasi pada pertanyaan 6 dan 7 yang lebih bersifat teori umum daripada pengembangan kompetensi personal.",
+                "claude": "Lima pertanyaan identik (duplikat) sangat koheren satu sama lain, tetapi pertanyaan 6 dan 7 menyimpang ke subtopik berbeda (bentuk antarmuka dan konsep usability/UX). Label 'Pengembangan Kompetensi Profesional UI/UX' hanya cocok untuk 5 pertanyaan duplikat, tidak untuk keseluruhan cluster. Ini menurunkan skor koherensi dan akurasi label.",
+                "glm": "Coherence Score 3 karena adanya dua pertanyaan (Q6, Q7) yang drift ke topik konseptual umum, memisahkan diri dari topik utama pengembangan profesional. Label Accuracy Score 4 karena label sangat pas untuk mayoritas anggota klaster, meski tidak memperhitungkan outlier."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini didominasi oleh keinginan pengguna untuk mendalami bidang UI/UX secara profesional atau tingkat lanjut.",
+                        "outlier_check": "Terdapat redundansi (pertanyaan 1-5 identik). Pertanyaan 6 dan 7 sedikit lebih umum (bentuk antarmuka dan usability), namun tetap dalam koridor minat mendalam UI/UX.",
+                        "label_assessment": "Label 'Pengembangan Kompetensi Profesional UI/UX' sangat tepat karena menangkap keinginan untuk belajar lebih 'advanced' yang muncul di mayoritas sampel."
+                    },
+                    "rationale": "Meskipun sangat koheren karena banyak duplikasi, ada sedikit variasi pada pertanyaan 6 dan 7 yang lebih bersifat teori umum daripada pengembangan kompetensi personal.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Mayoritas pertanyaan (5 dari 7) adalah duplikat persis tentang keinginan mendalami UI/UX secara lebih advanced.",
+                        "outlier_check": "Pertanyaan 6 ('mengenai ui ux serta bentuk bentuk antarmuka yang ada') dan pertanyaan 7 (tentang usability dan user experience dari slides) agak berbeda dari inti pertanyaan yang berfokus pada pengembangan kompetensi profesional. Pertanyaan 7 lebih ke konsep usability/UX, bukan pengembangan karir/kompetensi.",
+                        "label_assessment": "Label 'Pengembangan Kompetensi Profesional UI/UX' cukup menangkap inti 5 pertanyaan duplikat, namun pertanyaan 6 dan 7 tidak benar-benar mencerminkan pengembangan kompetensi profesional. Label ini terlalu spesifik untuk menggambarkan seluruh cluster."
+                    },
+                    "rationale": "Lima pertanyaan identik (duplikat) sangat koheren satu sama lain, tetapi pertanyaan 6 dan 7 menyimpang ke subtopik berbeda (bentuk antarmuka dan konsep usability/UX). Label 'Pengembangan Kompetensi Profesional UI/UX' hanya cocok untuk 5 pertanyaan duplikat, tidak untuk keseluruhan cluster. Ini menurunkan skor koherensi dan akurasi label.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Mayoritas pertanyaan (1-5) identik dan berfokus pada pengembangan karir/keterampilan di bidang UI/UX secara profesional.",
+                        "outlier_check": "Pertanyaan 6 dan 7 adalah outlier yang jelas. Q6 bertanya tentang bentuk antarmuka (umum), dan Q7 tentang usability/UX secara konseptual. Keduanya bukan tentang 'pengembangan profesional/advanced role'.",
+                        "label_assessment": "Label sangat akurat untuk mayoritas pertanyaan (1-5), tetapi tidak mencakup outlier Q6 dan Q7."
+                    },
+                    "rationale": "Coherence Score 3 karena adanya dua pertanyaan (Q6, Q7) yang drift ke topik konseptual umum, memisahkan diri dari topik utama pengembangan profesional. Label Accuracy Score 4 karena label sangat pas untuk mayoritas anggota klaster, meski tidak memperhitungkan outlier.",
+                    "model": "z-ai/glm-5"
+                }
+            },
+            "extraction_confidence": 0.9
+        },
+        {
+            "cluster_id": 2,
+            "cluster_size": 2,
+            "topic_label": "Integrasi Mental Model dalam Antarmuka",
+            "representative_question": "Bagaimana cara merancang antarmuka yang mampu menjembatani mental model pengguna dengan sistem model agar tercipta interaksi yang nyaman dan efisien?",
+            "is_noise": false,
+            "coherence_score": 3.33,
+            "label_accuracy_score": 4.0,
+            "coherence_scores_raw": [
+                3,
+                3,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                4,
+                3,
+                5
+            ],
+            "rationales": {
+                "gemini": "Koherensi moderat karena salah satu pertanyaan sangat umum. Label akurat untuk pertanyaan kedua yang menjadi inti klaster ini.",
+                "claude": "Dengan hanya 2 pertanyaan, salah satunya sangat umum (tidak menyebut mental model), koherensi terhadap tema 'integrasi mental model' hanya moderat. Label terlalu spesifik karena hanya satu pertanyaan yang benar-benar membahas mental model secara eksplisit.",
+                "glm": "Coherence Score 4 karena pertanyaan saling melengkapi dengan baik meski sedikit berbeda tingkat detailnya. Label Accuracy Score 5 karena label sangat tepat sasaran untuk topik spesifik ini."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini mencoba mengaitkan desain antarmuka dengan model mental pengguna.",
+                        "outlier_check": "Pertanyaan 1 sangat umum ('desain yang mudah dan nyaman'), sedangkan pertanyaan 2 sangat spesifik mengenai 'mental model'.",
+                        "label_assessment": "Label 'Integrasi Mental Model' hanya tepat untuk satu pertanyaan. Pertanyaan lainnya terlalu generik."
+                    },
+                    "rationale": "Koherensi moderat karena salah satu pertanyaan sangat umum. Label akurat untuk pertanyaan kedua yang menjadi inti klaster ini.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Kedua pertanyaan berfokus pada cara mendesain antarmuka yang mudah dan nyaman digunakan, dengan salah satunya secara eksplisit menyebut mental model.",
+                        "outlier_check": "Pertanyaan 1 ('bagaimana mendesain interface yang mudah dan nyaman digunakan?') sangat umum dan tidak secara spesifik menyebut mental model, sehingga bisa masuk ke cluster lain seperti cluster 0 atau 10.",
+                        "label_assessment": "Label 'Integrasi Mental Model dalam Antarmuka' terlalu spesifik untuk cluster ini karena hanya pertanyaan 2 yang secara eksplisit membahas mental model. Pertanyaan 1 terlalu umum untuk mendukung label ini."
+                    },
+                    "rationale": "Dengan hanya 2 pertanyaan, salah satunya sangat umum (tidak menyebut mental model), koherensi terhadap tema 'integrasi mental model' hanya moderat. Label terlalu spesifik karena hanya satu pertanyaan yang benar-benar membahas mental model secara eksplisit.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini membahas cara mendesain antarmuka yang nyaman dengan mempertimbangkan hubungan antara mental model pengguna dan sistem.",
+                        "outlier_check": "Tidak ada outlier yang berarti. Q1 lebih umum ('nyaman digunakan'), sedangkan Q2 lebih teknis ('mental model'), namun keduanya relevan secara semantik.",
+                        "label_assessment": "Label spesifik dan akurat, menyoroti aspek 'Mental Model' yang menjadi pembeda dari klaster desain umum."
+                    },
+                    "rationale": "Coherence Score 4 karena pertanyaan saling melengkapi dengan baik meski sedikit berbeda tingkat detailnya. Label Accuracy Score 5 karena label sangat tepat sasaran untuk topik spesifik ini.",
+                    "model": "z-ai/glm-5"
+                }
+            },
+            "extraction_confidence": 0.92
+        },
+        {
+            "cluster_id": 3,
+            "cluster_size": 2,
+            "topic_label": "Urgensi dan Implementasi Antarmuka Sehari-hari",
+            "representative_question": "Mengapa desain antarmuka dianggap sangat penting dalam rekayasa perangkat lunak dan apa saja contoh implementasinya yang dapat ditemukan dalam kehidupan sehari-hari?",
+            "is_noise": false,
+            "coherence_score": 5.0,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "Sangat koheren karena kedua pertanyaan menanyakan hal yang identik dan label merangkumnya dengan sangat baik.",
+                "claude": "Kedua pertanyaan identik dalam inti pertanyaannya: pentingnya interface dan contoh implementasinya sehari-hari. Tidak ada outlier. Label sangat akurat dan ringkas menggambarkan inti cluster ini.",
+                "glm": "Coherence Score 5 karena semua pertanyaan memiliki intent yang identik. Label Accuracy Score 5 karena label sangat ringkas dan akurat."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini membahas urgensi (pentingnya) antarmuka dan contohnya dalam kehidupan sehari-hari.",
+                        "outlier_check": "Kedua pertanyaan secara spesifik menanyakan hal yang sama: kepentingan interface dan contoh sehari-hari.",
+                        "label_assessment": "Label mencakup kedua poin utama (urgensi dan implementasi sehari-hari) dengan sempurna."
+                    },
+                    "rationale": "Sangat koheren karena kedua pertanyaan menanyakan hal yang identik dan label merangkumnya dengan sangat baik.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Kedua pertanyaan menanyakan pentingnya interface dan contoh implementasinya dalam kehidupan sehari-hari.",
+                        "outlier_check": "Tidak ada outlier yang signifikan; kedua pertanyaan sangat sejalan dengan tema yang sama.",
+                        "label_assessment": "Label 'Urgensi dan Implementasi Antarmuka Sehari-hari' sangat tepat menangkap dua aspek utama yang ditanyakan: seberapa penting interface dan contohnya dalam kehidupan sehari-hari."
+                    },
+                    "rationale": "Kedua pertanyaan identik dalam inti pertanyaannya: pentingnya interface dan contoh implementasinya sehari-hari. Tidak ada outlier. Label sangat akurat dan ringkas menggambarkan inti cluster ini.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Semua pertanyaan bertanya tentang urgensi/pentingnya antarmuka dan meminta contoh implementasi dalam kehidupan sehari-hari.",
+                        "outlier_check": "Tidak ditemukan outlier. Semua pertanyaan memiliki intent yang sama persis.",
+                        "label_assessment": "Label 'Urgensi dan Implementasi Antarmuka Sehari-hari' mencakup semua aspek yang ditanyakan (penting/urgensi dan contoh harian)."
+                    },
+                    "rationale": "Coherence Score 5 karena semua pertanyaan memiliki intent yang identik. Label Accuracy Score 5 karena label sangat ringkas dan akurat.",
+                    "model": "z-ai/glm-5"
+                }
+            },
+            "extraction_confidence": 0.88
+        },
+        {
+            "cluster_id": 4,
+            "cluster_size": 6,
+            "topic_label": "Dampak Psikologis UI terhadap Pengguna",
+            "representative_question": "Bagaimana peran dan fungsi elemen antarmuka dalam mempengaruhi psikologi serta minat pengguna saat berinteraksi dengan sebuah aplikasi?",
+            "is_noise": false,
+            "coherence_score": 3.67,
+            "label_accuracy_score": 3.67,
+            "coherence_scores_raw": [
+                4,
+                3,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                4,
+                3,
+                4
+            ],
+            "rationales": {
+                "gemini": "Koherensi cukup baik karena semua membahas peran UI terhadap subjek manusia, meski label menggunakan istilah psikologis yang lebih formal daripada pertanyaannya.",
+                "claude": "Pertanyaan-pertanyaan memiliki benang merah tentang pengaruh/peran UI terhadap pengguna, namun ada variasi subtopik yang cukup signifikan (psikologi, minat, cara pandang, fungsi umum). Label 'Dampak Psikologis' terlalu sempit karena beberapa pertanyaan hanya menanyakan peran/fungsi UI secara umum tanpa menyentuh aspek psikologi.",
+                "glm": "Coherence Score 4 karena pertanyaan memiliki tingkat abstraksi yang berbeda namun tetap terkait erat (peran umum vs dampak psikologis). Label Accuracy Score 4 karena label sedikit lebih spesifik dibanding isi klaster yang lebih luas."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini membahas peran, fungsi, dan pengaruh antarmuka terhadap minat atau cara pandang pengguna.",
+                        "outlier_check": "Terdapat variasi antara 'menarik minat', 'peran di UI/UX', dan 'cara pandang'. Pertanyaan 6 ('apa fungsi ui') agak terlalu umum.",
+                        "label_assessment": "Penggunaan kata 'Psikologis' dalam label adalah interpretasi yang baik untuk 'minat' dan 'cara pandang', namun mungkin sedikit terlalu spesifik dibandingkan pertanyaannya."
+                    },
+                    "rationale": "Koherensi cukup baik karena semua membahas peran UI terhadap subjek manusia, meski label menggunakan istilah psikologis yang lebih formal daripada pertanyaannya.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Pertanyaan-pertanyaan berfokus pada peran, fungsi, dan pengaruh antarmuka terhadap pengguna (psikologi, minat, cara pandang).",
+                        "outlier_check": "Pertanyaan 2 dan 3 ('peran antarmuka di ui/ux') sangat singkat dan generik. Pertanyaan 6 ('apa fungsi dari ui') juga sangat umum dan bisa masuk ke cluster definisi/konsep dasar. Ada sedikit drift antara 'pengaruh psikologis' dan 'peran/fungsi umum UI'.",
+                        "label_assessment": "Label 'Dampak Psikologis UI terhadap Pengguna' agak terlalu spesifik; tidak semua pertanyaan menyentuh aspek psikologi. Beberapa pertanyaan hanya menanyakan peran/fungsi UI secara umum."
+                    },
+                    "rationale": "Pertanyaan-pertanyaan memiliki benang merah tentang pengaruh/peran UI terhadap pengguna, namun ada variasi subtopik yang cukup signifikan (psikologi, minat, cara pandang, fungsi umum). Label 'Dampak Psikologis' terlalu sempit karena beberapa pertanyaan hanya menanyakan peran/fungsi UI secara umum tanpa menyentuh aspek psikologi.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini berfokus pada peran, fungsi, dan pengaruh antarmuka terhadap pengguna (minat, psikologi, cara pandang).",
+                        "outlier_check": "Tidak ada outlier tajam. Q2, Q3, dan Q6 bertanya 'peran/fungsi' secara umum, sementara Q1, Q4, Q5 lebih spesifik ke 'pengaruh psikologis/minat'. Variasi ini masih dalam satu tema besar.",
+                        "label_assessment": "Label 'Dampak Psikologis UI' cukup tepat untuk separuh pertanyaan, dan masih relevan untuk sisanya sebagai konteks yang lebih spesifik."
+                    },
+                    "rationale": "Coherence Score 4 karena pertanyaan memiliki tingkat abstraksi yang berbeda namun tetap terkait erat (peran umum vs dampak psikologis). Label Accuracy Score 4 karena label sedikit lebih spesifik dibanding isi klaster yang lebih luas.",
+                    "model": "z-ai/glm-5"
+                }
+            },
+            "extraction_confidence": 0.85
+        },
+        {
+            "cluster_id": 7,
+            "cluster_size": 4,
+            "topic_label": "Konsep Dasar Antarmuka sebagai Medium Interaksi",
+            "representative_question": "Apa pengertian dasar dari antarmuka sebagai gerbang komunikasi antara perintah pengguna dengan aplikasi atau perangkat lunak?",
+            "is_noise": false,
+            "coherence_score": 5.0,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "Koherensi sempurna karena data bersifat redundan/identik, dan label sangat akurat merangkum isi definisi tersebut.",
+                "claude": "Semua pertanyaan adalah duplikat persis, sehingga koherensi sempurna. Label sangat akurat menggambarkan inti pertanyaan tentang konsep dasar antarmuka sebagai medium/gerbang interaksi antara pengguna dan sistem.",
+                "glm": "Coherence Score 5 karena semua pertanyaan identik. Label Accuracy Score 5 karena label menjelaskan definisi tersebut dengan tepat."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini mendefinisikan antarmuka sebagai gerbang atau medium interaksi antara pengguna dan program.",
+                        "outlier_check": "Semua pertanyaan dalam sampel adalah duplikat yang identik.",
+                        "label_assessment": "Label mencerminkan definisi 'gerbang interaksi' yang disebutkan dalam pertanyaan."
+                    },
+                    "rationale": "Koherensi sempurna karena data bersifat redundan/identik, dan label sangat akurat merangkum isi definisi tersebut.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Semua pertanyaan adalah duplikat persis yang mendefinisikan antarmuka sebagai gerbang interaksi antara perintah pengguna dan program/aplikasi.",
+                        "outlier_check": "Tidak ada outlier; semua 4 pertanyaan identik kata per kata.",
+                        "label_assessment": "Label 'Konsep Dasar Antarmuka sebagai Medium Interaksi' sangat tepat menangkap inti dari pertanyaan-pertanyaan yang mendefinisikan antarmuka sebagai gerbang/medium interaksi."
+                    },
+                    "rationale": "Semua pertanyaan adalah duplikat persis, sehingga koherensi sempurna. Label sangat akurat menggambarkan inti pertanyaan tentang konsep dasar antarmuka sebagai medium/gerbang interaksi antara pengguna dan sistem.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Inti klaster adalah definisi antarmuka sebagai gerbang interaksi antara user dan sistem.",
+                        "outlier_check": "Tidak ada outlier; semua pertanyaan adalah duplikat persis.",
+                        "label_assessment": "Label sangat akurat mendeskripsikan definisi yang disampaikan dalam pertanyaan."
+                    },
+                    "rationale": "Coherence Score 5 karena semua pertanyaan identik. Label Accuracy Score 5 karena label menjelaskan definisi tersebut dengan tepat.",
+                    "model": "z-ai/glm-5"
+                }
+            },
+            "extraction_confidence": 0.9
+        },
+        {
+            "cluster_id": 10,
+            "cluster_size": 2,
+            "topic_label": "Best Practice Desain Antarmuka Efisien",
+            "representative_question": "Bagaimana cara mengaplikasikan best practice desain untuk menciptakan antarmuka yang efektif, efisien, dan sesuai dengan kebutuhan spesifik suatu aplikasi modern?",
+            "is_noise": false,
+            "coherence_score": 5.0,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "Kedua pertanyaan memiliki fokus yang sama persis pada efisiensi dan praktik terbaik desain.",
+                "claude": "Kedua pertanyaan sangat koheren dalam tema best practice desain antarmuka yang efektif dan efisien. Tidak ada outlier. Label sangat akurat dan ringkas.",
+                "glm": "Coherence Score 5 karena intent pertanyaan sangat seragam. Label Accuracy Score 5 karena label menangkap kata kunci utama yang ada di pertanyaan."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini berfokus pada praktik terbaik (best practice) untuk membuat desain yang efisien dan efektif.",
+                        "outlier_check": "Kedua pertanyaan menyebutkan 'efektif', 'efisien', dan 'best practice'.",
+                        "label_assessment": "Label mencerminkan kata kunci utama dalam kedua pertanyaan dengan tepat."
+                    },
+                    "rationale": "Kedua pertanyaan memiliki fokus yang sama persis pada efisiensi dan praktik terbaik desain.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Kedua pertanyaan berfokus pada cara membuat desain antarmuka yang efektif, efisien, dan sesuai best practice.",
+                        "outlier_check": "Tidak ada outlier; kedua pertanyaan sangat sejalan. Pertanyaan 1 sedikit lebih detail (klasifikasi interface baik/buruk, cara menentukan interface yang cocok) namun masih dalam tema yang sama.",
+                        "label_assessment": "Label 'Best Practice Desain Antarmuka Efisien' sangat tepat menangkap inti dari kedua pertanyaan yang membahas cara membuat desain antarmuka yang efektif dan efisien sesuai best practice."
+                    },
+                    "rationale": "Kedua pertanyaan sangat koheren dalam tema best practice desain antarmuka yang efektif dan efisien. Tidak ada outlier. Label sangat akurat dan ringkas.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini membahas best practice untuk menciptakan desain antarmuka yang efektif dan efisien.",
+                        "outlier_check": "Tidak ada outlier. Kedua pertanyaan menanyakan hal yang sama (efektif, efisien, best practice).",
+                        "label_assessment": "Label sangat cocok dengan isi pertanyaan."
+                    },
+                    "rationale": "Coherence Score 5 karena intent pertanyaan sangat seragam. Label Accuracy Score 5 karena label menangkap kata kunci utama yang ada di pertanyaan.",
+                    "model": "z-ai/glm-5"
+                }
+            },
+            "extraction_confidence": 0.93
+        },
+        {
+            "cluster_id": -1,
+            "cluster_size": 15,
+            "topic_label": "Rare/Singular Topics",
+            "representative_question": "N/A (unassigned outlier questions)",
+            "is_noise": true,
+            "coherence_score": 3.0,
+            "label_accuracy_score": 3.67,
+            "coherence_scores_raw": [
+                4,
+                3,
+                2
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                2
+            ],
+            "rationales": {
+                "gemini": "Segregasi noise cukup baik karena sebagian besar adalah topik unik. Namun, ada sedikit overlap (pertanyaan 7 dan 8) yang mungkin bisa masuk ke klaster standar.",
+                "claude": "Cluster -1 berisi pertanyaan yang cukup beragam, namun beberapa pertanyaan (1, 6, 7) sebenarnya memiliki kemiripan dengan cluster lain (0, 4, 2), sehingga noise segregation tidak sempurna. Label 'Rare/Singular Topics' cukup tepat karena pertanyaan-pertanyaan memang tidak membentuk satu tema dominan, meski ada beberapa yang seharusnya bisa masuk ke cluster standar yang ada.",
+                "glm": "Coherence Score 2 (Inverted) menunjukkan 'Poor noise segregation' karena ada pertanyaan yang jelas seharusnya berada di klaster tematik yang sudah ada (0 atau 2). Label Accuracy Score 2 karena label 'Rare' tidak tepat untuk item yang sebenarnya adalah topik umum."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini berisi pertanyaan unik yang mencakup topik beragam seperti filosofi, perbedaan UI/ID, tipe antarmuka, dan beban kognitif.",
+                        "outlier_check": "Pertanyaan 7 sebenarnya memiliki korelasi kuat dengan Cluster 2 (Mental Model). Pertanyaan 8 sangat generik sehingga bisa masuk Cluster 0. Namun, sisanya (filosofi, UI vs ID) memang unik.",
+                        "label_assessment": "Label 'Rare/Singular Topics' tepat secara matematis untuk kumpulan pertanyaan yang sulit dikelompokkan ke tema besar lainnya."
+                    },
+                    "rationale": "Segregasi noise cukup baik karena sebagian besar adalah topik unik. Namun, ada sedikit overlap (pertanyaan 7 dan 8) yang mungkin bisa masuk ke klaster standar.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Kumpulan pertanyaan yang beragam dan tidak membentuk satu tema dominan yang jelas.",
+                        "outlier_check": "Pertanyaan 5 ('mau tau lebih dalam apa yang sebelumnya tidak diketahui') sangat vague. Pertanyaan 6 ('bagaimana antarmuka dapat mempengaruhi cara interaksi manusia') mirip dengan cluster 4. Pertanyaan 7 (tentang mental model dan cognitive load) mirip dengan cluster 2. Pertanyaan 1 (aturan dan framework antarmuka) mirip dengan cluster 0. Pertanyaan 8 ('desain yang baik dan benar') sangat generik. Ada beberapa pertanyaan yang sebenarnya bisa masuk ke cluster lain, menunjukkan noise segregation yang tidak sempurna.",
+                        "label_assessment": "Label 'Rare/Singular Topics' cukup tepat untuk cluster ini karena pertanyaan-pertanyaan memang beragam, meski beberapa seharusnya bisa dikelompokkan ke cluster yang sudah ada."
+                    },
+                    "rationale": "Cluster -1 berisi pertanyaan yang cukup beragam, namun beberapa pertanyaan (1, 6, 7) sebenarnya memiliki kemiripan dengan cluster lain (0, 4, 2), sehingga noise segregation tidak sempurna. Label 'Rare/Singular Topics' cukup tepat karena pertanyaan-pertanyaan memang tidak membentuk satu tema dominan, meski ada beberapa yang seharusnya bisa masuk ke cluster standar yang ada.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "glm": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 2,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Klaster ini dimaksudkan untuk pertanyaan tunggal/langka, namun berisi beberapa pertanyaan yang seharusnya masuk klaster standar.",
+                        "outlier_check": "Pertanyaan 1 (aturan/framework) seharusnya masuk ke klaster prinsip desain (Cluster 0). Pertanyaan 7 (mental model/cognitive load) sangat mirip dengan Cluster 2. Pertanyaan 8 (desain baik/benar) cocok di Cluster 0 atau 10.",
+                        "label_assessment": "Label 'Rare/Singular Topics' tidak sepenuhnya akurat karena beberapa item di dalamnya sebenarnya memiliki tema yang kuat dan seharusnya terkelompok."
+                    },
+                    "rationale": "Coherence Score 2 (Inverted) menunjukkan 'Poor noise segregation' karena ada pertanyaan yang jelas seharusnya berada di klaster tematik yang sudah ada (0 atau 2). Label Accuracy Score 2 karena label 'Rare' tidak tepat untuk item yang sebenarnya adalah topik umum.",
+                    "model": "z-ai/glm-5"
+                }
+            },
+            "extraction_confidence": 1.0
+        }
+    ],
+    "summary": {
+        "total_clusters_evaluated": 8,
+        "judge_mode": "triple",
+        "evaluation_models": {
+            "gemini": "gemini-3-flash-preview",
+            "claude": "anthropic/claude-sonnet-4.6",
+            "glm": "z-ai/glm-5"
+        },
+        "judges_succeeded": [
+            "gemini",
+            "claude",
+            "glm"
+        ],
+        "agreement_metrics_computed": [
+            "fleiss_kappa",
+            "gwet_ac2"
+        ],
+        "fleiss_kappa": {
+            "coherence": {
+                "kappa": 0.3231,
+                "interpretation": "Fair"
+            },
+            "label_accuracy": {
+                "kappa": 0.0659,
+                "interpretation": "Slight"
+            },
+            "note": "Fleiss' κ measures agreement beyond chance. Susceptible to the 'Kappa Paradox' if most ratings are perfect."
+        },
+        "gwet_ac2": {
+            "coherence": {
+                "ac2": 0.9002,
+                "interpretation": "Very Good"
+            },
+            "label_accuracy": {
+                "ac2": 0.8288,
+                "interpretation": "Very Good"
+            },
+            "note": "Gwet's AC2 (2008) with Quadratic Weights. Resolves the Kappa Paradox for ordinal data. Interpreted via Altman's (1991) guidelines."
+        },
+        "coherence": {
+            "mean": 4.08,
+            "median": 4.0,
+            "std": 0.8,
+            "min": 3.0,
+            "max": 5.0,
+            "score_distribution": {
+                "1": 0,
+                "2": 0,
+                "3": 3,
+                "4": 2,
+                "5": 3
+            }
+        },
+        "label_accuracy": {
+            "mean": 4.38,
+            "median": 4.33,
+            "std": 0.56,
+            "min": 3.67,
+            "max": 5.0,
+            "score_distribution": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 4,
+                "5": 4
+            }
+        },
+        "overall_quality_score": 4.23,
+        "overall_quality_grade": "Good"
+    },
+    "max_samples_per_cluster": 8
+}

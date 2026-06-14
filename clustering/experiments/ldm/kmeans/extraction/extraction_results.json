@@ -1,0 +1,128 @@
+[
+    {
+        "cluster_id": 0,
+        "topic_label": "Database Design Objectives and Notations",
+        "representative_question": "Apa saja tujuan utama dalam perancangan database serta perbedaan mendasar antara notasi Chen dan Crow's Foot dalam pemodelan data?",
+        "is_noise": false,
+        "confidence": 0.92,
+        "reasoning": "The questions focus on the goals of database design and comparing different graphical notations for ERDs.",
+        "cluster_size": 5,
+        "representative_texts": [
+            "tujuan dalam perancangan database",
+            "tujuan dalam perancangan database",
+            "definisi dan tujuannya serta perbedaannya dengan model lain",
+            "pengen tau lebih dalam perbedaan tentang komponen erd chen???s notation dan crows foot notation",
+            "saya ingin mengerti bukan hanya teori saja, namun juga dalam praktiknya/prosesnya, dan bagaimana agar modelnya rapih, efisien, dan mudah digunakan saat mulai masuk ke tahap database."
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "topic_label": "Understanding Logical Data Model Components",
+        "representative_question": "Dapatkah Anda menjelaskan secara detail mengenai komponen-komponen dalam logical data model beserta contoh penggunaannya dalam sistem?",
+        "is_noise": false,
+        "confidence": 0.98,
+        "reasoning": "The questions are highly consistent, all seeking a deeper understanding of the definition and contents of a Logical Data Model.",
+        "cluster_size": 20,
+        "representative_texts": [
+            "saya ingin mengetahui lebih lanjut mengenai logical data model",
+            "saya ingin mengetahui lebih dalam tentang logical data model",
+            "ingin tahu logical data model",
+            "saya ingin lebih pahaam apa itu logical data model dan contoh penggunaanya",
+            "apa saja yang ada di logical data model, dan apa saja yang ada di dalamnya secara rinci dan detail"
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "topic_label": "Relationships and Connections Between Data",
+        "representative_question": "Bagaimana cara menentukan relasi antar data yang tepat serta kapan waktu yang paling efektif untuk mengaplikasikannya?",
+        "is_noise": false,
+        "confidence": 0.95,
+        "reasoning": "The cluster centers on the practical application and timing of establishing relationships between different data entities.",
+        "cluster_size": 6,
+        "representative_texts": [
+            "saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",
+            "saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",
+            "saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",
+            "saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",
+            "gimana hubungan antar data?"
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "topic_label": "ERD Components and Key Management",
+        "representative_question": "Bagaimana langkah praktis dalam menentukan entitas, atribut, serta pengelolaan primary dan foreign key saat mentransformasi relasi ke dalam logical data model?",
+        "is_noise": false,
+        "confidence": 0.94,
+        "reasoning": "Focuses on technical implementation details like keys, normalization, and specific ERD elements.",
+        "cluster_size": 8,
+        "representative_texts": [
+            "entitas, relasi, kardinalitas, dan atribut & key",
+            "??? entitas, objek yang datanya disimpan ??? atribut, informasi dari entitas ??? primary key, kunci utama sebagai identitas data ??? relasi, hubungan antar entitas",
+            "saya ingin memahami cara membuat logical data model dari studi kasus, menentukan primary key dan foreign key, serta bagaimana mengubah relasi many-to-many dan menerapkan normalisasi sampai 3nf.",
+            "yang ingin saya ketahui tentang logical data model itu bagaimana cara bikin erd yang benar dan rapi, terus bagaimana menentukan primary key, foreign key, dan relasi yang tepat.",
+            "saya ingin mempelajari cara menentukan relasi antar tabel yang kompleks dan bagaimana cara menerapkan primary key serta foreign key yang tepat dalam logical data model"
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "topic_label": "General Inquiries and Ambiguous Feedback",
+        "representative_question": "Bagaimana cara menggunakan sistem ini secara efektif untuk semua jenis relasi dan jaringan internet?",
+        "is_noise": true,
+        "confidence": 0.8,
+        "reasoning": "The questions are overly vague and include unrelated topics like 'internet network', lacking a clear academic focus.",
+        "cluster_size": 5,
+        "representative_texts": [
+            "semuanya mau mungkin",
+            "cara membuat atau menggunakannya",
+            "semua relasi",
+            "buat apa, cara penggunaan, cara penggunaan paling efektif",
+            "jaringan internet"
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "topic_label": "Practical Functions and Implementation Tools",
+        "representative_question": "Apa saja fungsi utama dari materi ini dan tools perangkat lunak apa yang paling efektif digunakan untuk mengimplementasikannya?",
+        "is_noise": false,
+        "confidence": 0.88,
+        "reasoning": "The questions seek information on the practical utility, inner workings, and supporting tools for the subject matter.",
+        "cluster_size": 9,
+        "representative_texts": [
+            "saya ingin tau lebih dalam dan cara menggunakan yg efektif",
+            "yang ingin saya ketahui mungkin seperti fungsinya",
+            "yang pasti saya ingin tahu bagaimana cara kerjanya",
+            "saya ingin mengetahui hal yang lebih mendalam tentang materi ini",
+            "saya ingin mengetahui tools-tools apa saja yang bisa digunakan"
+        ]
+    },
+    {
+        "cluster_id": 6,
+        "topic_label": "Real-World Logical Data Model Application",
+        "representative_question": "Kapan sebaiknya logical data model digunakan dalam siklus pengembangan dan bagaimana penerapannya pada berbagai jenis industri di dunia nyata?",
+        "is_noise": false,
+        "confidence": 0.93,
+        "reasoning": "The questions specifically address the timing, industry use cases, and practical implementation of LDMs.",
+        "cluster_size": 3,
+        "representative_texts": [
+            "kapan ldm digunakan? apa saja yang ada di dalamnya?",
+            "hal saya ingin ketahui tentang ldm adalah penerapannya dalam dunia nyata, difungsikan untuk apa, dan tentu saja yang utama adalah bagaimana cara membuat sebuah ldm itu menjadi sebuah infrastruktur yang dapat digunakan sebagai model terstruktur",
+            "??? jenis bisnis atau industri di mana ldm dibuat ??? apakah ldm dibuat setelah model konseptual atau secara langsung"
+        ]
+    },
+    {
+        "cluster_id": 7,
+        "topic_label": "Data Structuring and Organizational Principles",
+        "representative_question": "Bagaimana cara menyusun dan mendokumentasikan struktur data yang kompleks agar mudah dipahami oleh pengembang maupun pemangku kepentingan bisnis?",
+        "is_noise": false,
+        "confidence": 0.91,
+        "reasoning": "Concentrates on the conceptual organization and documentation of data structures before technical implementation.",
+        "cluster_size": 6,
+        "representative_texts": [
+            "membuat data yang struktural dan terperinci dari berbagai data dan menghubungkan dengan berbagai macam data",
+            "struktur data secara mendalam agar mudah dipahami oleh pemangku kepentingan bisnis dan pengembang.",
+            "data disusun dan saling berhubungan secara terstruktur, tetapi belum masuk ke tahap implementasi teknis.",
+            "konseptual untuk menghubungkan antara data.",
+            "cara data diorganisasikan, di dokumentasikan, dan di definisikan dalam sebuah basis data"
+        ]
+    }
+]

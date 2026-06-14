@@ -1,0 +1,218 @@
+[
+    {
+        "cluster_id": 0,
+        "topic_label": "Principles of Good Interface Design",
+        "representative_question": "What are the essential steps and criteria for creating an effective and high-quality user interface?",
+        "is_noise": false,
+        "confidence": 0.95,
+        "reasoning": "The cluster focuses consistently on the methodology and requirements for designing high-quality user interfaces.",
+        "cluster_size": 9,
+        "representative_texts": [
+            "cara membuat desain antarmuka yang bagus",
+            "how do you design a good interface? what makes it good?",
+            "gimana caranya membuat sistem antarmuka yang baik? :o",
+            "gimana caranya membuat sistem antarmuka yang baik? :o",
+            "bagaimana antarmuka yang baik"
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "topic_label": "Comprehensive Fundamentals of User Interfaces",
+        "representative_question": "Can you explain the different types of interfaces and the fundamental principles for designing them to ensure a positive user experience?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "The questions are detailed inquiries covering definitions, types (GUI, CLI, API), and general design principles.",
+        "cluster_size": 4,
+        "representative_texts": [
+            "hal yang ingin saya ketahui tentang topik antarmuka adalah pengertian dasar antarmuka dan mengapa antarmuka sangat penting dalam suatu sistem. saya juga ingin memahami berbagai jenis antarmuka seperti gui, cli, dan api serta perbedaan fungsi masing-masing. selain itu, saya tertarik untuk mempelajari bagaimana merancang antarmuka yang baik agar mudah digunakan, jelas, dan tidak membingungkan bagi pengguna. saya juga ingin mengetahui bagaimana antarmuka dapat memengaruhi pengalaman pengguna dan keberhasilan suatu sistem secara keseluruhan.",
+            "saya ingin mengetahui bagaimana antarmuka dirancang agar mudah digunakan, apa saja prinsip-prinsip dasar dalam membuat antarmuka yang baik, bagaimana cara menguji apakah antarmuka sudah efektif atau belum, serta bagaimana peran antarmuka dalam meningkatkan pengalaman dan kenyamanan pengguna saat menggunakan suatu sistem.",
+            "hal yang ingin saya ketahui tentang antarmuka adalah saya ingin mengetahui bagaimana antarmuka bisa memberikan efek \"wow\" yang melampaui sekadar usability standard, saya juga penasaran bagaimana penerpa beberpa teori saat dihadapkan pada antarmuka masa depan, selain itu, saya ingin mengetahui batasan batasan teknis dan etika dalam merancang interface/antarmuka agar tetap selaras antara fungsi dan nilai moral masyarakat.",
+            "yang ingin saya ketahui mengenai antarmuka/interface adalah aturan dalam desain antarmuka, user-experience atau cara meningkatkan pengalaman pengguna dalam menggunaka aplikasi, usability suatu fitur, bentuk-bentuk interface."
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "topic_label": "Interfaces in Human-System Interaction",
+        "representative_question": "How do interfaces facilitate the interaction between humans and systems, and what psychological factors influence this relationship?",
+        "is_noise": false,
+        "confidence": 0.92,
+        "reasoning": "This cluster explores the intersection of interfaces, human behavior, psychology, and interaction systems.",
+        "cluster_size": 6,
+        "representative_texts": [
+            "saya ingin mengetahui tentang bagaimana antar muka ada di sistem interaksi",
+            "saya ingin mengetahui bagaimana antaruka dapat mempengaruhi cara interaksi manusia",
+            "saya ingin mengetahui filosofi dan psikologi antarmuka yg berinteraksi langsung dengan user",
+            "saya ingin mengetahui apa saja komponen-komponen upendukung antarmuka sehingga dapat menjadi cara pengguna berinteraksi dengan suatu sistem atau perangkat",
+            "saya ingin mengetahui lebih dalam mengenai seberapa penting aspek antar muka dalam desain interaksi"
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "topic_label": "UI/UX Visual Aesthetics and Interaction",
+        "representative_question": "What is the role of visual design in UI/UX, and how does interface design differ from broader interaction design?",
+        "is_noise": false,
+        "confidence": 0.88,
+        "reasoning": "The items specifically target UI/UX aesthetics, visual elements like typography and color, and its distinction from interaction design.",
+        "cluster_size": 5,
+        "representative_texts": [
+            "kalo dalam desain ui/ux aku mau tau tentang yang berfokus pada estetika visual, interaksi, dan tata letak elemen (tombol, tipografi, warna) trs gimana untuk menciptakan tampilan produk digital yang menarik, konsisten, dan intuitif.",
+            "karena ini dapat dibilang salah satu materi inti dari pembelajaran sister, yaitu tentang ui/ux, saya ingin mengetahui lebih dalam apasih urgensi dari ui/ux dalam mengembangkan suatu aplikasi.",
+            "memahami bagaimana alur interaksi antara pengguna dan sistem. terutama dalam efisiensi dan juga pengalaman visual (estetik) pengguna",
+            "yang ingin saya ketahui adalah mengenai ui ux serta bentuk bentuk antarmuka yang ada",
+            "apa yang menjadi pembeda antarmuka dengan desain interaksi??"
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "topic_label": "Criteria for High-Quality Interfaces",
+        "representative_question": "What specific criteria and essential requirements must be met to ensure an interface is designed correctly and effectively?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "The cluster is centered on identifying the specific standards or 'kriteria' that define a successful interface.",
+        "cluster_size": 8,
+        "representative_texts": [
+            "saya ingin tahu bagaimana antarmuka dibentuk dengan baik dan sesuai dengan kriteria",
+            "saya ingin tau tentang kriteria, apa saja yang membuat sebuah antarmuka itu baik",
+            "bagaimana membuat antarmuka yang baik?",
+            "hal-hal penting apa yang harus aku pahami agar bisa merancang antarmuka yang paling baik",
+            "saya ingin mengetahui desain yang baik dan benar."
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "topic_label": "Balancing Aesthetics and Functional Design",
+        "representative_question": "How can we design an interface that is visually appealing while remaining intuitive and functional for the user?",
+        "is_noise": false,
+        "confidence": 0.93,
+        "reasoning": "The questions address the tension and synergy between visual beauty (aesthetics) and functional usability.",
+        "cluster_size": 5,
+        "representative_texts": [
+            "saya ingin mengetahui lebih dalam tentang aspek saja yang perlu diperhatikan dalam pembuatan sebuah antarmuka. bagaimana kita bisa membuat antarmuka yang tidak hanya menarik dan indah di pandang, tetapi juga intuitif dan tetap fungsional sebagaimana mestinya.",
+            "saya ingin mengetahui komposisi yang baik ketika membuat sebuah interface tuh speerti apa karena akan banyak sekali komponen yang diperlukan tapi tentinya perlu dipikirkan nilai estetikanya dll",
+            "apakah antarmuka hanya tentang desain yang bagus dan efektif atau ada hal yang lebih mendalam terkait antarmuka ini",
+            "sejauh ini saya mengetahui apa itu antarmuka, namun saya tidak tau apa saja yang bisa mendukung supaya antarmuka bisa lebih enak dilihat oleh pengguna. maka dari itu, saya ingin mengetahui apa yang bisa mendukung antarmuka supaya lebih nyaman dilihat",
+            "bagaimana cara membuat antarmuka yang intuitif bagi pengguna tapi tetap mengedepankan fungsi"
+        ]
+    },
+    {
+        "cluster_id": 6,
+        "topic_label": "Role of Interfaces in UI/UX",
+        "representative_question": "What is the specific function of an interface within the broader context of UI/UX design and human perception?",
+        "is_noise": false,
+        "confidence": 0.85,
+        "reasoning": "These questions seek to define the role and function of UI within the user experience framework.",
+        "cluster_size": 4,
+        "representative_texts": [
+            "peran antarmula di ui/ux",
+            "peran antarmula di ui/ux",
+            "apa fungsi dari ui",
+            "cara pandang manusia terhadap antarmuka"
+        ]
+    },
+    {
+        "cluster_id": 7,
+        "topic_label": "Advanced UI/UX for User Familiarity",
+        "representative_question": "What advanced techniques can be used to make an interface feel more familiar and easier for users to navigate?",
+        "is_noise": false,
+        "confidence": 0.8,
+        "reasoning": "The cluster contains repeated entries focused on advanced UI/UX skills for creating familiar and user-friendly designs.",
+        "cluster_size": 6,
+        "representative_texts": [
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",
+            "aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this"
+        ]
+    },
+    {
+        "cluster_id": 8,
+        "topic_label": "Technical Definitions and Interface Basics",
+        "representative_question": "How is an interface defined technically, and what are the core characteristics that distinguish it?",
+        "is_noise": false,
+        "confidence": 0.94,
+        "reasoning": "This group focuses on the foundational technical definitions and basic characteristics of interfaces.",
+        "cluster_size": 4,
+        "representative_texts": [
+            "saya ingin tau antarmuka itu secara technical definisi nya bagaimana",
+            "i want to know what an interface is",
+            "mau tau sebenernya antarmuka itu apa? mau tau gimana bisa implement antarmuka yg baik",
+            "pengertian dan karakteristik dari antarmuka itu sendiri karena jujur saya belum terlalu tau"
+        ]
+    },
+    {
+        "cluster_id": 9,
+        "topic_label": "Interface Impact on User Experience",
+        "representative_question": "How does the quality of an interface affect user satisfaction and the overall success of information delivery?",
+        "is_noise": false,
+        "confidence": 0.91,
+        "reasoning": "The theme links design quality directly to user impact, needs, and successful information exchange.",
+        "cluster_size": 5,
+        "representative_texts": [
+            "saya ingin mengetahui bagaimana antarmuka dapat mempengaruhi user, dan cara membuat antarmuka yang baik dan memenuhi kebutuhan user.",
+            "saya ingin mengetahui bagaimana antarmuka dapat mempengaruhi user, dan cara membuat antarmuka yang baik dan memenuhi kebutuhan user.",
+            "saya ingin tahu bagaimana antarmuka yang bagus dan baik sehingga dapat diterima oleh pengguna serta bagaimana hubungan antarmuka dengan user experience,",
+            "saya ingin lebih tahu bagaiamana antarmuka yang bagus agar penyamapaian informasi dapat terlaksana sesuai harapan. dan ada faktor apa saja di balik design antarmuka yang mempengaruhi hasil designnya",
+            "hal yang ingin saya ketahui tentang antarmuka pada sesi kali ini adalah bagaimana mebuat antarmuka yang baik dan juga apa pentingnya antar muka yang baik bagi pengguna ataupun developer"
+        ]
+    },
+    {
+        "cluster_id": 10,
+        "topic_label": "Interfaces as Interaction Gateways",
+        "representative_question": "How does an interface function as a gateway between user commands and software program execution?",
+        "is_noise": false,
+        "confidence": 0.87,
+        "reasoning": "The questions conceptualize the interface as a 'gateway' or bridge for user-program interaction.",
+        "cluster_size": 5,
+        "representative_texts": [
+            "yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",
+            "yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",
+            "yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",
+            "yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",
+            "hal-hal yang dapat dianggap sebagai bagian dari antarmuka. bagaimana cara kerjanya agar dapat dikatakan sebagai antarmuka dan membuat antarmuka yang dapat digunakan secara intuitif"
+        ]
+    },
+    {
+        "cluster_id": 11,
+        "topic_label": "Influencing Users Through UI Design",
+        "representative_question": "How do UI design principles influence a user's interest and engagement with a web or mobile application?",
+        "is_noise": false,
+        "confidence": 0.89,
+        "reasoning": "The focus is on how the interface attracts users and influences their behavior within an application.",
+        "cluster_size": 3,
+        "representative_texts": [
+            "saya ingin mengetahui bagaimana interface berperan penting dalam menarik minat user untuk menggunakan aplikasi",
+            "saya ingin tahu bagaimana ui mempengaruhi user dalam menggunakan aplikasi",
+            "saya ingin memahami antarmuka lebih mendalam yang dan bagaimana prinsip-prinsip atarmuka dapat berpengaruh terhadap pembuatan ataupun desain user interface dalam pengembangan web/aplikasi"
+        ]
+    },
+    {
+        "cluster_id": 12,
+        "topic_label": "Real-World Applications of Interfaces",
+        "representative_question": "Can you provide examples of interfaces in daily life and explain their significance within the field of software engineering?",
+        "is_noise": false,
+        "confidence": 0.92,
+        "reasoning": "The questions ask for practical everyday examples and the importance of interfaces in professional software contexts.",
+        "cluster_size": 2,
+        "representative_texts": [
+            "contoh interface dalam kehidupan sehari-hari, seberapa penting interface, dan dalam dunia software engineer apa itu interface yang bagus",
+            "saya ingin tahu seberapa penting interface dan juga interface dalam sehari-hari saya contohnya apa dan bagaimana."
+        ]
+    },
+    {
+        "cluster_id": 13,
+        "topic_label": "Cognitive Psychology and Mental Models",
+        "representative_question": "How can we design interfaces that align with a user's mental model to minimize cognitive load and eliminate usability gaps?",
+        "is_noise": false,
+        "confidence": 0.96,
+        "reasoning": "This cluster specifically targets advanced concepts like cognitive load, mental models, and usability gaps.",
+        "cluster_size": 5,
+        "representative_texts": [
+            "kira-kira aku pengen tahu gimana cara bikin desain yang bener-bener nyambung sama model mental pengguna supaya nggak terjadi usability gap. aku juga penasaran gimana cara ngatur beban kognitif lewat prinsip desain kayak konsistensi dan visibilitas, biar antarmukanya nggak cuma bagus dilihat tapi juga gampang dipake buat tugas-tugas yang ribet.",
+            "bagaimana antarmuka memediasi interaksi antara mental model pengguna dengan system model? bagaimana cara mendesain antarmuka yang usable dan nyaman?",
+            "bagaimana cara mendesain user interface sendiri, sesuai dengan kebutuhan dan kenyamanan pengguna dalam berbagai kasus. mengetahui perbedaan desain-desain untuk setiap jenis servicesnya",
+            "dari slides yang saya baca, saya ingin mengetahui apakah desain antarmuka memungkinkan pengguna mencapai tujuannya secara efektif (usability) serta memberikan pengalaman yang menyenangkan dan memuaskan (user experience)",
+            "bagaimana cara merancang antarmuka yang intuitif? bagaimana ilmu yang dipelajari di pekan sebelumnya bisa membantu merancang antarmuka yang ramah pengguna?"
+        ]
+    }
+]

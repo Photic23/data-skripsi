@@ -1,0 +1,11 @@
+{
+    "method": "distance_percentile",
+    "percentile_target": 30.0,
+    "calculated_threshold": 0.3426,
+    "distance_matrix_stats": {
+        "min": 0.0407,
+        "max": 0.8767,
+        "mean": 0.437,
+        "median": 0.4322
+    }
+}

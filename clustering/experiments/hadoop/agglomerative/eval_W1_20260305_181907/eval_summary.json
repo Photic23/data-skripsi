@@ -1,0 +1,92 @@
+{
+    "run_id": "20260305_181907",
+    "timestamp": "2026-03-05T18:20:15.341220",
+    "inputs": {
+        "cluster_input": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data/clusters/20260305_164840",
+        "extraction_input": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data/extraction_results/20260305_164840"
+    },
+    "config": {
+        "text_column": "Cleaned_Content",
+        "judges": 3,
+        "target_step": "all",
+        "skip_steps": []
+    },
+    "results_files": [
+        "cluster_eval.json",
+        "extraction_eval.json"
+    ],
+    "cluster_eval_snapshot": {
+        "algorithm": "agglomerative",
+        "n_clusters": 11,
+        "original_space_metrics": {
+            "silhouette_score": 0.1037,
+            "davies_bouldin_score": 2.0667,
+            "calinski_harabasz_score": 4.0687,
+            "dbcv_score": null
+        },
+        "reduced_space_metrics": {
+            "silhouette_cosine": 0.1886,
+            "silhouette_cosine_std": 0.1594,
+            "silhouette_euclidean": 0.1079,
+            "silhouette_euclidean_std": 0.0995,
+            "davies_bouldin_index": 1.5341,
+            "calinski_harabasz_index": 4.7518,
+            "dbcv_score": "N/A (Agglomerative)"
+        }
+    },
+    "extraction_summary_snapshot": {
+        "total_clusters_evaluated": 12,
+        "judge_mode": "triple",
+        "evaluation_models": {
+            "gemini": "gemini-3-flash-preview",
+            "claude": "anthropic/claude-sonnet-4.6",
+            "gpt": "openai/gpt-5.2"
+        },
+        "judges_succeeded": [
+            "gemini",
+            "claude",
+            "gpt"
+        ],
+        "fleiss_kappa": {
+            "coherence": {
+                "kappa": 0.1547,
+                "interpretation": "Slight"
+            },
+            "label_accuracy": {
+                "kappa": 0.0144,
+                "interpretation": "Slight"
+            },
+            "note": "Fleiss' κ measures inter-judge agreement beyond chance. κ > 0.61 = Substantial, κ > 0.41 = Moderate (Landis & Koch, 1977)."
+        },
+        "coherence": {
+            "mean": 4.39,
+            "median": 4.67,
+            "std": 0.78,
+            "min": 2.0,
+            "max": 5.0,
+            "score_distribution": {
+                "1": 0,
+                "2": 1,
+                "3": 0,
+                "4": 4,
+                "5": 7
+            }
+        },
+        "label_accuracy": {
+            "mean": 4.39,
+            "median": 4.67,
+            "std": 0.87,
+            "min": 1.67,
+            "max": 5.0,
+            "score_distribution": {
+                "1": 0,
+                "2": 1,
+                "3": 0,
+                "4": 3,
+                "5": 8
+            }
+        },
+        "overall_quality_score": 4.39,
+        "overall_quality_grade": "Good"
+    }
+}

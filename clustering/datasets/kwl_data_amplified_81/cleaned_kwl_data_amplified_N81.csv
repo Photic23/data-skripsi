@@ -1,0 +1,82 @@
+UserID,Anonymized_User_ID,Cleaned_Content
+U001,5712a0a6ed,bagaimana dbms menentukan execution plan paling efisien untuk query kompleks?
+U002,6892f4dd35,cara kerja query optimizer dan kenapa bisa beda hasil execution time
+U003,b55a88fc75,how does cost-based optimization actually work in real database engines?
+U004,79a5d50169,pengen tau gimana relational algebra diubah step by step jadi execution plan
+U005,92d7e018f3,kenapa query yang hasilnya sama bisa jauh beda performanya?
+U006,9e93829524,cara baca explain analyze biar ngerti bottleneck query
+U007,20393c1a6c,how indexing affects query performance in large datasets
+U008,5f94549c09,"bagaimana dbms memilih join algorithm (nested loop, hash join, merge join)?"
+U009,9637d6150f,pengaruh urutan where dan join ke performance query
+U010,d06c7af44d,cara hitung cost estimation secara akurat
+U011,afdd6cdc5f,how does a query planner estimate disk i/o vs cpu cost?
+U012,c0ebf85aa6,kenapa optimizer kadang ga pake index yang udah dibuat
+U013,9a39c27dca,gimana cara improve query performance tanpa ubah struktur table
+U014,9f723067dd,apa bedanya heuristic optimization dan cost-based optimization
+U015,f10ccbe361,bagaimana query tree di-transform pake equivalence rules
+U016,548628f825,why query optimization is hard in distributed databases
+U017,34151940ee,cara dbms handle query optimization di big data scale
+U018,3e17df92d9,apa yang bikin query jadi lambat walaupun datanya sedikit
+U019,8c77ed591e,how query execution plans differ between postgresql and mysql
+U020,8f7926ada4,bagaimana cara optimizer menentukan urutan join paling murah
+U021,1e61bab29b,kenapa ya query aku lama padahal simple?
+U022,496d5e18d8,kok bisa sih database mikir sendiri
+U023,e8c63d67ee,query optimization tuh ribet ga sih sebenernya
+U024,1923821972,cara bikin query cepet tapi tetep readable
+U025,3df684eaff,how to write efficient sql without over-optimizing
+U026,ccc3dea2ea,apa hubungan index dengan disk access
+U027,8907ecc207,query processing itu ngapain aja sih di backend
+U028,72703ec3a6,kenapa select * itu katanya jelek
+U029,7d50ee93c6,how relational algebra helps database optimization
+U030,b4fcbfc301,kenapa join itu mahal secara komputasi
+U031,c18dad77e0,apasihhh??
+U034,915141c3ad,nooooo lama banget
+U036,7098d45abd,wkwkwk query
+U038,f95175ebb6,sql sql sql
+U039,0e5fb1a597,optimizationnnnnnnnn
+U041,35836162bc,cara database mikir
+U042,05115f40f8,how db thinks
+U043,602b4a5f29,query plan logic
+U044,8aa62ac1d8,kok ribet amat sih
+U045,54372cdccc,execution plan???
+U046,402393f921,optimizer brain
+U047,9089c2bba3,disk vs memory
+U048,6373ad2dcb,kenapa disk lebih lambat
+U049,15a149c9de,query cost cost cost
+U050,79dfcc32d1,why database slow
+U051,57782eca3f,bagaimana optimizer bekerja saat data tidak terdistribusi merata (skewed data)?
+U052,724ab29dae,cara database handle statistik yang outdated
+U053,acb0f3b46a,how stale statistics affect query planning
+U054,a62b9f8ec7,apakah optimizer selalu memilih solusi global optimum?
+U055,82e846f1f1,tradeoff antara optimization time dan execution time
+U056,e30d21c0a6,bagaimana optimizer pruning search space
+U057,cbcc82d885,how dynamic programming is used in join ordering
+U058,0a623c9c22,kenapa cost estimation sering meleset
+U059,fd1842babe,query optimization di oltp vs olap bedanya apa
+U060,535692c5e3,bagaimana database modern optimize subquery
+U064,9d30ae4162,random banget
+E001,a663456869,bagaimana cara kerja memory management di bahasa pemrograman modern?
+E002,71c566e1c8,apa bedanya stack dan heap dalam program execution
+E003,fc436ff652,how garbage collection works under the hood
+E004,1ad9f48b04,kenapa memory leak bisa terjadi walaupun ada gc
+E005,73a2ff40e1,cara debug segmentation fault atau runtime crash
+E006,5e8e676dc3,what actually happens when a program is compiled vs interpreted
+E007,f4ac09b3f7,bagaimana compiler melakukan optimization pada code
+E008,79485cfd15,kenapa pointer error sering susah dilacak
+E009,cf89cdc489,apa hubungan antara time complexity dan performance nyata
+E010,1c1abd195c,how cpu cache affects program performance
+E011,d446844c6f,cara nulis code yang scalable dari awal
+E012,c821ed516e,apa bedanya clean code dan premature optimization
+E013,cb76333964,bagaimana cara refactor legacy code tanpa merusak sistem
+E014,d083cda691,how to design software that is easy to maintain
+E015,19fc98fdd3,kenapa microservices bisa jadi overkill
+E016,7257ac9d26,monolith vs microservices kapan pake yang mana
+E017,7cd6ea51d6,bagaimana handle technical debt secara realistis
+E018,9c8ef66c07,what makes a system design interview hard
+E019,130c365ca2,cara mikir system design yang bener
+E020,81cbf6eae1,how distributed systems handle partial failure
+E021,eeac1a227a,apa itu data preprocessing dan kenapa penting
+E022,509d0fabaa,kenapa data kotor bisa bikin model jelek
+E023,5178b8c1c7,how feature engineering impacts model performance
+E024,8fd9df9779,cara milih algorithm yang tepat buat dataset
+E025,b98d0a9559,apa bedanya supervised learning dan unsupervised learning?

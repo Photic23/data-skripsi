@@ -1,0 +1,39 @@
+{
+    "n_clusters": 8,
+    "n_noise_before_reassignment": 0,
+    "n_reassigned": 0,
+    "n_remaining_outliers": 0,
+    "noise_ratio": 0.0,
+    "params_used": {
+        "k": 8
+    },
+    "auto_tuned": true,
+    "silhouette_score": 0.2533,
+    "davies_bouldin_score": 1.8698,
+    "calinski_harabasz_score": 5.8687,
+    "dbcv_score": null,
+    "original_space_metrics": {
+        "silhouette_score": 0.2009,
+        "davies_bouldin_score": 2.0231,
+        "calinski_harabasz_score": 4.7399,
+        "dbcv_score": null
+    },
+    "pca_tuning_log": {
+        "variance_threshold": 0.9,
+        "n_components_selected": 32,
+        "n_components_total": 4096,
+        "cumulative_variance_captured": 0.9008,
+        "top_10_explained_variance": [
+            0.16126,
+            0.084916,
+            0.068371,
+            0.055634,
+            0.043894,
+            0.041558,
+            0.03832,
+            0.032562,
+            0.029322,
+            0.026689
+        ]
+    }
+}

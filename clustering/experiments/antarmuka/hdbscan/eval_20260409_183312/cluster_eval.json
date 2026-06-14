@@ -1,0 +1,155 @@
+{
+    "algorithm": "hdbscan",
+    "total_points": 71,
+    "n_clusters": 9,
+    "n_noise_points": 9,
+    "noise_ratio": 0.1268,
+    "metrics": {
+        "silhouette_cosine": 0.6783,
+        "silhouette_cosine_std": 0.2411,
+        "silhouette_euclidean": 0.4923,
+        "silhouette_euclidean_std": 0.2095,
+        "davies_bouldin_index": 0.6711,
+        "calinski_harabasz_index": 97.8727,
+        "dbcv_score": 0.4332
+    },
+    "original_space_metrics": {
+        "silhouette_score": 0.1698,
+        "davies_bouldin_score": 2.0691,
+        "calinski_harabasz_score": 3.9645
+    },
+    "dimensionality_reduction": {},
+    "cluster_statistics": {
+        "size_distribution": {
+            "mean_cluster_size": 6.89,
+            "median_cluster_size": 6.0,
+            "std_cluster_size": 4.15,
+            "min_cluster_size": 4,
+            "max_cluster_size": 18,
+            "size_imbalance_ratio": 4.5
+        },
+        "per_cluster": [
+            {
+                "cluster_id": -1,
+                "size": 9,
+                "is_noise": "True",
+                "prob_mean": 0.0,
+                "prob_std": 0.0,
+                "prob_min": 0.0,
+                "prob_max": 0.0
+            },
+            {
+                "cluster_id": 0,
+                "size": 8,
+                "is_noise": "False",
+                "prob_mean": 0.7392,
+                "prob_std": 0.3005,
+                "prob_min": 0.2205,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 1,
+                "size": 7,
+                "is_noise": "False",
+                "prob_mean": 0.8565,
+                "prob_std": 0.1598,
+                "prob_min": 0.5603,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 2,
+                "size": 6,
+                "is_noise": "False",
+                "prob_mean": 0.7817,
+                "prob_std": 0.2272,
+                "prob_min": 0.5005,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 3,
+                "size": 5,
+                "is_noise": "False",
+                "prob_mean": 0.9076,
+                "prob_std": 0.1133,
+                "prob_min": 0.7638,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 4,
+                "size": 4,
+                "is_noise": "False",
+                "prob_mean": 0.9514,
+                "prob_std": 0.0842,
+                "prob_min": 0.8055,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 5,
+                "size": 4,
+                "is_noise": "False",
+                "prob_mean": 0.9682,
+                "prob_std": 0.0551,
+                "prob_min": 0.8727,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 6,
+                "size": 4,
+                "is_noise": "False",
+                "prob_mean": 0.9247,
+                "prob_std": 0.1305,
+                "prob_min": 0.6987,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 7,
+                "size": 18,
+                "is_noise": "False",
+                "prob_mean": 0.8012,
+                "prob_std": 0.12,
+                "prob_min": 0.6421,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 8,
+                "size": 6,
+                "is_noise": "False",
+                "prob_mean": 0.9979,
+                "prob_std": 0.0021,
+                "prob_min": 0.9958,
+                "prob_max": 1.0
+            }
+        ]
+    },
+    "run_config_summary": {
+        "algorithm": "hdbscan",
+        "model": "qwen/qwen3-embedding-8b",
+        "infra": "openrouter",
+        "dim_components": 10,
+        "min_cluster_size": "auto",
+        "min_samples": "auto",
+        "k": "auto",
+        "embeddings_file": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data\\embeddings\\embeddings_21_qwen-qwen3-embedding-8b_20260409.parquet"
+    },
+    "raw_pipeline_metrics": {
+        "n_clusters": 9,
+        "n_noise_before_reassignment": 9,
+        "n_reassigned": 0,
+        "n_remaining_outliers": 9,
+        "noise_ratio": 0.1268,
+        "params_used": {
+            "min_cluster_size": 3,
+            "min_samples": 2
+        },
+        "auto_tuned": true,
+        "dbcv_score": 0.4332,
+        "silhouette_score": 0.6783,
+        "davies_bouldin_score": 0.6711,
+        "calinski_harabasz_score": 97.8727,
+        "original_space_metrics": {
+            "silhouette_score": 0.1698,
+            "davies_bouldin_score": 2.0691,
+            "calinski_harabasz_score": 3.9645
+        }
+    }
+}

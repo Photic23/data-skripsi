@@ -1,0 +1,600 @@
+{
+    "per_cluster": [
+        {
+            "cluster_id": 0,
+            "cluster_size": 60,
+            "topic_label": "Pengertian dan Dasar Ekosistem Hadoop",
+            "representative_question": "Apa yang dimaksud dengan ekosistem Hadoop, serta bagaimana fungsi, tujuan, dan mekanisme kerja dasarnya dalam mengolah data?",
+            "is_noise": false,
+            "coherence_score": 4.33,
+            "label_accuracy_score": 4.67,
+            "coherence_scores_raw": [
+                5,
+                4,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "rationales": {
+                "gemini": "The questions are perfectly aligned around introductory concepts, definitions, and basic mechanics of the Hadoop ecosystem.",
+                "claude": "Most questions are clearly about understanding Hadoop ecosystem basics, usage, and setup. A few questions (e.g., 'cara kerja hdfs') are slightly more specific, but the overall cluster is well-focused. The label accurately captures the introductory/foundational nature of the cluster.",
+                "gpt": "Mayoritas pertanyaan membahas pengertian ekosistem Hadoop, tool yang ada, serta cara kerja/penggunaan dasar (termasuk HDFS dan pengolahan big data). Label sudah tepat menangkap fokus definisi dan dasar-dasar ekosistem Hadoop, meski ada sedikit campuran ke setup/implementasi."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "The questions are perfectly aligned around introductory concepts, definitions, and basic mechanics of the Hadoop ecosystem.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "rationale": "Most questions are clearly about understanding Hadoop ecosystem basics, usage, and setup. A few questions (e.g., 'cara kerja hdfs') are slightly more specific, but the overall cluster is well-focused. The label accurately captures the introductory/foundational nature of the cluster.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "rationale": "Mayoritas pertanyaan membahas pengertian ekosistem Hadoop, tool yang ada, serta cara kerja/penggunaan dasar (termasuk HDFS dan pengolahan big data). Label sudah tepat menangkap fokus definisi dan dasar-dasar ekosistem Hadoop, meski ada sedikit campuran ke setup/implementasi.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.95
+        },
+        {
+            "cluster_id": 1,
+            "cluster_size": 2,
+            "topic_label": "Komponen dan Alat Pemrosesan Big Data",
+            "representative_question": "Apa saja tools dalam ekosistem Hadoop yang digunakan untuk menyimpan serta memproses big data, dan apa manfaat dari masing-masing komponen tersebut?",
+            "is_noise": false,
+            "coherence_score": 4.67,
+            "label_accuracy_score": 4.67,
+            "coherence_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "rationales": {
+                "gemini": "Both questions specifically focus on the tools and components used for storage and processing within the ecosystem.",
+                "claude": "Both questions are coherently about tools and components for big data storage and processing. The label is accurate, though with only 2 questions it's hard to fully assess breadth. Minor overlap with cluster 0 exists.",
+                "gpt": "Kedua pertanyaan konsisten menanyakan tools/komponen untuk menyimpan dan memproses big data beserta fungsi/manfaatnya. Label sangat sesuai dan spesifik."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "Both questions specifically focus on the tools and components used for storage and processing within the ecosystem.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "rationale": "Both questions are coherently about tools and components for big data storage and processing. The label is accurate, though with only 2 questions it's hard to fully assess breadth. Minor overlap with cluster 0 exists.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "Kedua pertanyaan konsisten menanyakan tools/komponen untuk menyimpan dan memproses big data beserta fungsi/manfaatnya. Label sangat sesuai dan spesifik.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.9
+        },
+        {
+            "cluster_id": 2,
+            "cluster_size": 2,
+            "topic_label": "Detail Teknis dan Implementasi Mendalam",
+            "representative_question": "Bagaimana rincian arsitektur ekosistem Hadoop secara lebih mendalam dan bagaimana langkah-langkah implementasi teknisnya di lapangan?",
+            "is_noise": false,
+            "coherence_score": 4.33,
+            "label_accuracy_score": 4.0,
+            "coherence_scores_raw": [
+                5,
+                4,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                3,
+                4
+            ],
+            "rationales": {
+                "gemini": "The questions share a specific intent for 'deep' or 'detailed' implementation and understanding.",
+                "claude": "Both questions ask for deeper details and implementation, making them coherent. The label 'Detail Teknis dan Implementasi Mendalam' is reasonable but somewhat vague given how brief the questions are; 'in-depth' could apply to many clusters.",
+                "gpt": "Keduanya sama-sama meminta penjelasan yang lebih dalam tentang pengertian dan implementasi ekosistem Hadoop, namun sangat umum/vague. Label cukup akurat, walau menyebut arsitektur/implementasi teknis lebih rinci daripada yang tersurat di pertanyaan."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "The questions share a specific intent for 'deep' or 'detailed' implementation and understanding.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 3,
+                    "rationale": "Both questions ask for deeper details and implementation, making them coherent. The label 'Detail Teknis dan Implementasi Mendalam' is reasonable but somewhat vague given how brief the questions are; 'in-depth' could apply to many clusters.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "rationale": "Keduanya sama-sama meminta penjelasan yang lebih dalam tentang pengertian dan implementasi ekosistem Hadoop, namun sangat umum/vague. Label cukup akurat, walau menyebut arsitektur/implementasi teknis lebih rinci daripada yang tersurat di pertanyaan.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.85
+        },
+        {
+            "cluster_id": 3,
+            "cluster_size": 2,
+            "topic_label": "Pernyataan Ketidaktahuan Peserta",
+            "representative_question": "Apa yang harus dilakukan jika saya belum memiliki pengetahuan atau pemahaman sama sekali mengenai materi yang sedang dibahas?",
+            "is_noise": true,
+            "coherence_score": 5.0,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "Perfectly captures students expressing a total lack of prior knowledge.",
+                "claude": "Both questions are expressions of complete ignorance about the topic, making this a perfectly coherent and uniquely identifiable cluster. The label accurately describes this as statements of not knowing.",
+                "gpt": "Isinya jelas berupa pernyataan tidak tahu/belum mengetahui, sangat konsisten. Label merepresentasikan maksud cluster dengan tepat."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "Perfectly captures students expressing a total lack of prior knowledge.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "Both questions are expressions of complete ignorance about the topic, making this a perfectly coherent and uniquely identifiable cluster. The label accurately describes this as statements of not knowing.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "Isinya jelas berupa pernyataan tidak tahu/belum mengetahui, sangat konsisten. Label merepresentasikan maksud cluster dengan tepat.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 1.0
+        },
+        {
+            "cluster_id": 4,
+            "cluster_size": 3,
+            "topic_label": "Perbandingan Hadoop dengan Teknologi Lain",
+            "representative_question": "Apa kelebihan dan kekurangan Hadoop jika dibandingkan dengan framework lain seperti Spark atau database tradisional, dan mengapa kita harus menggunakannya untuk data besar?",
+            "is_noise": false,
+            "coherence_score": 5.0,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "All questions explicitly ask for comparisons between Hadoop and other technologies like Spark or traditional databases.",
+                "claude": "All three questions explicitly ask about Hadoop's advantages, disadvantages, and comparisons with other frameworks like Spark. The cluster is highly coherent and the label precisely captures this comparative intent.",
+                "gpt": "Semua pertanyaan berpusat pada perbandingan Hadoop dengan teknologi lain (Spark/database/cloud), termasuk kelebihan-kekurangan dan kapan digunakan. Label sangat tepat."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "All questions explicitly ask for comparisons between Hadoop and other technologies like Spark or traditional databases.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "All three questions explicitly ask about Hadoop's advantages, disadvantages, and comparisons with other frameworks like Spark. The cluster is highly coherent and the label precisely captures this comparative intent.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "Semua pertanyaan berpusat pada perbandingan Hadoop dengan teknologi lain (Spark/database/cloud), termasuk kelebihan-kekurangan dan kapan digunakan. Label sangat tepat.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.95
+        },
+        {
+            "cluster_id": 5,
+            "cluster_size": 3,
+            "topic_label": "Arsitektur Komprehensif dan Alur Kerja",
+            "representative_question": "Dapatkah dijelaskan secara menyeluruh mengenai komponen utama seperti HDFS, MapReduce, dan YARN, serta bagaimana alur kerja proses data secara paralel dalam Hadoop?",
+            "is_noise": false,
+            "coherence_score": 4.67,
+            "label_accuracy_score": 4.67,
+            "coherence_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "rationales": {
+                "gemini": "This cluster contains high-quality, comprehensive summaries of the architecture and workflow, which are grouped perfectly.",
+                "claude": "All three questions provide comprehensive overviews of Hadoop architecture including HDFS, MapReduce, and YARN with workflow details. The cluster is coherent though the questions vary in depth. The label accurately reflects the architectural and workflow focus.",
+                "gpt": "Konten konsisten membahas komponen inti (HDFS/MapReduce/YARN) dan alur kerja pemrosesan paralel secara end-to-end. Label menangkap tema komprehensif dan workflow dengan akurat."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "This cluster contains high-quality, comprehensive summaries of the architecture and workflow, which are grouped perfectly.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "rationale": "All three questions provide comprehensive overviews of Hadoop architecture including HDFS, MapReduce, and YARN with workflow details. The cluster is coherent though the questions vary in depth. The label accurately reflects the architectural and workflow focus.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "Konten konsisten membahas komponen inti (HDFS/MapReduce/YARN) dan alur kerja pemrosesan paralel secara end-to-end. Label menangkap tema komprehensif dan workflow dengan akurat.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.95
+        },
+        {
+            "cluster_id": 6,
+            "cluster_size": 11,
+            "topic_label": "Integrasi Komponen dan Praktik Industri",
+            "representative_question": "Bagaimana cara kerja terintegrasi antar komponen Hadoop secara end-to-end dan apa saja praktik terbaik penggunaannya dalam lingkungan industri data saat ini?",
+            "is_noise": false,
+            "coherence_score": 4.0,
+            "label_accuracy_score": 4.33,
+            "coherence_scores_raw": [
+                5,
+                3,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                3,
+                5
+            ],
+            "rationales": {
+                "gemini": "The cluster focuses on end-to-end integration and professional/industry best practices, showing strong thematic consistency.",
+                "claude": "Questions cover a broad range of topics including integration, industry practices, comparisons, and component functions, making this cluster somewhat of a catch-all. The label partially fits but the cluster lacks tight thematic focus, overlapping significantly with clusters 4, 5, and 0.",
+                "gpt": "Pertanyaan-pertanyaan membahas integrasi end-to-end, peran komponen, praktik industri, serta perbandingan dengan tool lain; masih satu payung besar namun cukup lebar. Label sesuai karena menekankan integrasi komponen dan praktik industri."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "The cluster focuses on end-to-end integration and professional/industry best practices, showing strong thematic consistency.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 3,
+                    "rationale": "Questions cover a broad range of topics including integration, industry practices, comparisons, and component functions, making this cluster somewhat of a catch-all. The label partially fits but the cluster lacks tight thematic focus, overlapping significantly with clusters 4, 5, and 0.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "rationale": "Pertanyaan-pertanyaan membahas integrasi end-to-end, peran komponen, praktik industri, serta perbandingan dengan tool lain; masih satu payung besar namun cukup lebar. Label sesuai karena menekankan integrasi komponen dan praktik industri.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.9
+        },
+        {
+            "cluster_id": 9,
+            "cluster_size": 5,
+            "topic_label": "Mekanisme Kerja dan Aplikasi Nyata",
+            "representative_question": "Bagaimana konsep operasional Hadoop dalam mengelola data dan bagaimana cara menerapkannya secara praktis pada kasus-kasus di dunia nyata?",
+            "is_noise": false,
+            "coherence_score": 4.33,
+            "label_accuracy_score": 4.33,
+            "coherence_scores_raw": [
+                5,
+                4,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                4
+            ],
+            "rationales": {
+                "gemini": "The questions consistently ask for the operational logic and real-world application of the system.",
+                "claude": "All questions focus on understanding how Hadoop works and its real-world application, making the cluster coherent. The label accurately captures the operational and practical application theme, though questions are quite brief and generic.",
+                "gpt": "Semua pertanyaan sangat umum tentang 'cara kerja' dan 'cara menggunakan' Hadoop, dengan sedikit penyebutan penerapan nyata. Label cukup pas, meski aspek 'aplikasi nyata' tidak kuat di semua item."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "The questions consistently ask for the operational logic and real-world application of the system.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "rationale": "All questions focus on understanding how Hadoop works and its real-world application, making the cluster coherent. The label accurately captures the operational and practical application theme, though questions are quite brief and generic.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "rationale": "Semua pertanyaan sangat umum tentang 'cara kerja' dan 'cara menggunakan' Hadoop, dengan sedikit penyebutan penerapan nyata. Label cukup pas, meski aspek 'aplikasi nyata' tidak kuat di semua item.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.88
+        },
+        {
+            "cluster_id": 10,
+            "cluster_size": 2,
+            "topic_label": "Arsitektur dan Keunggulan Sistem Hadoop",
+            "representative_question": "Apa saja keunggulan utama dari penggunaan arsitektur Hadoop dan bagaimana fungsi spesifik dari tools yang ada di dalamnya?",
+            "is_noise": false,
+            "coherence_score": 4.67,
+            "label_accuracy_score": 4.67,
+            "coherence_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "rationales": {
+                "gemini": "The questions specifically pair the architecture/function of tools with the advantages (keunggulan) of using them.",
+                "claude": "Both questions address Hadoop's architecture, tool functions, and advantages, forming a coherent pair. The label accurately reflects the content, though with only 2 questions the cluster could potentially merge with others like cluster 5.",
+                "gpt": "Kedua pertanyaan selaras pada arsitektur/cara kerja, fungsi tools, dan keunggulan Hadoop. Label tepat dan ringkas."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "The questions specifically pair the architecture/function of tools with the advantages (keunggulan) of using them.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "rationale": "Both questions address Hadoop's architecture, tool functions, and advantages, forming a coherent pair. The label accurately reflects the content, though with only 2 questions the cluster could potentially merge with others like cluster 5.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "Kedua pertanyaan selaras pada arsitektur/cara kerja, fungsi tools, dan keunggulan Hadoop. Label tepat dan ringkas.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.85
+        },
+        {
+            "cluster_id": 12,
+            "cluster_size": 2,
+            "topic_label": "Daftar Alat dan Alur Kerja",
+            "representative_question": "Apa saja daftar alat tambahan yang mendukung ekosistem Hadoop dan bagaimana urutan workflow pengolahan datanya?",
+            "is_noise": false,
+            "coherence_score": 4.67,
+            "label_accuracy_score": 4.67,
+            "coherence_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "rationales": {
+                "gemini": "Focuses specifically on the list of supporting tools and the resulting operational workflow.",
+                "claude": "Both questions ask about tools/components and workflow/cara kerja, making them coherent. The label accurately describes this focus on listing tools and workflow, though this cluster overlaps thematically with clusters 1 and 9.",
+                "gpt": "Keduanya fokus pada daftar tools tambahan, fungsi, dan workflow/cara kerja. Label sepenuhnya sesuai."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "Focuses specifically on the list of supporting tools and the resulting operational workflow.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "rationale": "Both questions ask about tools/components and workflow/cara kerja, making them coherent. The label accurately describes this focus on listing tools and workflow, though this cluster overlaps thematically with clusters 1 and 9.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "Keduanya fokus pada daftar tools tambahan, fungsi, dan workflow/cara kerja. Label sepenuhnya sesuai.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.87
+        },
+        {
+            "cluster_id": 14,
+            "cluster_size": 3,
+            "topic_label": "Prosedur Penggunaan dan Operasional",
+            "representative_question": "Bagaimana prosedur dan langkah-langkah yang benar dalam mengoperasikan serta menggunakan ekosistem Hadoop untuk pengolahan data?",
+            "is_noise": false,
+            "coherence_score": 5.0,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "All questions are short and focused specifically on the 'how-to' or 'operational procedure' aspects.",
+                "claude": "All three questions are narrowly focused on how to use/operate Hadoop correctly, making this a highly coherent cluster. The label precisely captures the procedural and operational usage intent.",
+                "gpt": "Seluruh pertanyaan menanyakan prosedur/cara penggunaan dan operasional Hadoop secara benar. Label sangat akurat."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "All questions are short and focused specifically on the 'how-to' or 'operational procedure' aspects.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "All three questions are narrowly focused on how to use/operate Hadoop correctly, making this a highly coherent cluster. The label precisely captures the procedural and operational usage intent.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "rationale": "Seluruh pertanyaan menanyakan prosedur/cara penggunaan dan operasional Hadoop secara benar. Label sangat akurat.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 0.9
+        },
+        {
+            "cluster_id": -1,
+            "cluster_size": 20,
+            "topic_label": "Rare/Singular Topics",
+            "representative_question": "N/A (unassigned outlier questions)",
+            "is_noise": true,
+            "coherence_score": 2.0,
+            "label_accuracy_score": 1.67,
+            "coherence_scores_raw": [
+                2,
+                2,
+                2
+            ],
+            "label_accuracy_scores_raw": [
+                2,
+                2,
+                1
+            ],
+            "rationales": {
+                "gemini": "Many questions in the noise pile (like 1, 2, 7, and 8) are very clear introductory questions that should have been grouped into Cluster 0 or Cluster 6.",
+                "claude": "Several noise questions (e.g., questions about Hadoop's role in big data, fault tolerance, pengertian with kelebihan/kekurangan, detailed component descriptions) clearly belong to existing clusters like 0, 4, or 6 and were unfairly rejected. The noise pile contains multiple groupable questions rather than true outliers, indicating poor noise segregation by the algorithm.",
+                "gpt": "Banyak item di 'noise' justru membentuk tema jelas tentang pengertian, manfaat/tujuan, alur ekosistem, dan cara aplikasi Hadoop; hanya sedikit yang lebih spesifik (mis. fault tolerance). Karena ada koherensi topik yang kuat, pelabelan sebagai noise tidak tepat."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 2,
+                    "rationale": "Many questions in the noise pile (like 1, 2, 7, and 8) are very clear introductory questions that should have been grouped into Cluster 0 or Cluster 6.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 2,
+                    "rationale": "Several noise questions (e.g., questions about Hadoop's role in big data, fault tolerance, pengertian with kelebihan/kekurangan, detailed component descriptions) clearly belong to existing clusters like 0, 4, or 6 and were unfairly rejected. The noise pile contains multiple groupable questions rather than true outliers, indicating poor noise segregation by the algorithm.",
+                    "model": "anthropic/claude-sonnet-4.6"
+                },
+                "gpt": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 1,
+                    "rationale": "Banyak item di 'noise' justru membentuk tema jelas tentang pengertian, manfaat/tujuan, alur ekosistem, dan cara aplikasi Hadoop; hanya sedikit yang lebih spesifik (mis. fault tolerance). Karena ada koherensi topik yang kuat, pelabelan sebagai noise tidak tepat.",
+                    "model": "openai/gpt-5.2"
+                }
+            },
+            "extraction_confidence": 1.0
+        }
+    ],
+    "summary": {
+        "total_clusters_evaluated": 12,
+        "judge_mode": "triple",
+        "evaluation_models": {
+            "gemini": "gemini-3-flash-preview",
+            "claude": "anthropic/claude-sonnet-4.6",
+            "gpt": "openai/gpt-5.2"
+        },
+        "judges_succeeded": [
+            "gemini",
+            "claude",
+            "gpt"
+        ],
+        "fleiss_kappa": {
+            "coherence": {
+                "kappa": 0.1547,
+                "interpretation": "Slight"
+            },
+            "label_accuracy": {
+                "kappa": 0.0144,
+                "interpretation": "Slight"
+            },
+            "note": "Fleiss' κ measures inter-judge agreement beyond chance. κ > 0.61 = Substantial, κ > 0.41 = Moderate (Landis & Koch, 1977)."
+        },
+        "coherence": {
+            "mean": 4.39,
+            "median": 4.67,
+            "std": 0.78,
+            "min": 2.0,
+            "max": 5.0,
+            "score_distribution": {
+                "1": 0,
+                "2": 1,
+                "3": 0,
+                "4": 4,
+                "5": 7
+            }
+        },
+        "label_accuracy": {
+            "mean": 4.39,
+            "median": 4.67,
+            "std": 0.87,
+            "min": 1.67,
+            "max": 5.0,
+            "score_distribution": {
+                "1": 0,
+                "2": 1,
+                "3": 0,
+                "4": 3,
+                "5": 8
+            }
+        },
+        "overall_quality_score": 4.39,
+        "overall_quality_grade": "Good"
+    },
+    "max_samples_per_cluster": 8
+}

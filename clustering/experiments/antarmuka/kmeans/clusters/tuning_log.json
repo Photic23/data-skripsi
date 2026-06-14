@@ -1,0 +1,42 @@
+{
+    "best_k": 14,
+    "best_silhouette": 0.2167,
+    "all_results": [
+        {
+            "k": 6,
+            "silhouette_score": 0.1485
+        },
+        {
+            "k": 7,
+            "silhouette_score": 0.1275
+        },
+        {
+            "k": 8,
+            "silhouette_score": 0.1432
+        },
+        {
+            "k": 9,
+            "silhouette_score": 0.1519
+        },
+        {
+            "k": 10,
+            "silhouette_score": 0.1546
+        },
+        {
+            "k": 11,
+            "silhouette_score": 0.1847
+        },
+        {
+            "k": 12,
+            "silhouette_score": 0.1848
+        },
+        {
+            "k": 13,
+            "silhouette_score": 0.2083
+        },
+        {
+            "k": 14,
+            "silhouette_score": 0.2167
+        }
+    ]
+}

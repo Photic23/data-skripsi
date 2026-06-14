@@ -1,0 +1,92 @@
+{
+    "run_id": "20260305_191817",
+    "timestamp": "2026-03-05T19:19:09.692578",
+    "inputs": {
+        "cluster_input": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data/clusters/20260305_191240",
+        "extraction_input": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data/extraction_results/20260305_191240"
+    },
+    "config": {
+        "text_column": "Cleaned_Content",
+        "judges": 3,
+        "target_step": "all",
+        "skip_steps": []
+    },
+    "results_files": [
+        "cluster_eval.json",
+        "extraction_eval.json"
+    ],
+    "cluster_eval_snapshot": {
+        "algorithm": "kmeans",
+        "n_clusters": 6,
+        "original_space_metrics": {
+            "silhouette_score": 0.0747,
+            "davies_bouldin_score": 2.6383,
+            "calinski_harabasz_score": 8.1478,
+            "dbcv_score": null
+        },
+        "reduced_space_metrics": {
+            "silhouette_cosine": 0.1687,
+            "silhouette_cosine_std": 0.1236,
+            "silhouette_euclidean": 0.0517,
+            "silhouette_euclidean_std": 0.0838,
+            "davies_bouldin_index": 2.4305,
+            "calinski_harabasz_index": 9.3308,
+            "dbcv_score": "N/A (K-Means)"
+        }
+    },
+    "extraction_summary_snapshot": {
+        "total_clusters_evaluated": 6,
+        "judge_mode": "triple",
+        "evaluation_models": {
+            "gemini": "gemini-3-flash-preview",
+            "claude": "anthropic/claude-sonnet-4.6",
+            "gpt": "openai/gpt-5.2"
+        },
+        "judges_succeeded": [
+            "gemini",
+            "claude",
+            "gpt"
+        ],
+        "fleiss_kappa": {
+            "coherence": {
+                "kappa": -0.0413,
+                "interpretation": "Poor"
+            },
+            "label_accuracy": {
+                "kappa": -0.115,
+                "interpretation": "Poor"
+            },
+            "note": "Fleiss' κ measures inter-judge agreement beyond chance. κ > 0.61 = Substantial, κ > 0.41 = Moderate (Landis & Koch, 1977)."
+        },
+        "coherence": {
+            "mean": 3.55,
+            "median": 3.67,
+            "std": 0.81,
+            "min": 2.33,
+            "max": 4.33,
+            "score_distribution": {
+                "1": 0,
+                "2": 1,
+                "3": 2,
+                "4": 3,
+                "5": 0
+            }
+        },
+        "label_accuracy": {
+            "mean": 3.72,
+            "median": 3.83,
+            "std": 0.75,
+            "min": 2.67,
+            "max": 4.67,
+            "score_distribution": {
+                "1": 0,
+                "2": 0,
+                "3": 3,
+                "4": 2,
+                "5": 1
+            }
+        },
+        "overall_quality_score": 3.64,
+        "overall_quality_grade": "Good"
+    }
+}

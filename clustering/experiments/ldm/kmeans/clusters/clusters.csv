@@ -1,0 +1,63 @@
+UserID,Anonymized_User_ID,Cleaned_Content,Cluster_Label,Cluster_Prob
+467,e078af3026,"cara data diorganisasikan, di dokumentasikan, dan di definisikan dalam sebuah basis data",7,1.0
+476,e73cb13524,saya ingin mengetahui tools-tools apa saja yang bisa digunakan,5,1.0
+470,30eec89ddd,"saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",2,1.0
+449,4a30a219a9,"saya ingin tahu tentang logical data model yaitu relasi antar entitasnya, jenis relasi, dan semacamnya",1,1.0
+479,9869a8a3a1,konseptual untuk menghubungkan antara data.,7,1.0
+455,f626051bc9,ingin tahu bagaimana logical data model berguna untuk membuat program,1,1.0
+487,9b19f9ab81,"buat apa, cara penggunaan, cara penggunaan paling efektif",4,1.0
+470,30eec89ddd,"saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",2,1.0
+470,30eec89ddd,"saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",2,1.0
+502,5344c4110f,model data logis merepresentasikan struktur abstrak dari suatu domain informasi,1,1.0
+470,30eec89ddd,"saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",2,1.0
+492,23e8b01758,transisi dari konseptual fungsinya efisiensi biaya,5,1.0
+461,de482c7ed5,saya ingin tau lebih dalam dan cara menggunakan yg efektif,5,1.0
+448,a4ecdd704d,cara membuat atau menggunakannya,4,1.0
+485,5844a72aee,"hal yang ingin saya ketahui tentang logical data model adalah pengertian, fungsi, komponen, cara pembuatan, serta perbedaannya dengan model data lainnya dalam perancangan database.",1,1.0
+482,d4679c618f,saya ingin lebih pahaam apa itu logical data model dan contoh penggunaanya,1,1.0
+451,caa1aedb2a,membuat data yang struktural dan terperinci dari berbagai data dan menghubungkan dengan berbagai macam data,7,1.0
+474,98144d79af,"apa saja yang ada di logical data model, dan apa saja yang ada di dalamnya secara rinci dan detail",1,1.0
+450,83151157c1,"aku ingin tau karakteristik nya, manfaat nya dan komponen apa saja yang terkait.",5,1.0
+463,06de973bb4,apa fungsi utama logical data model dalam perancangan database?,1,1.0
+462,da4d43f295,"1. apa itu logical data model. 2. apa saja bagian - bagiannya (entitas, atribut, relasi). 3. apa fungsinya dalam perancangan database. 4. mengapa perlu dibuat sebelum database diimplementasikan.",3,1.0
+471,064c3e311e,kapan ldm digunakan? apa saja yang ada di dalamnya?,6,1.0
+458,ad21a2b810,ya saya iingin mengetahui cara bekerjanya logical data model di database,1,1.0
+503,7182dd431b,definisi dan tujuannya serta perbedaannya dengan model lain,0,1.0
+477,6e82b8197c,hal yang lebih mendalam terkait logical data model.,1,1.0
+484,a42e815c58,saya ingin mengetahui tahapan perancangan logical data model,1,1.0
+460,841a05fd37,"syaa ingin lebih mendalami tentang apa itu code swperti select, insert, delete, dan ekseskui relasi tersebut",5,1.0
+491,227445a988,"yang ingin saya ketahui tentang logical data model itu bagaimana cara bikin erd yang benar dan rapi, terus bagaimana menentukan primary key, foreign key, dan relasi yang tepat.",3,1.0
+500,0604cd3138,semua relasi,4,1.0
+483,48ce32e8ec,"saya ingin tau sistemnya, datanya apa saja, isinya apa saja dan apa hubungannya",2,1.0
+457,353767b239,hal yang ingin saya ketahui tentang topik ini pengertian dan tujuan logical data model,1,1.0
+454,48f89b6306,yang pasti saya ingin tahu bagaimana cara kerjanya,5,1.0
+469,c6bd343ae0,pengen tau lebih dalam perbedaan tentang komponen erd chen???s notation dan crows foot notation,0,1.0
+496,35bbce4007,saya ingin mengetahui lebih lanjut mengenai logical data model,1,1.0
+488,a77b6cbdf6,"mengetahui apa itu data model, jenis-jenisnya, dan komponennya",3,1.0
+459,42f0bec331,"yang saya ingin tahu pembahasan secara detail teknis fisik seperti tipe data, indek, dan penyimpanan server",5,1.0
+453,d83c7ee736,??? jenis bisnis atau industri di mana ldm dibuat ??? apakah ldm dibuat setelah model konseptual atau secara langsung,6,1.0
+456,b3a8e0e1f9,"saya ingin mengerti bukan hanya teori saja, namun juga dalam praktiknya/prosesnya, dan bagaimana agar modelnya rapih, efisien, dan mudah digunakan saat mulai masuk ke tahap database.",0,1.0
+498,f138665c5a,logifal data model logical dalam data,1,1.0
+478,200dd69b70,definisi dan tujuan tentang logical data model itu apa ? dan apa saja komponen logical data model ?,1,1.0
+499,db3defda18,yang ingin saya ketahui mungkin seperti fungsinya,5,1.0
+466,826e272853,saya ingin mengetahui tentang tahapan perancangan logical data model.,1,1.0
+480,ddfe0e8d46,struktur data secara mendalam agar mudah dipahami oleh pemangku kepentingan bisnis dan pengembang.,7,1.0
+506,a2075145d3,saya ingin mempelajari cara menentukan relasi antar tabel yang kompleks dan bagaimana cara menerapkan primary key serta foreign key yang tepat dalam logical data model,3,1.0
+447,c498f3fe97,"hal saya ingin ketahui tentang ldm adalah penerapannya dalam dunia nyata, difungsikan untuk apa, dan tentu saja yang utama adalah bagaimana cara membuat sebuah ldm itu menjadi sebuah infrastruktur yang dapat digunakan sebagai model terstruktur",6,1.0
+490,cbd02d97b0,saya ingin mengetahui lebih dalam tentang logical data model,1,1.0
+475,b1585fdb27,"??? entitas, objek yang datanya disimpan ??? atribut, informasi dari entitas ??? primary key, kunci utama sebagai identitas data ??? relasi, hubungan antar entitas",3,1.0
+465,ad3b835752,"entitas, relasi, kardinalitas, dan atribut & key",3,1.0
+493,560aa3e6e9,"saya ingin memahami cara membuat logical data model dari studi kasus, menentukan primary key dan foreign key, serta bagaimana mengubah relasi many-to-many dan menerapkan normalisasi sampai 3nf.",3,1.0
+504,ba689abd93,tujuan dalam perancangan database,0,1.0
+464,88b54564b2,saya ingin mengetahui lebih dalam bagaimana cara mengubah conceptual data model menjadi logical data model dengan benar,1,1.0
+509,a05198938c,jaringan internet,4,1.0
+501,1158e7e12c,gimana hubungan antar data?,2,1.0
+507,a435270b90,bagaimana cara agar melihat diagram kebutuhan data pada sebuah bisnis tanpa atau dengan melihat dbms?,7,1.0
+504,ba689abd93,tujuan dalam perancangan database,0,1.0
+497,dcb5d6e69e,"apa itu relasi one-to-me, one-to-many, dan many-to-many?",3,1.0
+511,2c69bc9b34,"data disusun dan saling berhubungan secara terstruktur, tetapi belum masuk ke tahap implementasi teknis.",7,1.0
+473,3a8f6d79cd,ingin tahu logical data model,1,1.0
+495,ac1270c505,yang saya ingin lebih ketahui tentang logical data model yaitu hal yang ingin lebih mendalam tentang materi yang disampaikan,1,1.0
+508,ecac903ea6,logica data model adalah jembatan krusial antara konseptual bisnis dan implementasi teknis basis data,1,1.0
+481,51d089cdaf,saya ingin mengetahui hal yang lebih mendalam tentang materi ini,5,1.0
+510,5e5c743a01,semuanya mau mungkin,4,1.0

@@ -1,0 +1,167 @@
+[
+    {
+        "cluster_id": 0,
+        "topic_label": "Pengertian dan Dasar Ekosistem Hadoop",
+        "representative_question": "Apa yang dimaksud dengan ekosistem Hadoop, serta bagaimana fungsi, tujuan, dan mekanisme kerja dasarnya dalam mengolah data?",
+        "is_noise": false,
+        "confidence": 0.95,
+        "reasoning": "Pertanyaan dalam cluster ini berfokus pada definisi fundamental, kegunaan, dan cara kerja umum dari ekosistem Hadoop.",
+        "cluster_size": 60,
+        "representative_texts": [
+            "mengetahui mengenai apa itu ekosistem hadoop",
+            "ingin mengetahui apa itu ekosistem hadoop, fungsi, cara kerja, dan penerapannya",
+            "apa itu ekosistem hadoop dan cara penggunaanya",
+            "tentang apa itu ekosistem hadoop dan bagaimana ekosistem ini bekerja",
+            "saya ingin mengetahui pengertiannya, kegunaanya, tujuannya, cara kerjanya, dan lain-lain terkait ekosistem hadoop"
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "topic_label": "Komponen dan Alat Pemrosesan Big Data",
+        "representative_question": "Apa saja tools dalam ekosistem Hadoop yang digunakan untuk menyimpan serta memproses big data, dan apa manfaat dari masing-masing komponen tersebut?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "Cluster ini secara spesifik menanyakan tentang alat-alat (tools) dan komponen penyusun Hadoop serta kegunaannya dalam konteks big data.",
+        "cluster_size": 2,
+        "representative_texts": [
+            "komponen, cara kerja, fungsi tiap tools, serta manfaatnya dalam pengolahan big data",
+            "tools atau ekosistem untuk menyimpan dan memproses big data"
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "topic_label": "Detail Teknis dan Implementasi Mendalam",
+        "representative_question": "Bagaimana rincian arsitektur ekosistem Hadoop secara lebih mendalam dan bagaimana langkah-langkah implementasi teknisnya di lapangan?",
+        "is_noise": false,
+        "confidence": 0.85,
+        "reasoning": "Mahasiswa ingin mengetahui lebih dari sekadar dasar, melainkan detail teknis dan cara mengimplementasikan ekosistem tersebut.",
+        "cluster_size": 2,
+        "representative_texts": [
+            "pengertian dan implementasinya dengan lebih dalam",
+            "detail2 ekosistem nya dan implementasinya"
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "topic_label": "Pernyataan Ketidaktahuan Peserta",
+        "representative_question": "Apa yang harus dilakukan jika saya belum memiliki pengetahuan atau pemahaman sama sekali mengenai materi yang sedang dibahas?",
+        "is_noise": true,
+        "confidence": 1.0,
+        "reasoning": "Pertanyaan-pertanyaan ini bukan merupakan topik akademik, melainkan ungkapan ketidaktahuan atau kurangnya informasi dari peserta.",
+        "cluster_size": 2,
+        "representative_texts": [
+            "saya tidak tahu",
+            "saya belum mengetahui"
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "topic_label": "Perbandingan Hadoop dengan Teknologi Lain",
+        "representative_question": "Apa kelebihan dan kekurangan Hadoop jika dibandingkan dengan framework lain seperti Spark atau database tradisional, dan mengapa kita harus menggunakannya untuk data besar?",
+        "is_noise": false,
+        "confidence": 0.95,
+        "reasoning": "Fokus utama cluster ini adalah evaluasi komparatif antara Hadoop dengan teknologi pengolahan data alternatif lainnya.",
+        "cluster_size": 3,
+        "representative_texts": [
+            "cara kerjanya seperti apa, apa kelebihan dan kekurangan dibanding software yang lain, kapan harus menggunakan hadoop dibanding software lain, kenapa harus hadoop dibanding software lain,",
+            "ingin mengetahui lebih lanjut apa itu hadoop, seperti apa cara penggunaannya dalam mengelola database, bagaimana cara kerja hadoop, kelebihan dan kekurangan hadoop dibandingkan dengan framework yang lain.",
+            "kenapa hadoop dibuat hanya untuk data besar saja bukan data biasa, apakah kelebihan hadoop di banding teknologi lain seperti spark, database biasa, cloud"
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "topic_label": "Arsitektur Komprehensif dan Alur Kerja",
+        "representative_question": "Dapatkah dijelaskan secara menyeluruh mengenai komponen utama seperti HDFS, MapReduce, dan YARN, serta bagaimana alur kerja proses data secara paralel dalam Hadoop?",
+        "is_noise": false,
+        "confidence": 0.95,
+        "reasoning": "Cluster ini berisi penjelasan panjang lebar mengenai komponen inti Hadoop, sejarahnya, dan alur kerja teknis di balik layarnya.",
+        "cluster_size": 3,
+        "representative_texts": [
+            "ekosistem hadoop itu kumpulan tools dan framework buat ngolah dan nyimpen big data secara terdistribusi (pakai banyak komputer dalam satu cluster). komponen utamanya ada hdfs buat penyimpanan data, mapreduce buat proses data, dan yarn buat ngatur resource. selain itu ada juga tools pendukung kayak hive (query mirip sql), pig, hbase (database nosql), sqoop, flume, dan spark. intinya, hadoop dipakai buat ngolah data dalam jumlah besar biar lebih cepat dan efisien.",
+            "ekosistem hadoop sebenarnya adalah sebuah strategi cerdas untuk mengelola data raksasa dengan cara memecah file besar ke dalam banyak komputer biasa melalui hdfs, lalu memprosesnya secara bersamaan menggunakan mapreduce agar tugas berat jadi terasa ringan. sistem ini tidak takut pada kerusakan hardware karena ia selalu menduplikasi data di beberapa tempat sekaligus, dan alih-alih memindahkan data yang sangat berat ke aplikasi, hadoop justru mengirimkan instruksi programnya langsung ke lokasi data tersebut berada demi efisiensi jaringan. dengan alat bantu seperti hive untuk query data atau spark untuk pemrosesan super cepat, kita jadi bisa mengubah tumpukan data mentah yang berantakan menjadi informasi yang berharga tanpa harus memiliki supercomputer yang mahal",
+            "hadoop dikembangkan oleh doug cutting dan mike cafarella terisnpirasi oleh google file system hdfs berperan sebagai tempat penyimpanan data, yarn pengatur tugas dan resource, mapreduce adalah mesin proses bersifat batch yang mengolah data secara paralel. alur kerja nya submit job > yarn alokasikan resource > baca data dari hdfs > map > shuffle/sort > reduce > simpan hasil ke hdfs. hadoop punya kelebihan biaya relatif rendah karena open-source dan bisa jalan di hardware komoditas, skalabilitas tinggi dengan menambah node untuk data sangat besar, tahan gagal, dan leksibel untuk data tersrtuktur dan tidak terstruktur. tetapi pemrosesannya cenderung lambat untuk kebutuhan real-time karena modelnya dominan batch, manajemen cluster cukup kompleks sehingga kurang cocok untuk aplikasi yang butuh respon instan meskipun tetap dapat digunakan."
+        ]
+    },
+    {
+        "cluster_id": 6,
+        "topic_label": "Integrasi Komponen dan Praktik Industri",
+        "representative_question": "Bagaimana cara kerja terintegrasi antar komponen Hadoop secara end-to-end dan apa saja praktik terbaik penggunaannya dalam lingkungan industri data saat ini?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "Pertanyaan menekankan pada integrasi antar berbagai alat (seperti Hive, Spark, HDFS) dan penerapan nyata di dunia profesional.",
+        "cluster_size": 11,
+        "representative_texts": [
+            "hal yang ingin saya ketahui tentang ekosistem hadoop adalah bagaimana cara kerjanya secara nyata di lapangan, fungsi masing-masing komponennya seperti hdfs, yarn, dan mapreduce, bagaimana tools seperti hive dan spark saling terhubung, serta apa saja kelebihan dan kekurangannya dalam mengelola big data.",
+            "yang saya ingin ketahui itu adalah bagaimana ekosistem hadoop bekerja secara end-to-end, mulai dari data ingestion, storage, hingga processing dan analytics. selain itu, saya juga tertarik memahami peran dari apache hadoop, seperti hdfs, yarn, dan mapreduce, serta bagaimana integrasinya dengan tools lain seperti hive atau spark.",
+            "hal yang ingin saya ketahui tentang ekosistem hadoop meliputi bagaimana cara kerja dasarnya dalam menyimpan dan memproses big data secara terdistribusi, khususnya peran hdfs sebagai sistem penyimpanan dan mapreduce sebagai mesin pemrosesan data. selain itu, saya juga ingin memahami fungsi masing-masing komponen seperti hive untuk query berbasis sql, pig untuk scripting, hbase sebagai database nosql, serta zookeeper dan oozie dalam mengatur koordinasi dan workflow. saya juga tertarik mengetahui bagaimana integrasi data dilakukan menggunakan sqoop, bagaimana monitoring cluster dilakukan dengan ambari, serta bagaimana penerapan hadoop di dunia industri dan perbandingannya dengan teknologi big data modern seperti spark.",
+            "hal yang ingin saya ketahui adalah bagaimana cara menggunakan tools hadoop ini sesuai dengan best practice-nya di industri data. saya juga ingin mengetahui apakah kelebihan dan kekurangan ekosistem hadoop dibandingkan dengan tools-tools lainnya.",
+            "hal yang ingin saya ketahui lebih dalam tentang ekosistem hadoop adalah bagaimana cara kerja antar komponennya secara terintegrasi, terutama hubungan antara hadoop distributed file system (hdfs), yarn, dan mapreduce dalam satu proses pengolahan data. selain itu, saya juga ingin memahami perbedaan penggunaan antara mapreduce dan apache spark, terutama dari segi performa dan efisiensi ketika menangani data dalam jumlah sangat besar."
+        ]
+    },
+    {
+        "cluster_id": 9,
+        "topic_label": "Mekanisme Kerja dan Aplikasi Nyata",
+        "representative_question": "Bagaimana konsep operasional Hadoop dalam mengelola data dan bagaimana cara menerapkannya secara praktis pada kasus-kasus di dunia nyata?",
+        "is_noise": false,
+        "confidence": 0.88,
+        "reasoning": "Mahasiswa menanyakan perpaduan antara pemahaman konsep cara kerja dan aplikasi praktis dari teknologi tersebut.",
+        "cluster_size": 5,
+        "representative_texts": [
+            "cara kerja dan memahami nya",
+            "ingin mengetahui, mengerti bagaimana cara kerja nya",
+            "saya ingin tahu cara kerja dan penerapannya dalam kasus yang nyata",
+            "bagaimana cara mereka bekerja",
+            "apa itu, bagaimana cara menggunakan, konsep / cara kerja"
+        ]
+    },
+    {
+        "cluster_id": 10,
+        "topic_label": "Arsitektur dan Keunggulan Sistem Hadoop",
+        "representative_question": "Apa saja keunggulan utama dari penggunaan arsitektur Hadoop dan bagaimana fungsi spesifik dari tools yang ada di dalamnya?",
+        "is_noise": false,
+        "confidence": 0.85,
+        "reasoning": "Fokus cluster ini adalah pada aspek arsitektural dan manfaat kompetitif yang ditawarkan oleh penggunaan Hadoop.",
+        "cluster_size": 2,
+        "representative_texts": [
+            "arsitektur, cara kerja, fungsi tools, dan keunggulan menggunakan hadoop",
+            "keunggulan dan fungsi hadoop itu sendiri"
+        ]
+    },
+    {
+        "cluster_id": 12,
+        "topic_label": "Daftar Alat dan Alur Kerja",
+        "representative_question": "Apa saja daftar alat tambahan yang mendukung ekosistem Hadoop dan bagaimana urutan workflow pengolahan datanya?",
+        "is_noise": false,
+        "confidence": 0.87,
+        "reasoning": "Cluster ini menitikberatkan pada identifikasi berbagai tools pendukung dan alur kerja (workflow) di antara tools tersebut.",
+        "cluster_size": 2,
+        "representative_texts": [
+            "tools nya apa saja dan fungsinya buat apa saja kemudian bagaimana workflow atau cara kerjanya",
+            "cara kerja dan tools-tools tambahan"
+        ]
+    },
+    {
+        "cluster_id": 14,
+        "topic_label": "Prosedur Penggunaan dan Operasional",
+        "representative_question": "Bagaimana prosedur dan langkah-langkah yang benar dalam mengoperasikan serta menggunakan ekosistem Hadoop untuk pengolahan data?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "Pertanyaan-pertanyaan di sini sangat singkat dan hanya berfokus pada aspek operasional atau cara menggunakan sistem tersebut.",
+        "cluster_size": 3,
+        "representative_texts": [
+            "cara penggunannya",
+            "cara penggunaannya yg baik dan benar",
+            "cara untuk mengoperasikannya"
+        ]
+    },
+    {
+        "cluster_id": -1,
+        "cluster_size": 20,
+        "topic_label": "Rare/Singular Topics",
+        "representative_question": "N/A (unassigned outlier questions)",
+        "is_noise": true,
+        "confidence": 1.0,
+        "reasoning": "Points not assigned to any cluster.",
+        "representative_texts": []
+    }
+]

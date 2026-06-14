@@ -1,0 +1,230 @@
+{
+    "algorithm": "kmeans",
+    "total_points": 71,
+    "n_clusters": 14,
+    "n_noise_points": 0,
+    "noise_ratio": 0.0,
+    "metrics": {
+        "silhouette_cosine": 0.2167,
+        "silhouette_cosine_std": 0.2826,
+        "silhouette_euclidean": 0.1442,
+        "silhouette_euclidean_std": 0.266,
+        "davies_bouldin_index": 1.947,
+        "calinski_harabasz_index": 3.6507,
+        "dbcv_score": "N/A (K-Means)"
+    },
+    "original_space_metrics": {
+        "silhouette_score": 0.1466,
+        "davies_bouldin_score": 2.0793,
+        "calinski_harabasz_score": 3.1828,
+        "dbcv_score": null
+    },
+    "dimensionality_reduction": {
+        "method": "PCA",
+        "details": {
+            "variance_threshold": 0.9,
+            "n_components_selected": 38,
+            "n_components_total": 4096,
+            "cumulative_variance_captured": 0.9052,
+            "top_10_explained_variance": [
+                0.094163,
+                0.091217,
+                0.072518,
+                0.057035,
+                0.04484,
+                0.04188,
+                0.036106,
+                0.032692,
+                0.029989,
+                0.027337
+            ]
+        }
+    },
+    "cluster_statistics": {
+        "size_distribution": {
+            "mean_cluster_size": 5.07,
+            "median_cluster_size": 5.0,
+            "std_cluster_size": 1.75,
+            "min_cluster_size": 2,
+            "max_cluster_size": 9,
+            "size_imbalance_ratio": 4.5
+        },
+        "per_cluster": [
+            {
+                "cluster_id": 0,
+                "size": 9,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 1,
+                "size": 4,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 2,
+                "size": 6,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 3,
+                "size": 5,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 4,
+                "size": 8,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 5,
+                "size": 5,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 6,
+                "size": 4,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 7,
+                "size": 6,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 8,
+                "size": 4,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 9,
+                "size": 5,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 10,
+                "size": 5,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 11,
+                "size": 3,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 12,
+                "size": 2,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            },
+            {
+                "cluster_id": 13,
+                "size": 5,
+                "is_noise": "False",
+                "prob_mean": 1.0,
+                "prob_std": 0.0,
+                "prob_min": 1.0,
+                "prob_max": 1.0
+            }
+        ]
+    },
+    "run_config_summary": {
+        "algorithm": "kmeans",
+        "model": "qwen/qwen3-embedding-8b",
+        "infra": "openrouter",
+        "dim_components": 10,
+        "min_cluster_size": "auto",
+        "min_samples": "auto",
+        "k": "auto",
+        "embeddings_file": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data\\embeddings\\embeddings_21_qwen-qwen3-embedding-8b_20260409.parquet"
+    },
+    "raw_pipeline_metrics": {
+        "n_clusters": 14,
+        "n_noise_before_reassignment": 0,
+        "n_reassigned": 0,
+        "n_remaining_outliers": 0,
+        "noise_ratio": 0.0,
+        "params_used": {
+            "k": 14
+        },
+        "auto_tuned": true,
+        "silhouette_score": 0.2167,
+        "davies_bouldin_score": 1.8977,
+        "calinski_harabasz_score": 3.8445,
+        "dbcv_score": null,
+        "original_space_metrics": {
+            "silhouette_score": 0.1466,
+            "davies_bouldin_score": 2.0793,
+            "calinski_harabasz_score": 3.1828,
+            "dbcv_score": null
+        },
+        "pca_tuning_log": {
+            "variance_threshold": 0.9,
+            "n_components_selected": 38,
+            "n_components_total": 4096,
+            "cumulative_variance_captured": 0.9052,
+            "top_10_explained_variance": [
+                0.094163,
+                0.091217,
+                0.072518,
+                0.057035,
+                0.04484,
+                0.04188,
+                0.036106,
+                0.032692,
+                0.029989,
+                0.027337
+            ]
+        }
+    }
+}

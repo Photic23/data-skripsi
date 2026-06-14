@@ -1,0 +1,62 @@
+{
+    "best_k": 6,
+    "best_silhouette": 0.1687,
+    "all_results": [
+        {
+            "k": 6,
+            "silhouette_score": 0.1687
+        },
+        {
+            "k": 7,
+            "silhouette_score": 0.1643
+        },
+        {
+            "k": 8,
+            "silhouette_score": 0.1452
+        },
+        {
+            "k": 9,
+            "silhouette_score": 0.1493
+        },
+        {
+            "k": 10,
+            "silhouette_score": 0.1442
+        },
+        {
+            "k": 11,
+            "silhouette_score": 0.1186
+        },
+        {
+            "k": 12,
+            "silhouette_score": 0.1096
+        },
+        {
+            "k": 13,
+            "silhouette_score": 0.1095
+        },
+        {
+            "k": 14,
+            "silhouette_score": 0.1087
+        },
+        {
+            "k": 15,
+            "silhouette_score": 0.1191
+        },
+        {
+            "k": 16,
+            "silhouette_score": 0.1181
+        },
+        {
+            "k": 17,
+            "silhouette_score": 0.1103
+        },
+        {
+            "k": 18,
+            "silhouette_score": 0.1073
+        },
+        {
+            "k": 20,
+            "silhouette_score": 0.1177
+        }
+    ]
+}

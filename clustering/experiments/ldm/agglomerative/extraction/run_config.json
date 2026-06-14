@@ -1,0 +1,27 @@
+{
+  "run_id": "20260409_203516",
+  "input_basename": "23",
+  "input_csv": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data/raw/split_wtk_csvs/23.csv",
+  "cleaned_csv": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data\\cleaned_23_20260409.csv",
+  "embeddings_parquet": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data\\embeddings\\embeddings_23_qwen-qwen3-embedding-8b_20260409.parquet",
+  "infra": "openrouter",
+  "model": "qwen/qwen3-embedding-8b",
+  "text_column": "Cleaned_Content",
+  "clustering_algo": "agglomerative",
+  "clustering_percentile": 30.0,
+  "clustering_linkage": "average",
+  "clustering_unique_insights": true,
+  "extraction_model": "gemini-3-flash-preview",
+  "skip_steps": [
+    "preprocess",
+    "embed"
+  ],
+  "step_saved_at": "extraction",
+  "effective_params": {
+    "distance_threshold": 0.4406,
+    "metric": "cosine",
+    "linkage": "average",
+    "enable_unique_insights": true,
+    "dimensionality_reduction": "none (full 4096D embedding space)"
+  }
+}

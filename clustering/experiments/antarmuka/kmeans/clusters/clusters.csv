@@ -1,0 +1,72 @@
+UserID,Anonymized_User_ID,Cleaned_Content,Cluster_Label,Cluster_Prob
+69,c75cb66ae2,ingin mengetahui bagaimana antarmuka dapat bekerja secara efektif,4,1.0
+64,a68b412c42,saya ingin mengetahui bagaimana interface berperan penting dalam menarik minat user untuk menggunakan aplikasi,11,1.0
+101,16dc368a89,gimana caranya membuat sistem antarmuka yang baik? :o,0,1.0
+258,a30f4ef421,bagaimana mendesain interface yang mudahdan nyaman digunakan?,0,1.0
+172,68519a9eca,mau tau sebenernya antarmuka itu apa? mau tau gimana bisa implement antarmuka yg baik,8,1.0
+63,da4ea2a550,aturan apa saja yang perlu diperhatikan ketika merancang antarmuka. adakah teknik atau framework tertentu untuk membuat antarmuka,4,1.0
+153,620c9c3321,bagaimana cara merancang antarmuka yang intuitif? bagaimana ilmu yang dipelajari di pekan sebelumnya bisa membantu merancang antarmuka yang ramah pengguna?,13,1.0
+304,d874e4e4a5,pengertian dan karakteristik dari antarmuka itu sendiri karena jujur saya belum terlalu tau,8,1.0
+67,49d180ecf5,i want to know what an interface is,8,1.0
+177,8cd2510271,saya ingin mengetahui filosofi dan psikologi antarmuka yg berinteraksi langsung dengan user,2,1.0
+301,c3ea99f86b,saya ingin mengetahui tentang bagaimana antar muka ada di sistem interaksi,2,1.0
+75,f369cb89fc,bagaimana membuat antarmuka yang baik?,4,1.0
+252,d6e5a20b30,apakah antarmuka hanya tentang desain yang bagus dan efektif atau ada hal yang lebih mendalam terkait antarmuka ini,5,1.0
+101,16dc368a89,gimana caranya membuat sistem antarmuka yang baik? :o,0,1.0
+62,81b8a03f97,how do you design a good interface? what makes it good?,0,1.0
+140,dbae772db2,saya ingin mengetahui apa saja komponen-komponen upendukung antarmuka sehingga dapat menjadi cara pengguna berinteraksi dengan suatu sistem atau perangkat,2,1.0
+203,4621c1d55f,saya ingin tahu bagaimana antarmuka dibentuk dengan baik dan sesuai dengan kriteria,4,1.0
+125,0f8ef3377b,"hal yg ingin saya ketahui tentang antarmuka adalah bagaimana membuat sebuah antarmuka yang baik, apakah ada sebuah standar yg dipakai untuk membuat antarmuka atau sebuah antarmuka harus dibuat berdasarkan preferensi dari target penggunanya.",4,1.0
+159,ff2ccb6ba4,"yang ingin saya ketahui mengenai antarmuka/interface adalah aturan dalam desain antarmuka, user-experience atau cara meningkatkan pengalaman pengguna dalam menggunaka aplikasi, usability suatu fitur, bentuk-bentuk interface.",1,1.0
+131,eeca91fd43,"contoh interface dalam kehidupan sehari-hari, seberapa penting interface, dan dalam dunia software engineer apa itu interface yang bagus",12,1.0
+266,ea5b27556f,saya ingin tau antarmuka itu secara technical definisi nya bagaimana,8,1.0
+84,44c8031cb0,saya ingin mengetahui komposisi yang baik ketika membuat sebuah interface tuh speerti apa karena akan banyak sekali komponen yang diperlukan tapi tentinya perlu dipikirkan nilai estetikanya dll,5,1.0
+297,4c15f47afe,apa yang menjadi pembeda antarmuka dengan desain interaksi??,3,1.0
+168,80c3cd40fa,bagaimana antarmuka memediasi interaksi antara mental model pengguna dengan system model? bagaimana cara mendesain antarmuka yang usable dan nyaman?,13,1.0
+74,eb624dbe56,hal yang ingin saya ketahui tentang antarmuka pada sesi kali ini adalah bagaimana mebuat antarmuka yang baik dan juga apa pentingnya antar muka yang baik bagi pengguna ataupun developer,9,1.0
+300,983bd614bb,saya ingin mengetahui lebih dalam mengenai seberapa penting aspek antar muka dalam desain interaksi,2,1.0
+198,a4e00d7e6a,cara membuat desain antarmuka yang bagus,0,1.0
+146,0a5b046d07,bagaimana cara membuat antarmuka yang intuitif bagi pengguna tapi tetap mengedepankan fungsi,5,1.0
+73,96061e92f5,saya ingin mengetahui mengenai bagaimana mendesain sebuah antarmuka yang baik bagi pengguna sesuai dengan konteks dan situasi yang ada pada dunia nyata ini,0,1.0
+155,210e3b160c,"cara mendesain interface yang effective, cara menentukan interface yang bagaimana yang cocok diterapkan untuk suatu aplikasi/program tertentu, bagaimana cara membuat interface yang tepat dan tidak boros, klasifikasi interface yang baik dan buruk.",0,1.0
+70,ff5a1ae012,tipe-tipe antarmuka serta implementasinya dalam sistem interaksi yang baik untuk user.,2,1.0
+264,bba58959c3,bagaimana antarmuka yang baik,0,1.0
+150,9ae2bdd7be,saya ingin tahu seberapa penting interface dan juga interface dalam sehari-hari saya contohnya apa dan bagaimana.,12,1.0
+71,7f2253d7e2,"saya ingin mengetahui lebih dalam tentang aspek saja yang perlu diperhatikan dalam pembuatan sebuah antarmuka. bagaimana kita bisa membuat antarmuka yang tidak hanya menarik dan indah di pandang, tetapi juga intuitif dan tetap fungsional sebagaimana mestinya.",5,1.0
+200,27badc983d,peran antarmula di ui/ux,6,1.0
+200,27badc983d,peran antarmula di ui/ux,6,1.0
+91,1da51b8d8f,mau tau lebih dalam apa yang sebelumnya tidak diketahui,7,1.0
+77,a88a7902cb,memahami bagaimana alur interaksi antara pengguna dan sistem. terutama dalam efisiensi dan juga pengalaman visual (estetik) pengguna,3,1.0
+65,108c995b95,hal-hal yang dapat dianggap sebagai bagian dari antarmuka. bagaimana cara kerjanya agar dapat dikatakan sebagai antarmuka dan membuat antarmuka yang dapat digunakan secara intuitif,10,1.0
+189,7045d16ae7,cara pandang manusia terhadap antarmuka,6,1.0
+215,d86580a57f,saya ingin lebih tahu bagaiamana antarmuka yang bagus agar penyamapaian informasi dapat terlaksana sesuai harapan. dan ada faktor apa saja di balik design antarmuka yang mempengaruhi hasil designnya,9,1.0
+316,7a20311cf7,saya ingin memahami antarmuka lebih mendalam yang dan bagaimana prinsip-prinsip atarmuka dapat berpengaruh terhadap pembuatan ataupun desain user interface dalam pengembangan web/aplikasi,11,1.0
+223,56f4da26ed,saya ingin mengetahui bagaimana antaruka dapat mempengaruhi cara interaksi manusia,2,1.0
+247,396f804443,"sejauh ini saya mengetahui apa itu antarmuka, namun saya tidak tau apa saja yang bisa mendukung supaya antarmuka bisa lebih enak dilihat oleh pengguna. maka dari itu, saya ingin mengetahui apa yang bisa mendukung antarmuka supaya lebih nyaman dilihat",5,1.0
+68,a21855da08,"yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",10,1.0
+68,a21855da08,"yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",10,1.0
+68,a21855da08,"yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",10,1.0
+68,a21855da08,"yang saya ketahui tentang antarmuka kurang lebih sama seperti definisi yang sudah saya berikan sebelumnya, antarmuka itu seperti gerbang interaksi antara perintah yang diberikan oleh user kepada suatu program yang dibungkus dalam software atau aplikasi.",10,1.0
+66,3ada92f28b,"saya ingin tahu bagaimana antarmuka yang bagus dan baik sehingga dapat diterima oleh pengguna serta bagaimana hubungan antarmuka dengan user experience,",9,1.0
+95,ad48ff9941,"aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",7,1.0
+72,8722616204,"saya ingin tau tentang kriteria, apa saja yang membuat sebuah antarmuka itu baik",4,1.0
+79,98a3ab7c34,hal-hal penting apa yang harus aku pahami agar bisa merancang antarmuka yang paling baik,4,1.0
+116,e5b861a6d8,"karena ini dapat dibilang salah satu materi inti dari pembelajaran sister, yaitu tentang ui/ux, saya ingin mengetahui lebih dalam apasih urgensi dari ui/ux dalam mengembangkan suatu aplikasi.",3,1.0
+298,76ebdb6d45,"bagaimana cara mendesain user interface sendiri, sesuai dengan kebutuhan dan kenyamanan pengguna dalam berbagai kasus. mengetahui perbedaan desain-desain untuk setiap jenis servicesnya",13,1.0
+169,f57e5cb1f4,"hal yang ingin saya ketahui tentang antarmuka adalah saya ingin mengetahui bagaimana antarmuka bisa memberikan efek ""wow"" yang melampaui sekadar usability standard, saya juga penasaran bagaimana penerpa beberpa teori saat dihadapkan pada antarmuka masa depan, selain itu, saya ingin mengetahui batasan batasan teknis dan etika dalam merancang interface/antarmuka agar tetap selaras antara fungsi dan nilai moral masyarakat.",1,1.0
+95,ad48ff9941,"aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",7,1.0
+95,ad48ff9941,"aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",7,1.0
+95,ad48ff9941,"aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",7,1.0
+95,ad48ff9941,"aku ingin tahu lebih mendalam untuk membuan antarmuka yang lebih familiar dan mudah digunakan oleh user. karena i',m very interested untuk mendalami mengenai ui/ux, pernah mengambil role ini beberapa kali, tapi masih tetap sangat penasaaran untuk bisa lebih advanced in this",7,1.0
+82,a46e37632f,"saya ingin mengetahui bagaimana antarmuka dirancang agar mudah digunakan, apa saja prinsip-prinsip dasar dalam membuat antarmuka yang baik, bagaimana cara menguji apakah antarmuka sudah efektif atau belum, serta bagaimana peran antarmuka dalam meningkatkan pengalaman dan kenyamanan pengguna saat menggunakan suatu sistem.",1,1.0
+220,36790ecd55,saya ingin tahu bagaimana ui mempengaruhi user dalam menggunakan aplikasi,11,1.0
+208,8df66f64b5,yang ingin saya ketahui adalah mengenai ui ux serta bentuk bentuk antarmuka yang ada,3,1.0
+81,5316ca1c5d,"dari slides yang saya baca, saya ingin mengetahui apakah desain antarmuka memungkinkan pengguna mencapai tujuannya secara efektif (usability) serta memberikan pengalaman yang menyenangkan dan memuaskan (user experience)",13,1.0
+241,749fc650ca,"cara membuat desain antarmuka yang efektif, efisien dan best practice di dunia modern.",0,1.0
+288,23c657f2ef,apa fungsi dari ui,6,1.0
+310,226f76b55a,"saya ingin mengetahui bagaimana antarmuka dapat mempengaruhi user, dan cara membuat antarmuka yang baik dan memenuhi kebutuhan user.",9,1.0
+310,226f76b55a,"saya ingin mengetahui bagaimana antarmuka dapat mempengaruhi user, dan cara membuat antarmuka yang baik dan memenuhi kebutuhan user.",9,1.0
+80,48449a14a4,"hal yang ingin saya ketahui tentang topik antarmuka adalah pengertian dasar antarmuka dan mengapa antarmuka sangat penting dalam suatu sistem. saya juga ingin memahami berbagai jenis antarmuka seperti gui, cli, dan api serta perbedaan fungsi masing-masing. selain itu, saya tertarik untuk mempelajari bagaimana merancang antarmuka yang baik agar mudah digunakan, jelas, dan tidak membingungkan bagi pengguna. saya juga ingin mengetahui bagaimana antarmuka dapat memengaruhi pengalaman pengguna dan keberhasilan suatu sistem secara keseluruhan.",1,1.0
+85,b4944c6ff0,"kira-kira aku pengen tahu gimana cara bikin desain yang bener-bener nyambung sama model mental pengguna supaya nggak terjadi usability gap. aku juga penasaran gimana cara ngatur beban kognitif lewat prinsip desain kayak konsistensi dan visibilitas, biar antarmukanya nggak cuma bagus dilihat tapi juga gampang dipake buat tugas-tugas yang ribet.",13,1.0
+58,6208ef0f77,"kalo dalam desain ui/ux aku mau tau tentang yang berfokus pada estetika visual, interaksi, dan tata letak elemen (tombol, tipografi, warna) trs gimana untuk menciptakan tampilan produk digital yang menarik, konsisten, dan intuitif.",3,1.0
+267,8acc23987b,saya ingin mengetahui desain yang baik dan benar.,4,1.0

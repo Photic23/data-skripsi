@@ -1,0 +1,795 @@
+{
+    "per_cluster": [
+        {
+            "cluster_id": 0,
+            "cluster_size": 60,
+            "topic_label": "Pengertian dan Dasar Ekosistem Hadoop",
+            "representative_question": "Apa yang dimaksud dengan ekosistem Hadoop, serta bagaimana fungsi, tujuan, dan mekanisme kerja dasarnya dalam mengolah data?",
+            "is_noise": false,
+            "coherence_score": 4.33,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                4,
+                5,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "The questions are highly related to basic knowledge of Hadoop, though some specific sub-components like HDFS are mentioned, which is expected in a foundational cluster.",
+                "claude": "Perfect coherence as all 8 questions unmistakably seek foundational understanding of Hadoop ecosystem. The label accurately reflects this basic educational intent.",
+                "glm": "Strong thematic coherence around foundational Hadoop ecosystem knowledge with minor angle variations (some focus on HDFS specifically, others on general introduction). Label perfectly captures the core intent."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Introductory concepts focusing on definitions, basic usage, and the setup of the Hadoop ecosystem.",
+                        "outlier_check": "Question 3 (HDFS) is slightly more specific but falls under core mechanisms; others are consistent.",
+                        "label_assessment": "The label accurately covers the introductory ('Pengertian') and foundational ('Dasar') nature of the queries."
+                    },
+                    "rationale": "The questions are highly related to basic knowledge of Hadoop, though some specific sub-components like HDFS are mentioned, which is expected in a foundational cluster.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "All questions ask about understanding the Hadoop ecosystem fundamentals, including its definition, usage, setup, and basic operational mechanisms.",
+                        "outlier_check": "No significant outliers detected. Questions use varied vocabulary ('pengenalan', 'makna', 'cara kerja', 'deskripsi rinci', 'penerapan praktis') but all converge on the same intent: learning what Hadoop ecosystem is and how to use it.",
+                        "label_assessment": "The label 'Pengertian dan Dasar Ekosistem Hadoop' (Understanding and Basics of Hadoop Ecosystem) perfectly captures the cluster's focus on foundational knowledge and basic operational understanding."
+                    },
+                    "rationale": "Perfect coherence as all 8 questions unmistakably seek foundational understanding of Hadoop ecosystem. The label accurately reflects this basic educational intent.",
+                    "model": "claude-sonnet-4-6"
+                },
+                "glm": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Questions seek foundational understanding of the Hadoop ecosystem—what it is, how it works, and how to use it at a basic level.",
+                        "outlier_check": "Question 3 ('bagaimana cara kerja hdfs') is slightly more specific but still semantically aligned with understanding the ecosystem. All questions relate to basic/introductory knowledge.",
+                        "label_assessment": "The label 'Pengertian dan Dasar Ekosistem Hadoop' accurately captures the introductory and foundational nature of these questions."
+                    },
+                    "rationale": "Strong thematic coherence around foundational Hadoop ecosystem knowledge with minor angle variations (some focus on HDFS specifically, others on general introduction). Label perfectly captures the core intent.",
+                    "model": "glm-5"
+                }
+            },
+            "extraction_confidence": 0.95
+        },
+        {
+            "cluster_id": 1,
+            "cluster_size": 2,
+            "topic_label": "Komponen dan Alat Pemrosesan Big Data",
+            "representative_question": "Apa saja tools dalam ekosistem Hadoop yang digunakan untuk menyimpan serta memproses big data, dan apa manfaat dari masing-masing komponen tersebut?",
+            "is_noise": false,
+            "coherence_score": 5.0,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "Both questions specifically target the 'tools' and 'benefits' aspect of the ecosystem with high internal consistency.",
+                "claude": "Excellent coherence with both questions asking the exact same thing about tools/components for big data storage and processing. Label is perfectly accurate.",
+                "glm": "Perfect coherence with only two questions asking essentially the same thing. Label is precise and accurate."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Identification and functional benefits of specific tools within the big data processing ecosystem.",
+                        "outlier_check": "No outliers; both questions ask for tools, components, and their benefits.",
+                        "label_assessment": "The label perfectly mirrors the content regarding tools and processing components."
+                    },
+                    "rationale": "Both questions specifically target the 'tools' and 'benefits' aspect of the ecosystem with high internal consistency.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Both questions specifically ask about the tools/components within Hadoop ecosystem for storing and processing big data, along with their functions and benefits.",
+                        "outlier_check": "No outliers. Both questions are semantically identical, asking for enumeration of tools and their purposes in big data processing.",
+                        "label_assessment": "The label 'Komponen dan Alat Pemrosesan Big Data' (Components and Big Data Processing Tools) precisely matches the cluster's focus on identifying and understanding specific tools."
+                    },
+                    "rationale": "Excellent coherence with both questions asking the exact same thing about tools/components for big data storage and processing. Label is perfectly accurate.",
+                    "model": "claude-sonnet-4-6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Both questions ask about tools/components for storing and processing big data, including their functions and benefits.",
+                        "outlier_check": "No outliers present—both questions are nearly identical in intent.",
+                        "label_assessment": "The label accurately describes the focus on components and tools for big data processing."
+                    },
+                    "rationale": "Perfect coherence with only two questions asking essentially the same thing. Label is precise and accurate.",
+                    "model": "glm-5"
+                }
+            },
+            "extraction_confidence": 0.9
+        },
+        {
+            "cluster_id": 2,
+            "cluster_size": 2,
+            "topic_label": "Detail Teknis dan Implementasi Mendalam",
+            "representative_question": "Bagaimana rincian arsitektur ekosistem Hadoop secara lebih mendalam dan bagaimana langkah-langkah implementasi teknisnya di lapangan?",
+            "is_noise": false,
+            "coherence_score": 5.0,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "The questions are almost identical in their intent to move beyond surface-level knowledge into deeper implementation.",
+                "claude": "Perfect coherence as both questions explicitly request deeper technical details and implementation specifics. Label accurately reflects this advanced learning intent.",
+                "glm": "Perfect coherence with both questions seeking the same deeper technical and implementation details. Label is exact."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Focus on deep-dive technical details and the actual field implementation of the ecosystem.",
+                        "outlier_check": "No outliers; both questions use the keywords 'dalam' (deep) and 'implementasi'.",
+                        "label_assessment": "The label accurately reflects the 'deep' and 'implementation' focus."
+                    },
+                    "rationale": "The questions are almost identical in their intent to move beyond surface-level knowledge into deeper implementation.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Both questions request deeper, more detailed understanding of Hadoop ecosystem architecture and its practical implementation.",
+                        "outlier_check": "No outliers. Both use phrases like 'lebih dalam' (more deeply) and 'detail' to indicate desire for advanced technical depth beyond basics.",
+                        "label_assessment": "The label 'Detail Teknis dan Implementasi Mendalam' (Technical Details and Deep Implementation) accurately captures the advanced, in-depth nature of these queries."
+                    },
+                    "rationale": "Perfect coherence as both questions explicitly request deeper technical details and implementation specifics. Label accurately reflects this advanced learning intent.",
+                    "model": "claude-sonnet-4-6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Both questions request deeper technical details and implementation specifics beyond surface-level understanding.",
+                        "outlier_check": "No outliers—both questions are semantically identical in seeking in-depth technical knowledge.",
+                        "label_assessment": "The label 'Detail Teknis dan Implementasi Mendalam' perfectly captures the intent for deeper technical understanding."
+                    },
+                    "rationale": "Perfect coherence with both questions seeking the same deeper technical and implementation details. Label is exact.",
+                    "model": "glm-5"
+                }
+            },
+            "extraction_confidence": 0.85
+        },
+        {
+            "cluster_id": 3,
+            "cluster_size": 2,
+            "topic_label": "Pernyataan Ketidaktahuan Peserta",
+            "representative_question": "Apa yang harus dilakukan jika saya belum memiliki pengetahuan atau pemahaman sama sekali mengenai materi yang sedang dibahas?",
+            "is_noise": true,
+            "coherence_score": 4.0,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                2,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "The cluster correctly groups non-informative/vague expressions of not knowing the material.",
+                "claude": "Poor coherence score because these are not real questions but noise responses. However, the label accurately identifies them as statements of not knowing. This cluster should ideally be filtered out as data quality issue.",
+                "glm": "Perfect coherence—both are statements of ignorance with identical intent. Label precisely captures the nature of these responses."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Users expressing a lack of prior knowledge or total ignorance of the topic.",
+                        "outlier_check": "No outliers; both are classic 'I don't know' responses.",
+                        "label_assessment": "The label correctly categorizes these as expressions of ketidaktahuan (ignorance)."
+                    },
+                    "rationale": "The cluster correctly groups non-informative/vague expressions of not knowing the material.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Both questions are non-substantive responses indicating lack of knowledge rather than actual questions about Hadoop.",
+                        "outlier_check": "These are vague, generic statements ('saya tidak tahu', 'saya belum mengetahui') that provide no topical content. They represent noise in the dataset.",
+                        "label_assessment": "The label 'Pernyataan Ketidaktahuan Peserta' (Participant Statements of Not Knowing) is accurate but this cluster represents poor data quality rather than a legitimate topic."
+                    },
+                    "rationale": "Poor coherence score because these are not real questions but noise responses. However, the label accurately identifies them as statements of not knowing. This cluster should ideally be filtered out as data quality issue.",
+                    "model": "claude-sonnet-4-6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Both entries are explicit statements of ignorance, expressing that the respondent has no prior knowledge.",
+                        "outlier_check": "No outliers—both are identical in expressing lack of knowledge.",
+                        "label_assessment": "The label 'Pernyataan Ketidaktahuan Peserta' accurately describes these as statements of not knowing."
+                    },
+                    "rationale": "Perfect coherence—both are statements of ignorance with identical intent. Label precisely captures the nature of these responses.",
+                    "model": "glm-5"
+                }
+            },
+            "extraction_confidence": 1.0
+        },
+        {
+            "cluster_id": 4,
+            "cluster_size": 3,
+            "topic_label": "Perbandingan Hadoop dengan Teknologi Lain",
+            "representative_question": "Apa kelebihan dan kekurangan Hadoop jika dibandingkan dengan framework lain seperti Spark atau database tradisional, dan mengapa kita harus menggunakannya untuk data besar?",
+            "is_noise": false,
+            "coherence_score": 4.67,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "The questions specifically seek to understand Hadoop's value proposition relative to other existing technologies.",
+                "claude": "Excellent coherence with all questions seeking comparative analysis of Hadoop versus other technologies. Label is perfectly accurate and concise.",
+                "glm": "Strong coherence around Hadoop comparison with other technologies, with minor variations in scope (some include usage questions). Label accurately reflects the primary comparative theme."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Comparative analysis between Hadoop and other data technologies (Spark, RDBMS, Cloud).",
+                        "outlier_check": "No outliers; all three explicitly ask for comparisons or pros/cons against other software.",
+                        "label_assessment": "The label accurately captures the comparative intent (Perbandingan)."
+                    },
+                    "rationale": "The questions specifically seek to understand Hadoop's value proposition relative to other existing technologies.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "All three questions ask about comparing Hadoop with other technologies, focusing on advantages, disadvantages, and when to choose Hadoop over alternatives.",
+                        "outlier_check": "No outliers. All questions explicitly request comparative analysis between Hadoop and other frameworks/technologies (Spark, traditional databases, cloud).",
+                        "label_assessment": "The label 'Perbandingan Hadoop dengan Teknologi Lain' (Comparison of Hadoop with Other Technologies) perfectly captures the comparative analysis intent."
+                    },
+                    "rationale": "Excellent coherence with all questions seeking comparative analysis of Hadoop versus other technologies. Label is perfectly accurate and concise.",
+                    "model": "claude-sonnet-4-6"
+                },
+                "glm": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "All three questions focus on comparing Hadoop with other technologies (Spark, databases, other frameworks) and understanding its advantages/disadvantages.",
+                        "outlier_check": "No outliers—all questions center on comparison and competitive positioning of Hadoop.",
+                        "label_assessment": "The label accurately captures the comparative focus, though questions also include broader elements like usage and working mechanisms."
+                    },
+                    "rationale": "Strong coherence around Hadoop comparison with other technologies, with minor variations in scope (some include usage questions). Label accurately reflects the primary comparative theme.",
+                    "model": "glm-5"
+                }
+            },
+            "extraction_confidence": 0.95
+        },
+        {
+            "cluster_id": 5,
+            "cluster_size": 3,
+            "topic_label": "Arsitektur Komprehensif dan Alur Kerja",
+            "representative_question": "Dapatkah dijelaskan secara menyeluruh mengenai komponen utama seperti HDFS, MapReduce, dan YARN, serta bagaimana alur kerja proses data secara paralel dalam Hadoop?",
+            "is_noise": false,
+            "coherence_score": 4.67,
+            "label_accuracy_score": 4.67,
+            "coherence_scores_raw": [
+                5,
+                5,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                4
+            ],
+            "rationales": {
+                "gemini": "This cluster captures long-form, multi-component descriptions that provide a high-level overview of the whole architecture.",
+                "claude": "Perfect coherence as all questions address comprehensive architectural understanding including multiple components and their workflows. Label accurately captures this holistic scope.",
+                "glm": "High coherence as all entries are comprehensive architecture/workflow explanations. Label is accurate for content but these appear to be knowledge demonstrations rather than queries, which is unusual for a Q&A context."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Comprehensive, descriptive summaries or requests for the full workflow/architecture involving HDFS, MapReduce, and YARN.",
+                        "outlier_check": "No outliers; all samples are long-form explanations/summaries of the entire system.",
+                        "label_assessment": "The label 'Arsitektur Komprehensif' fits these broad, detailed explanatory texts."
+                    },
+                    "rationale": "This cluster captures long-form, multi-component descriptions that provide a high-level overview of the whole architecture.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "All three questions provide comprehensive explanations or ask about the complete architecture including HDFS, MapReduce, YARN, and parallel processing workflows.",
+                        "outlier_check": "No outliers. All three demonstrate deep understanding or request detailed architectural explanations covering multiple core components and their integration.",
+                        "label_assessment": "The label 'Arsitektur Komprehensif dan Alur Kerja' (Comprehensive Architecture and Workflow) accurately reflects the holistic, multi-component focus of these queries."
+                    },
+                    "rationale": "Perfect coherence as all questions address comprehensive architectural understanding including multiple components and their workflows. Label accurately captures this holistic scope.",
+                    "model": "claude-sonnet-4-6"
+                },
+                "glm": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "These are detailed explanatory paragraphs about Hadoop architecture, components (HDFS, MapReduce, YARN), workflow, and advantages—appearing to be knowledge demonstrations rather than questions.",
+                        "outlier_check": "No semantic outliers—all three are comprehensive explanations covering architecture and workflow.",
+                        "label_assessment": "The label 'Arsitektur Komprehensif dan Alur Kerja' accurately describes the content, though these appear to be explanations rather than questions."
+                    },
+                    "rationale": "High coherence as all entries are comprehensive architecture/workflow explanations. Label is accurate for content but these appear to be knowledge demonstrations rather than queries, which is unusual for a Q&A context.",
+                    "model": "glm-5"
+                }
+            },
+            "extraction_confidence": 0.95
+        },
+        {
+            "cluster_id": 6,
+            "cluster_size": 11,
+            "topic_label": "Integrasi Komponen dan Praktik Industri",
+            "representative_question": "Bagaimana cara kerja terintegrasi antar komponen Hadoop secara end-to-end dan apa saja praktik terbaik penggunaannya dalam lingkungan industri data saat ini?",
+            "is_noise": false,
+            "coherence_score": 4.67,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                4
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "High volume of questions all focusing on the professional application and the interconnectedness of Hadoop's parts.",
+                "claude": "Excellent coherence with all questions emphasizing integrated workflows, component interactions, and industry best practices. Label is highly accurate and specific.",
+                "glm": "Strong coherence with all questions seeking comprehensive understanding of integrated Hadoop operations and industry practices. Minor variations in specific components mentioned. Label is precise."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "End-to-end integration of components and their application within industry 'best practices'.",
+                        "outlier_check": "The samples are very consistent in mentioning real-world cases, industry roles, and integrated workflows.",
+                        "label_assessment": "The label correctly identifies the 'Integrasi' and 'Praktik Industri' themes."
+                    },
+                    "rationale": "High volume of questions all focusing on the professional application and the interconnectedness of Hadoop's parts.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "All questions focus on end-to-end integration of Hadoop components, best practices, industry applications, and how different tools work together in real-world scenarios.",
+                        "outlier_check": "No outliers. All 8 questions consistently emphasize integration ('terintegrasi', 'end-to-end', 'saling terhubung'), industry practices ('best practice', 'dunia nyata', 'industri'), and comprehensive understanding of component interactions.",
+                        "label_assessment": "The label 'Integrasi Komponen dan Praktik Industri' (Component Integration and Industry Practices) perfectly captures the focus on how components work together and real-world application."
+                    },
+                    "rationale": "Excellent coherence with all questions emphasizing integrated workflows, component interactions, and industry best practices. Label is highly accurate and specific.",
+                    "model": "claude-sonnet-4-6"
+                },
+                "glm": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "All questions seek comprehensive understanding of how Hadoop components work together (end-to-end, integration) and practical industry applications.",
+                        "outlier_check": "No outliers—all questions consistently ask about integrated component functioning and industry practices.",
+                        "label_assessment": "The label 'Integrasi Komponen dan Praktik Industri' perfectly captures the dual focus on component integration and industry application."
+                    },
+                    "rationale": "Strong coherence with all questions seeking comprehensive understanding of integrated Hadoop operations and industry practices. Minor variations in specific components mentioned. Label is precise.",
+                    "model": "glm-5"
+                }
+            },
+            "extraction_confidence": 0.9
+        },
+        {
+            "cluster_id": 9,
+            "cluster_size": 5,
+            "topic_label": "Mekanisme Kerja dan Aplikasi Nyata",
+            "representative_question": "Bagaimana konsep operasional Hadoop dalam mengelola data dan bagaimana cara menerapkannya secara praktis pada kasus-kasus di dunia nyata?",
+            "is_noise": false,
+            "coherence_score": 4.33,
+            "label_accuracy_score": 4.67,
+            "coherence_scores_raw": [
+                5,
+                3,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                4,
+                5
+            ],
+            "rationales": {
+                "gemini": "A very coherent group of questions asking for operational mechanics and real-world utility.",
+                "claude": "Moderate coherence due to several extremely vague questions that lack specificity. While all mention 'cara kerja', some are too generic to be meaningful. Label is mostly accurate but the cluster quality is compromised by vague inputs.",
+                "glm": "Perfect coherence—all questions ask essentially the same thing: how Hadoop works and how it applies in practice. Label is exact and concise."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "General mechanisms of operation and practical application in real-world scenarios.",
+                        "outlier_check": "No outliers; consistent focus on 'cara kerja' (how it works) and 'kasus nyata' (real cases).",
+                        "label_assessment": "The label matches the 'how-to' and 'practical application' nature of the questions."
+                    },
+                    "rationale": "A very coherent group of questions asking for operational mechanics and real-world utility.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 3,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "All questions ask about operational mechanisms ('cara kerja') and practical application in real-world cases.",
+                        "outlier_check": "Questions 1, 3, and 5 are extremely vague ('cara kerja dan memahami nya', 'bagaimana cara mereka bekerja') without specifying what aspect of Hadoop. These generic phrases could apply to any topic.",
+                        "label_assessment": "The label 'Mekanisme Kerja dan Aplikasi Nyata' (Working Mechanism and Real Applications) matches the intent but the cluster contains overly generic questions."
+                    },
+                    "rationale": "Moderate coherence due to several extremely vague questions that lack specificity. While all mention 'cara kerja', some are too generic to be meaningful. Label is mostly accurate but the cluster quality is compromised by vague inputs.",
+                    "model": "claude-sonnet-4-6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "All questions ask about how Hadoop works and its practical/real-world application.",
+                        "outlier_check": "No outliers—all questions are semantically identical in seeking understanding of working mechanism and practical application.",
+                        "label_assessment": "The label 'Mekanisme Kerja dan Aplikasi Nyata' accurately captures the dual focus on operational mechanism and real-world application."
+                    },
+                    "rationale": "Perfect coherence—all questions ask essentially the same thing: how Hadoop works and how it applies in practice. Label is exact and concise.",
+                    "model": "glm-5"
+                }
+            },
+            "extraction_confidence": 0.88
+        },
+        {
+            "cluster_id": 10,
+            "cluster_size": 2,
+            "topic_label": "Arsitektur dan Keunggulan Sistem Hadoop",
+            "representative_question": "Apa saja keunggulan utama dari penggunaan arsitektur Hadoop dan bagaimana fungsi spesifik dari tools yang ada di dalamnya?",
+            "is_noise": false,
+            "coherence_score": 5.0,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "While similar to Cluster 1, these specifically prioritize 'keunggulan' (advantages) and 'arsitektur'.",
+                "claude": "Perfect coherence with both questions asking about Hadoop's advantages and tool functions. Label accurately reflects this focus on benefits and architecture.",
+                "glm": "Perfect coherence with only two questions asking the same thing. Label precisely captures architecture and advantages focus."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "The strengths (keunggulan) and architectural functions of Hadoop.",
+                        "outlier_check": "No outliers; both emphasize advantages and functional roles.",
+                        "label_assessment": "The label correctly highlights architecture and advantages."
+                    },
+                    "rationale": "While similar to Cluster 1, these specifically prioritize 'keunggulan' (advantages) and 'arsitektur'.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Both questions ask about the advantages/strengths of Hadoop and the functions of its tools/architecture.",
+                        "outlier_check": "No outliers. Both questions focus on understanding Hadoop's benefits and tool functionalities.",
+                        "label_assessment": "The label 'Arsitektur dan Keunggulan Sistem Hadoop' (Architecture and Advantages of Hadoop System) accurately captures the dual focus on system strengths and architectural functions."
+                    },
+                    "rationale": "Perfect coherence with both questions asking about Hadoop's advantages and tool functions. Label accurately reflects this focus on benefits and architecture.",
+                    "model": "claude-sonnet-4-6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Both questions ask about Hadoop architecture, working mechanism, functions, and advantages.",
+                        "outlier_check": "No outliers—both questions are nearly identical in scope.",
+                        "label_assessment": "The label accurately captures the focus on architecture and system advantages."
+                    },
+                    "rationale": "Perfect coherence with only two questions asking the same thing. Label precisely captures architecture and advantages focus.",
+                    "model": "glm-5"
+                }
+            },
+            "extraction_confidence": 0.85
+        },
+        {
+            "cluster_id": 12,
+            "cluster_size": 2,
+            "topic_label": "Daftar Alat dan Alur Kerja",
+            "representative_question": "Apa saja daftar alat tambahan yang mendukung ekosistem Hadoop dan bagaimana urutan workflow pengolahan datanya?",
+            "is_noise": false,
+            "coherence_score": 5.0,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "The focus is clearly on the 'workflow' and the 'additional tools' (alat tambahan) beyond the core components.",
+                "claude": "Excellent coherence with both questions asking for tool lists and workflow understanding. Label is accurate and concise.",
+                "glm": "Perfect coherence with both questions asking about tools and their workflow. Label is precise."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Requests for a list of supplemental tools and the sequential workflow of data processing.",
+                        "outlier_check": "No outliers.",
+                        "label_assessment": "The label matches the list-based and procedural nature of the queries."
+                    },
+                    "rationale": "The focus is clearly on the 'workflow' and the 'additional tools' (alat tambahan) beyond the core components.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Both questions ask about the list of additional/supporting tools in Hadoop ecosystem and the workflow/operational sequence.",
+                        "outlier_check": "No outliers. Both questions explicitly request enumeration of tools and understanding of workflow processes.",
+                        "label_assessment": "The label 'Daftar Alat dan Alur Kerja' (List of Tools and Workflow) precisely matches the cluster's focus on tool enumeration and process flow."
+                    },
+                    "rationale": "Excellent coherence with both questions asking for tool lists and workflow understanding. Label is accurate and concise.",
+                    "model": "claude-sonnet-4-6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Both questions ask about the tools available in the Hadoop ecosystem and how they work together (workflow).",
+                        "outlier_check": "No outliers—both questions are semantically identical.",
+                        "label_assessment": "The label 'Daftar Alat dan Alur Kerja' accurately captures the focus on tools and workflow."
+                    },
+                    "rationale": "Perfect coherence with both questions asking about tools and their workflow. Label is precise.",
+                    "model": "glm-5"
+                }
+            },
+            "extraction_confidence": 0.87
+        },
+        {
+            "cluster_id": 14,
+            "cluster_size": 3,
+            "topic_label": "Prosedur Penggunaan dan Operasional",
+            "representative_question": "Bagaimana prosedur dan langkah-langkah yang benar dalam mengoperasikan serta menggunakan ekosistem Hadoop untuk pengolahan data?",
+            "is_noise": false,
+            "coherence_score": 5.0,
+            "label_accuracy_score": 5.0,
+            "coherence_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "label_accuracy_scores_raw": [
+                5,
+                5,
+                5
+            ],
+            "rationales": {
+                "gemini": "Very specific focus on the 'how-to-operate' aspect of Hadoop.",
+                "claude": "Perfect coherence with all questions asking about proper usage and operational procedures. Label accurately reflects this procedural focus.",
+                "glm": "Perfect coherence—all questions ask about proper usage/operation procedures. Label is exact and concise."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Operational procedures and the correct way to use/manage the system.",
+                        "outlier_check": "No outliers; all focus on 'cara penggunaan'.",
+                        "label_assessment": "Label captures the operational procedure theme well."
+                    },
+                    "rationale": "Very specific focus on the 'how-to-operate' aspect of Hadoop.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "All three questions ask about the proper procedures and steps for using/operating Hadoop ecosystem.",
+                        "outlier_check": "No outliers. All three focus on usage procedures, though phrased slightly differently ('cara penggunaan', 'cara mengoperasikan').",
+                        "label_assessment": "The label 'Prosedur Penggunaan dan Operasional' (Usage Procedures and Operations) accurately captures the focus on proper operational steps."
+                    },
+                    "rationale": "Perfect coherence with all questions asking about proper usage and operational procedures. Label accurately reflects this procedural focus.",
+                    "model": "claude-sonnet-4-6"
+                },
+                "glm": {
+                    "coherence_score": 5,
+                    "label_accuracy_score": 5,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "All three questions ask about how to use/operate Hadoop properly.",
+                        "outlier_check": "No outliers—all questions are identical in intent, asking about usage procedures.",
+                        "label_assessment": "The label 'Prosedur Penggunaan dan Operasional' accurately captures the procedural/operational focus."
+                    },
+                    "rationale": "Perfect coherence—all questions ask about proper usage/operation procedures. Label is exact and concise.",
+                    "model": "glm-5"
+                }
+            },
+            "extraction_confidence": 0.9
+        },
+        {
+            "cluster_id": -1,
+            "cluster_size": 20,
+            "topic_label": "Rare/Singular Topics",
+            "representative_question": "N/A (unassigned outlier questions)",
+            "is_noise": true,
+            "coherence_score": 2.67,
+            "label_accuracy_score": 2.67,
+            "coherence_scores_raw": [
+                2,
+                4,
+                2
+            ],
+            "label_accuracy_scores_raw": [
+                2,
+                4,
+                2
+            ],
+            "rationales": {
+                "gemini": "The algorithm failed to segregate noise properly. Many samples (like 1, 2, 7, and 8) are generic introductory queries that clearly belong in Cluster 0 or 6. Only 'fault tolerance' is a true outlier.",
+                "claude": "Good noise segregation overall, though 3-4 questions show some relatedness around general Hadoop understanding/benefits. Most questions are genuinely diverse (fault tolerance, background, everything, distributed processing). Label is mostly appropriate but the cluster could have been split better.",
+                "glm": "The noise pile hides a group of related questions seeking comprehensive general understanding (definition, benefits, purpose). Only questions 4 (vague) and 6 (specific fault tolerance concept) are truly singular. The algorithm underperformed by not grouping the thematically related questions together."
+            },
+            "judge_breakdown": {
+                "gemini": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 2,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Questions meant to be unique or outliers that don't fit into other clusters.",
+                        "outlier_check": "Several questions here are NOT rare (e.g., 'pengertian, kelebihan & kekurangan' or 'tujuan dan manfaat') and should have been grouped into Cluster 0, 4, or 10.",
+                        "label_assessment": "The label is technically accurate for a noise pile, but the algorithm failed by putting standard questions here."
+                    },
+                    "rationale": "The algorithm failed to segregate noise properly. Many samples (like 1, 2, 7, and 8) are generic introductory queries that clearly belong in Cluster 0 or 6. Only 'fault tolerance' is a true outlier.",
+                    "model": "gemini-3-flash-preview"
+                },
+                "claude": {
+                    "coherence_score": 4,
+                    "label_accuracy_score": 4,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "This is the noise/outlier cluster, so questions should be diverse and not form coherent subgroups.",
+                        "outlier_check": "Questions cover disparate topics: background/history (Q1), role in big data (Q2), distributed processing (Q3), generic 'everything needed' (Q4), purpose/benefits (Q5), fault tolerance definition (Q6), pros/cons (Q7), detailed definition (Q8). However, Q2, Q5, Q7, and Q8 could arguably form a subgroup about 'general understanding of Hadoop benefits and characteristics'.",
+                        "label_assessment": "The label 'Rare/Singular Topics' is appropriate for a noise cluster, though some questions (Q2, Q5, Q7, Q8) show moderate relatedness around general Hadoop understanding."
+                    },
+                    "rationale": "Good noise segregation overall, though 3-4 questions show some relatedness around general Hadoop understanding/benefits. Most questions are genuinely diverse (fault tolerance, background, everything, distributed processing). Label is mostly appropriate but the cluster could have been split better.",
+                    "model": "claude-sonnet-4-6"
+                },
+                "glm": {
+                    "coherence_score": 2,
+                    "label_accuracy_score": 2,
+                    "chain_of_thought": {
+                        "core_theme_analysis": "Questions vary from comprehensive understanding (1, 2, 5, 7, 8) to specific concepts (6 - fault tolerance) to vague statements (4 - 'semua yang diperlukan').",
+                        "outlier_check": "Hidden thematic group detected: questions 1, 2, 5, 7, and 8 all share a common theme of seeking comprehensive general understanding (definition, benefits, purpose) and could have formed a coherent cluster.",
+                        "label_assessment": "The 'Rare/Singular Topics' label is not fully appropriate because approximately 5-6 questions share a thematic overlap around comprehensive understanding, meaning they're not truly singular/outlier questions."
+                    },
+                    "rationale": "The noise pile hides a group of related questions seeking comprehensive general understanding (definition, benefits, purpose). Only questions 4 (vague) and 6 (specific fault tolerance concept) are truly singular. The algorithm underperformed by not grouping the thematically related questions together.",
+                    "model": "glm-5"
+                }
+            },
+            "extraction_confidence": 1.0
+        }
+    ],
+    "summary": {
+        "total_clusters_evaluated": 12,
+        "judge_mode": "triple",
+        "evaluation_models": {
+            "gemini": "gemini-3-flash-preview",
+            "claude": "claude-sonnet-4-6",
+            "glm": "glm-5"
+        },
+        "judges_succeeded": [
+            "gemini",
+            "claude",
+            "glm"
+        ],
+        "agreement_metrics_computed": [
+            "fleiss_kappa",
+            "gwet_ac2"
+        ],
+        "fleiss_kappa": {
+            "coherence": {
+                "kappa": 0.122,
+                "interpretation": "Slight"
+            },
+            "label_accuracy": {
+                "kappa": 0.3292,
+                "interpretation": "Fair"
+            },
+            "note": "Fleiss' κ measures agreement beyond chance. Susceptible to the 'Kappa Paradox' if most ratings are perfect."
+        },
+        "gwet_ac2": {
+            "coherence": {
+                "ac2": 0.8753,
+                "interpretation": "Very Good"
+            },
+            "label_accuracy": {
+                "ac2": 0.9728,
+                "interpretation": "Very Good"
+            },
+            "note": "Gwet's AC2 (2008) with Quadratic Weights. Resolves the Kappa Paradox for ordinal data. Interpreted via Altman's (1991) guidelines."
+        },
+        "coherence": {
+            "mean": 4.53,
+            "median": 4.67,
+            "std": 0.64,
+            "min": 2.67,
+            "max": 5.0,
+            "score_distribution": {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 3,
+                "5": 8
+            }
+        },
+        "label_accuracy": {
+            "mean": 4.75,
+            "median": 5.0,
+            "std": 0.64,
+            "min": 2.67,
+            "max": 5.0,
+            "score_distribution": {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 0,
+                "5": 11
+            }
+        },
+        "overall_quality_score": 4.64,
+        "overall_quality_grade": "Excellent"
+    },
+    "max_samples_per_cluster": 8
+}

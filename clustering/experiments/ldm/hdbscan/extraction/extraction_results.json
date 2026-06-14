@@ -1,0 +1,60 @@
+[
+    {
+        "cluster_id": 0,
+        "topic_label": "Deep Material Understanding and Application",
+        "representative_question": "Bagaimana cara kerja materi ini secara menyeluruh dan apa langkah-langkah efektif untuk mengaplikasikannya dalam kasus nyata?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "The questions collectively express a desire for a comprehensive understanding of the topic's mechanics, components, and practical implementation.",
+        "cluster_size": 18,
+        "representative_texts": [
+            "saya ingin mengetahui hal yang lebih mendalam tentang materi ini",
+            "saya ingin tau lebih dalam dan cara menggunakan yg efektif",
+            "aku ingin tau karakteristik nya, manfaat nya dan komponen apa saja yang terkait.",
+            "yang pasti saya ingin tahu bagaimana cara kerjanya",
+            "saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya"
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "topic_label": "Database Design Notations and Components",
+        "representative_question": "Apa tujuan dari perancangan basis data serta bagaimana perbedaan antara notasi Chen dan Crow's Foot dalam mendefinisikan entitas dan relasi?",
+        "is_noise": false,
+        "confidence": 0.95,
+        "reasoning": "The cluster specifically addresses the goals of database design and the technical components like entities, attributes, and specific notations.",
+        "cluster_size": 8,
+        "representative_texts": [
+            "tujuan dalam perancangan database",
+            "tujuan dalam perancangan database",
+            "pengen tau lebih dalam perbedaan tentang komponen erd chen???s notation dan crows foot notation",
+            "entitas, relasi, kardinalitas, dan atribut & key",
+            "??? entitas, objek yang datanya disimpan ??? atribut, informasi dari entitas ??? primary key, kunci utama sebagai identitas data ??? relasi, hubungan antar entitas"
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "topic_label": "Logical Data Model Detailed Concepts",
+        "representative_question": "Bisa tolong jelaskan secara rinci apa itu logical data model dan bagaimana struktur tersebut membantu dalam proses pembuatan sebuah program?",
+        "is_noise": false,
+        "confidence": 0.98,
+        "reasoning": "This cluster focuses exclusively on the definition, detailed structure, and practical utility of Logical Data Models (LDM).",
+        "cluster_size": 27,
+        "representative_texts": [
+            "saya ingin lebih pahaam apa itu logical data model dan contoh penggunaanya",
+            "saya ingin mengetahui lebih dalam tentang logical data model",
+            "saya ingin mengetahui lebih lanjut mengenai logical data model",
+            "ingin tahu bagaimana logical data model berguna untuk membuat program",
+            "apa saja yang ada di logical data model, dan apa saja yang ada di dalamnya secara rinci dan detail"
+        ]
+    },
+    {
+        "cluster_id": -1,
+        "cluster_size": 9,
+        "topic_label": "Rare/Singular Topics",
+        "representative_question": "N/A (unassigned outlier questions)",
+        "is_noise": true,
+        "confidence": 1.0,
+        "reasoning": "Points not assigned to any cluster by HDBSCAN.",
+        "representative_texts": []
+    }
+]

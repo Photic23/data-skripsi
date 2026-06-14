@@ -1,0 +1,21 @@
+{
+    "n_clusters": 10,
+    "n_noise_before_reassignment": 31,
+    "n_reassigned": 0,
+    "n_remaining_outliers": 31,
+    "noise_ratio": 0.2696,
+    "params_used": {
+        "min_cluster_size": 3,
+        "min_samples": 3
+    },
+    "auto_tuned": true,
+    "dbcv_score": 0.4358,
+    "silhouette_score": 0.7618,
+    "davies_bouldin_score": 0.6374,
+    "calinski_harabasz_score": 238.8258,
+    "original_space_metrics": {
+        "silhouette_score": 0.0855,
+        "davies_bouldin_score": 2.0494,
+        "calinski_harabasz_score": 5.087
+    }
+}

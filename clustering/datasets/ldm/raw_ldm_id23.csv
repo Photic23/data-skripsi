@@ -1,0 +1,76 @@
+id,created_at,reflection,student_id,wtk_ref_id
+1996,2026-02-25 06:29:27.932433+00,"Cara data diorganisasikan, di dokumentasikan,  dan di definisikan dalam sebuah basis data",467,23
+1997,2026-02-25 06:29:48.55859+00,Saya ingin mengetahui tools-tools apa saja yang bisa digunakan,476,23
+1988,2026-02-25 06:28:52.444535+00,"saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",470,23
+1995,2026-02-25 06:29:24.072032+00,"Saya ingin tahu tentang logical data model yaitu relasi antar entitasnya, jenis relasi, dan semacamnya",449,23
+1982,2026-02-24 03:55:54.654305+00,...,446,23
+1984,2026-02-25 06:28:06.504696+00,Konseptual untuk menghubungkan antara data.,479,23
+1985,2026-02-25 06:28:25.392853+00,Ingin tahu bagaimana Logical data model berguna untuk membuat program,455,23
+1986,2026-02-25 06:28:37.528315+00,"buat apa, cara penggunaan, cara penggunaan paling efektif",487,23
+1987,2026-02-25 06:28:52.442572+00,"saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",470,23
+1989,2026-02-25 06:28:52.468198+00,"saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",470,23
+1991,2026-02-25 06:29:03.35394+00,Model data logis merepresentasikan struktur abstrak dari suatu domain informasi,502,23
+1990,2026-02-25 06:28:52.473619+00,"saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",470,23
+1992,2026-02-25 06:29:07.710456+00,"Transisi dari konseptual
+Fungsinya 
+Efisiensi biaya",492,23
+1993,2026-02-25 06:29:10.634441+00,saya ingin tau lebih dalam dan cara menggunakan yg efektif,461,23
+1994,2026-02-25 06:29:18.917123+00,Cara membuat atau menggunakannya,448,23
+1998,2026-02-25 06:29:56.724557+00,"Hal yang ingin saya ketahui tentang Logical Data Model adalah pengertian, fungsi, komponen, cara pembuatan, serta perbedaannya dengan model data lainnya dalam perancangan database.",485,23
+1999,2026-02-25 06:30:07.277796+00,Saya ingin lebih pahaam apa itu logical data model dan contoh penggunaanya,482,23
+2000,2026-02-25 06:30:13.273776+00,Membuat data yang struktural  dan terperinci dari berbagai data dan menghubungkan dengan berbagai macam data,451,23
+2001,2026-02-25 06:30:19.719545+00,"apa saja yang ada di Logical Data Model, dan apa saja yang ada di dalamnya secara rinci dan detail",474,23
+2002,2026-02-25 06:30:28.425434+00,"Aku ingin tau karakteristik nya, manfaat nya dan komponen apa saja yang terkait.",450,23
+2003,2026-02-25 06:30:31.042142+00,apa fungsi utama Logical Data Model dalam perancangan database?,463,23
+2004,2026-02-25 06:30:42.404561+00,"1. Apa itu Logical Data Model.
+2. Apa saja bagian - bagiannya (entitas, atribut, relasi).
+3. Apa fungsinya dalam perancangan database.
+4. Mengapa perlu dibuat sebelum database diimplementasikan.",462,23
+2005,2026-02-25 06:30:46.247551+00,"Kapan LDM digunakan?
+Apa saja yang ada di dalamnya?",471,23
+2006,2026-02-25 06:30:57.047169+00,ya saya iingin mengetahui cara bekerjanya logical data model di database,458,23
+2007,2026-02-25 06:31:03.828486+00,Definisi dan tujuannya serta perbedaannya dengan model lain,503,23
+2008,2026-02-25 06:31:16.903881+00,hal yang lebih mendalam terkait logical data model.,477,23
+2009,2026-02-25 06:31:49.227206+00,saya ingin mengetahui tahapan perancangan logical data model,484,23
+2010,2026-02-25 06:31:57.215189+00,"Syaa ingin lebih mendalami tentang apa itu code swperti SELECT, INSERT, DELETE, dan ekseskui relasi tersebut",460,23
+2011,2026-02-25 06:32:04.1745+00,"yang ingin saya ketahui tentang Logical Data Model itu bagaimana cara bikin ERD yang benar dan rapi, terus bagaimana menentukan primary key, foreign key, dan relasi yang tepat.",491,23
+2012,2026-02-25 06:32:07.476627+00,Semua relasi,500,23
+2013,2026-02-25 06:32:21.344503+00,"saya ingin tau sistemnya, datanya apa saja, isinya apa saja dan apa hubungannya",483,23
+2014,2026-02-25 06:32:22.437526+00,Hal yang ingin saya ketahui tentang topik ini pengertian dan tujuan logical data model,457,23
+2015,2026-02-25 06:32:36.347579+00,Yang pasti saya ingin tahu bagaimana cara kerjanya,454,23
+2016,2026-02-25 06:32:37.014864+00,Pengen tau lebih dalam  perbedaan tentang komponen ERD chen???s notation dan Crows foot notation,469,23
+2027,2026-02-25 06:33:53.203505+00,Saya ingin mengetahui lebih lanjut mengenai logical data model,496,23
+2018,2026-02-25 06:32:39.229311+00,"mengetahui apa itu data model, jenis-jenisnya, dan komponennya",488,23
+2019,2026-02-25 06:32:40.253008+00,"yang Saya ingin tahu pembahasan secara detail teknis fisik seperti tipe data, indek, dan penyimpanan server",459,23
+2017,2026-02-25 06:32:37.314128+00,Semuanya,468,23
+2021,2026-02-25 06:33:15.175931+00,"??? Jenis bisnis atau industri di mana LDM dibuat
+??? Apakah LDM dibuat setelah model konseptual atau secara langsung",453,23
+2022,2026-02-25 06:33:16.15484+00,"saya ingin mengerti bukan hanya teori saja, namun juga dalam praktiknya/prosesnya, dan bagaimana agar modelnya rapih, efisien, dan mudah digunakan saat mulai masuk ke tahap database.",456,23
+2023,2026-02-25 06:33:25.142344+00,Logifal data model logical dalam data,498,23
+2024,2026-02-25 06:33:26.378321+00,"definisi dan tujuan tentang Logical Data Model itu apa ?
+dan apa saja komponen Logical Data Model ?",478,23
+2033,2026-02-25 06:34:39.936309+00,yang ingin saya ketahui mungkin seperti fungsinya,499,23
+2025,2026-02-25 06:33:34.181067+00,Saya ingin mengetahui tentang tahapan perancangan logical data model.,466,23
+2026,2026-02-25 06:33:38.280261+00,struktur data secara mendalam agar mudah dipahami oleh pemangku kepentingan bisnis dan pengembang.,480,23
+2028,2026-02-25 06:33:53.662099+00,Saya ingin mempelajari cara menentukan relasi antar tabel yang kompleks dan bagaimana cara menerapkan Primary Key serta Foreign Key yang tepat dalam Logical Data Model,506,23
+2029,2026-02-25 06:33:58.806299+00,"Hal saya ingin ketahui tentang LDM adalah penerapannya dalam dunia nyata, difungsikan untuk apa, dan tentu saja yang utama adalah bagaimana cara membuat sebuah LDM itu menjadi sebuah infrastruktur yang dapat digunakan sebagai model terstruktur",447,23
+2030,2026-02-25 06:34:01.461409+00,Saya ingin mengetahui lebih dalam tentang Logical Data Model,490,23
+2020,2026-02-25 06:33:04.0734+00,"??? Entitas, objek yang datanya disimpan
+??? Atribut, informasi dari entitas
+??? Primary key, kunci utama sebagai identitas data
+??? Relasi, hubungan antar entitas",475,23
+2031,2026-02-25 06:34:15.730019+00,"entitas, relasi, kardinalitas, dan atribut & key",465,23
+2032,2026-02-25 06:34:26.135251+00,"Saya ingin memahami cara membuat Logical Data Model dari studi kasus, menentukan primary key dan foreign key, serta bagaimana mengubah relasi many-to-many dan menerapkan normalisasi sampai 3NF.",493,23
+2038,2026-02-25 06:36:30.152109+00,tujuan dalam perancangan database,504,23
+2034,2026-02-25 06:34:43.206812+00,Saya ingin mengetahui lebih dalam bagaimana cara mengubah conceptual data model menjadi logical data model dengan benar,464,23
+2035,2026-02-25 06:35:17.208419+00,Jaringan internet,509,23
+2037,2026-02-25 06:36:06.079316+00,gimana hubungan antar data?,501,23
+2036,2026-02-25 06:35:54.815237+00,Bagaimana cara agar melihat diagram kebutuhan data pada sebuah bisnis tanpa atau dengan melihat DBMS?,507,23
+2039,2026-02-25 06:36:30.16274+00,tujuan dalam perancangan database,504,23
+2040,2026-02-25 06:37:21.556777+00,"Apa itu relasi one-to-me, one-to-many, dan many-to-many?",497,23
+2041,2026-02-25 06:37:25.718039+00,"data disusun dan saling berhubungan secara terstruktur, tetapi belum masuk ke tahap implementasi teknis.",511,23
+2043,2026-02-25 06:38:55.760703+00,ingin tahu Logical data model,473,23
+2042,2026-02-25 06:38:30.954251+00,Yang saya ingin lebih ketahui tentang Logical Data Model yaitu hal yang ingin lebih mendalam tentang materi yang disampaikan,495,23
+2044,2026-02-25 06:39:54.549045+00,Logica Data Model adalah jembatan krusial antara konseptual bisnis dan implementasi teknis basis data,508,23
+2045,2026-02-25 06:39:58.5217+00,saya ingin mengetahui hal yang lebih mendalam tentang materi ini,481,23
+2047,2026-02-25 07:16:02.53585+00,semuanya mau mungkin,510,23

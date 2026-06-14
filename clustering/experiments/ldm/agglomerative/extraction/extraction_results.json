@@ -1,0 +1,101 @@
+[
+    {
+        "cluster_id": 0,
+        "topic_label": "Data Relationship Application and Implementation",
+        "representative_question": "Bagaimana cara yang paling efektif untuk mengaplikasikan relasi antar data dalam berbagai skenario penggunaan nyata?",
+        "is_noise": false,
+        "confidence": 0.95,
+        "reasoning": "The cluster consistently asks about the practical application and timing of using data relationships.",
+        "cluster_size": 13,
+        "representative_texts": [
+            "saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",
+            "saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",
+            "saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",
+            "saya ingin lebih mengetahui relasi antar setiap data, bagaimana cara pengaplikasiannya, dan kapan saja dapat menggunakannya",
+            "saya ingin tau lebih dalam dan cara menggunakan yg efektif"
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "topic_label": "General Connectivity Fragments",
+        "representative_question": "Apa hubungan antara berbagai jenis relasi data dengan infrastruktur jaringan internet secara umum?",
+        "is_noise": true,
+        "confidence": 0.7,
+        "reasoning": "The inputs are fragmented, vague, and include potentially unrelated topics like internet networking alongside data relations.",
+        "cluster_size": 3,
+        "representative_texts": [
+            "semua relasi",
+            "semuanya mau mungkin",
+            "jaringan internet"
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "topic_label": "Database Design and Modeling Fundamentals",
+        "representative_question": "Apa saja komponen utama dalam perancangan database, termasuk entitas, atribut, dan jenis-jenis relasi seperti one-to-many?",
+        "is_noise": false,
+        "confidence": 0.92,
+        "reasoning": "The questions cover foundational database concepts including data models, cardinality, and design objectives.",
+        "cluster_size": 6,
+        "representative_texts": [
+            "entitas, relasi, kardinalitas, dan atribut & key",
+            "tujuan dalam perancangan database",
+            "tujuan dalam perancangan database",
+            "mengetahui apa itu data model, jenis-jenisnya, dan komponennya",
+            "apa itu relasi one-to-me, one-to-many, dan many-to-many?"
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "topic_label": "In-depth Logical Data Modeling",
+        "representative_question": "Bisakah Anda menjelaskan secara mendalam mengenai struktur Logical Data Model serta cara mengimplementasikan relasi antar entitas di dalamnya?",
+        "is_noise": false,
+        "confidence": 0.98,
+        "reasoning": "This is a very cohesive cluster specifically focused on understanding and using Logical Data Models (LDM).",
+        "cluster_size": 24,
+        "representative_texts": [
+            "saya ingin mengetahui lebih dalam tentang logical data model",
+            "saya ingin mengetahui lebih lanjut mengenai logical data model",
+            "ingin tahu logical data model",
+            "saya ingin tahu tentang logical data model yaitu relasi antar entitasnya, jenis relasi, dan semacamnya",
+            "saya ingin lebih pahaam apa itu logical data model dan contoh penggunaanya"
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "topic_label": "LDM Implementation and Workflow",
+        "representative_question": "Kapan sebaiknya Logical Data Model diterapkan dalam siklus pengembangan sistem dan bagaimana transformasinya ke dalam infrastruktur nyata?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "Focuses on the practical timing, industrial context, and the workflow of creating LDMs after conceptual models.",
+        "cluster_size": 3,
+        "representative_texts": [
+            "hal saya ingin ketahui tentang ldm adalah penerapannya dalam dunia nyata, difungsikan untuk apa, dan tentu saja yang utama adalah bagaimana cara membuat sebuah ldm itu menjadi sebuah infrastruktur yang dapat digunakan sebagai model terstruktur",
+            "kapan ldm digunakan? apa saja yang ada di dalamnya?",
+            "??? jenis bisnis atau industri di mana ldm dibuat ??? apakah ldm dibuat setelah model konseptual atau secara langsung"
+        ]
+    },
+    {
+        "cluster_id": 11,
+        "topic_label": "Conceptual Data Structuring and Linking",
+        "representative_question": "Bagaimana cara membangun struktur data yang terperinci dengan menghubungkan berbagai elemen data melalui model konseptual?",
+        "is_noise": false,
+        "confidence": 0.85,
+        "reasoning": "Focuses on the structural aspects of linking data using conceptual frameworks.",
+        "cluster_size": 2,
+        "representative_texts": [
+            "konseptual untuk menghubungkan antara data.",
+            "membuat data yang struktural dan terperinci dari berbagai data dan menghubungkan dengan berbagai macam data"
+        ]
+    },
+    {
+        "cluster_id": -1,
+        "cluster_size": 11,
+        "topic_label": "Rare/Singular Topics",
+        "representative_question": "N/A (unassigned outlier questions)",
+        "is_noise": true,
+        "confidence": 1.0,
+        "reasoning": "Points not assigned to any cluster by HDBSCAN.",
+        "representative_texts": []
+    }
+]

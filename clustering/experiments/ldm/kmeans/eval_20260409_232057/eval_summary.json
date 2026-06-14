@@ -1,0 +1,109 @@
+{
+    "run_id": "20260409_232057",
+    "timestamp": "2026-04-09T23:28:26.263484",
+    "inputs": {
+        "cluster_input": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data/clusters/20260409_203810",
+        "extraction_input": "S:\\Katgen\\Kuliah\\SKRIPSI\\main\\data/extraction_results/20260409_203810",
+        "ari_groundtruth": "not provided"
+    },
+    "config": {
+        "text_column": "Cleaned_Content",
+        "judges": 3,
+        "agreement_metric": "both",
+        "target_step": "all",
+        "skip_steps": []
+    },
+    "results_files": [
+        "cluster_eval.json",
+        "extraction_eval.json"
+    ],
+    "cluster_eval_snapshot": {
+        "algorithm": "kmeans",
+        "n_clusters": 8,
+        "original_space_metrics": {
+            "silhouette_score": 0.2009,
+            "davies_bouldin_score": 2.0231,
+            "calinski_harabasz_score": 4.7399,
+            "dbcv_score": null
+        },
+        "reduced_space_metrics": {
+            "silhouette_cosine": 0.2533,
+            "silhouette_cosine_std": 0.2125,
+            "silhouette_euclidean": 0.1622,
+            "silhouette_euclidean_std": 0.2033,
+            "davies_bouldin_index": 1.8904,
+            "calinski_harabasz_index": 5.5616,
+            "dbcv_score": "N/A (K-Means)"
+        }
+    },
+    "extraction_summary_snapshot": {
+        "total_clusters_evaluated": 8,
+        "judge_mode": "triple",
+        "evaluation_models": {
+            "gemini": "gemini-3-flash-preview",
+            "claude": "anthropic/claude-sonnet-4.6",
+            "glm": "z-ai/glm-5-turbo"
+        },
+        "judges_succeeded": [
+            "gemini",
+            "claude",
+            "glm"
+        ],
+        "agreement_metrics_computed": [
+            "fleiss_kappa",
+            "gwet_ac2"
+        ],
+        "fleiss_kappa": {
+            "coherence": {
+                "kappa": 0.1962,
+                "interpretation": "Slight"
+            },
+            "label_accuracy": {
+                "kappa": -0.1098,
+                "interpretation": "Poor"
+            },
+            "note": "Fleiss' κ measures agreement beyond chance. Susceptible to the 'Kappa Paradox' if most ratings are perfect."
+        },
+        "gwet_ac2": {
+            "coherence": {
+                "ac2": 0.8371,
+                "interpretation": "Very Good"
+            },
+            "label_accuracy": {
+                "ac2": 0.8331,
+                "interpretation": "Very Good"
+            },
+            "note": "Gwet's AC2 (2008) with Quadratic Weights. Resolves the Kappa Paradox for ordinal data. Interpreted via Altman's (1991) guidelines."
+        },
+        "coherence": {
+            "mean": 3.71,
+            "median": 3.83,
+            "std": 0.82,
+            "min": 2.0,
+            "max": 4.67,
+            "score_distribution": {
+                "1": 0,
+                "2": 1,
+                "3": 1,
+                "4": 4,
+                "5": 2
+            }
+        },
+        "label_accuracy": {
+            "mean": 4.33,
+            "median": 4.5,
+            "std": 0.5,
+            "min": 3.33,
+            "max": 5.0,
+            "score_distribution": {
+                "1": 0,
+                "2": 0,
+                "3": 1,
+                "4": 3,
+                "5": 4
+            }
+        },
+        "overall_quality_score": 4.02,
+        "overall_quality_grade": "Good"
+    }
+}

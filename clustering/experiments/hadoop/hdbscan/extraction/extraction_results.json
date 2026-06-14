@@ -1,0 +1,170 @@
+[
+    {
+        "cluster_id": 0,
+        "topic_label": "Pengenalan dan Operasional Dasar Teknologi",
+        "representative_question": "Bagaimana definisi, fungsi, serta langkah-langkah dasar dalam mengoperasikan teknologi ini beserta kelebihan dan kekurangannya?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "Pertanyaan-pertanyaan dalam kluster ini berfokus pada pemahaman umum mulai dari definisi hingga cara penggunaan praktis suatu alat.",
+        "cluster_size": 20,
+        "representative_texts": [
+            "cara untuk mengoperasikannya",
+            "digunakan untuk apa dan kapan dipakainya",
+            "mulai dari latar belakangnya sampai cara pengaplikasiannya",
+            "pengertian, kelebihan & kekurangan dalam penggunaannya",
+            "definisi, fungsi, cara kerja contoh cara penerapan"
+        ]
+    },
+    {
+        "cluster_id": 1,
+        "topic_label": "Korelasi Ekosistem Hadoop dengan Big Data",
+        "representative_question": "Apa peran ekosistem Hadoop dalam teknologi big data dan bagaimana relevansinya terhadap kurikulum program studi teknologi rekayasa perangkat lunak?",
+        "is_noise": false,
+        "confidence": 0.95,
+        "reasoning": "Mahasiswa menanyakan hubungan spesifik antara Hadoop dengan bidang Big Data dan relevansinya terhadap studi mereka.",
+        "cluster_size": 6,
+        "representative_texts": [
+            "saya ingin mengetahui apa itu ekosistem hadoop dan apa kaitannya dengan mata kuliah big data maupun prodi teknologi rekayasa perangkat lunak",
+            "bagaimana cara kerja ekosistem hadoop, apa korelasinya dengan teknologi big data dan bagaimana ekosistem hadoop ini dapat membantu mengelola teknologi big data",
+            "mengenal apa itu ekosistem hadoop, kenapa harus ada ekosistem hadoop, apa hubungannya dengan big data, perannya apa, dan bagaimana supaya kita bisa menguasai materi ini",
+            "apa yang dimaksud dari ekosistem hadoop? apa hubungannya dengan teknologi big data? apa kelebihan dan kekurangan ekosistem hadoop?",
+            "apa itu hadoop, cara menggunakannya, dan bagaimana hadoop itu akan berdampak atau berkontribusi terhadap mata kuliah teknologi big data dan project yang akan kami buat di semester kelas ini"
+        ]
+    },
+    {
+        "cluster_id": 2,
+        "topic_label": "Konsep Dasar dan Tujuan Hadoop",
+        "representative_question": "Bisa tolong jelaskan kembali mengenai pengertian dasar, tujuan utama, serta fungsi dari penggunaan Hadoop bagi pemula?",
+        "is_noise": false,
+        "confidence": 0.85,
+        "reasoning": "Kluster ini berfokus pada permintaan penjelasan ulang mengenai konsep dasar dan tujuan fundamental dari Hadoop.",
+        "cluster_size": 3,
+        "representative_texts": [
+            "saya ingin mengetahui apa itu hadoop dan fungsi nya sekaligus cara menggunakannya",
+            "saya ingin megrtahui tujuan hadoop",
+            "saya kurang mengerti jadi ingin dijelaskan lagi tentang hadoop"
+        ]
+    },
+    {
+        "cluster_id": 3,
+        "topic_label": "Definisi dan Kegunaan Ekosistem Hadoop",
+        "representative_question": "Apa yang dimaksud dengan ekosistem Hadoop secara mendalam dan apa saja kegunaan utamanya dalam konteks umum?",
+        "is_noise": false,
+        "confidence": 0.92,
+        "reasoning": "Fokus utama kluster ini adalah mencari definisi formal dan gambaran umum mengenai manfaat dari ekosistem Hadoop.",
+        "cluster_size": 9,
+        "representative_texts": [
+            "saya ingin mengetahui apa itu ekosistem hadoop dan seperti apa ekosistem hadoop",
+            "saya ingin mengetahui apa definisi ekosistem hadoop serta kegunaannya",
+            "saya ingin mengetahui penjelasan ekosistem hadoop secara lebih detail.",
+            "saya ingin mengetahui apa itu ekosistem hadoop secara umum dan jelas",
+            "saya ingin mengetahui apa itu ekosistem hadoop."
+        ]
+    },
+    {
+        "cluster_id": 4,
+        "topic_label": "Arsitektur dan Komponen Ekosistem Hadoop",
+        "representative_question": "Bagaimana rincian arsitektur, cara kerja komponen utama, serta kelebihan dan kekurangan berbagai tools pendukung dalam ekosistem Hadoop?",
+        "is_noise": false,
+        "confidence": 0.93,
+        "reasoning": "Pertanyaan dalam kluster ini lebih teknis, mencakup arsitektur, alat pendukung, dan batasan dari ekosistem tersebut.",
+        "cluster_size": 7,
+        "representative_texts": [
+            "apa saja komponen, cara kerja, tools pendukung, serta kelebihan dan kekurangan dalam ekosistem hadoop yang perlu dipahami sebelum mengimplementasikannya",
+            "cara kerja ekosistem hadoop, kegunaan atau fungsi komponen dan penerapannya",
+            "bagaimana cara kerja dan tools apa saja yang digunakan di ekosistem hadoop",
+            "arsitektur, cara kerja, fungsi tools, dan keunggulan menggunakan hadoop",
+            "komponen utama hadoopnya, ekosistemnya, manfaat detail serta keunggulannya apa dan kekurangan batasannya apa"
+        ]
+    },
+    {
+        "cluster_id": 5,
+        "topic_label": "Mekanisme Kerja Ekosistem Hadoop",
+        "representative_question": "Mengapa kita membutuhkan ekosistem Hadoop dan bagaimana cara kerja integrasi berbagai teknologinya dalam memproses data?",
+        "is_noise": false,
+        "confidence": 0.9,
+        "reasoning": "Kluster ini mengeksplorasi alasan urgensi penggunaan Hadoop serta mekanisme integrasi antar teknologinya.",
+        "cluster_size": 5,
+        "representative_texts": [
+            "bagaimana ekosistem hadoop bekerja? dan biasanya hadoop digunakan untuk apa?",
+            "apa itu eksostem hadoop? mengapa hadoop dibutuhkan? bagaimana cara kerja ekosistem hadoop",
+            "mengenai apaitu hadoop, bagaimana ekosistem hadoop itu bekerja, untuk apa itu digunakan",
+            "tentang apa itu ekosistem hadoop dan bagaimana ekosistem ini bekerja",
+            "mengetauhi definisi, teknologi apa saja yang menyusun ekosistem hadoop, dan bagaimana cara kerja nya"
+        ]
+    },
+    {
+        "cluster_id": 6,
+        "topic_label": "Pemrosesan Data Terdistribusi dan Integrasi Tools",
+        "representative_question": "Bagaimana alur kerja pemrosesan data terdistribusi dari HDFS hingga MapReduce, serta bagaimana perbandingan performanya dengan Apache Spark?",
+        "is_noise": false,
+        "confidence": 0.96,
+        "reasoning": "Kluster ini berisi pertanyaan teknis mendalam mengenai komponen spesifik (HDFS, YARN, Spark) dan pemrosesan data end-to-end.",
+        "cluster_size": 12,
+        "representative_texts": [
+            "saya ingin mengetahui bagaimana proses apache hadoop yang dirancang untuk menyimpan, mengelola, dan memproses big data skala gigabyte hingga petabyte secara terdistribusi dan paralel.",
+            "hal yang ingin saya ketahui tentang ekosistem hadoop meliputi bagaimana cara kerja dasarnya dalam menyimpan dan memproses big data secara terdistribusi, khususnya peran hdfs sebagai sistem penyimpanan dan mapreduce sebagai mesin pemrosesan data. selain itu, saya juga ingin memahami fungsi masing-masing komponen seperti hive untuk query berbasis sql, pig untuk scripting, hbase sebagai database nosql, serta zookeeper dan oozie dalam mengatur koordinasi dan workflow. saya juga tertarik mengetahui bagaimana integrasi data dilakukan menggunakan sqoop, bagaimana monitoring cluster dilakukan dengan ambari, serta bagaimana penerapan hadoop di dunia industri dan perbandingannya dengan teknologi big data modern seperti spark.",
+            "hal yang ingin saya ketahui tentang ekosistem hadoop adalah bagaimana cara kerjanya secara nyata di lapangan, fungsi masing-masing komponennya seperti hdfs, yarn, dan mapreduce, bagaimana tools seperti hive dan spark saling terhubung, serta apa saja kelebihan dan kekurangannya dalam mengelola big data.",
+            "yang saya ingin ketahui itu adalah bagaimana ekosistem hadoop bekerja secara end-to-end, mulai dari data ingestion, storage, hingga processing dan analytics. selain itu, saya juga tertarik memahami peran dari apache hadoop, seperti hdfs, yarn, dan mapreduce, serta bagaimana integrasinya dengan tools lain seperti hive atau spark.",
+            "hal yang ingin saya ketahui lebih dalam tentang ekosistem hadoop adalah bagaimana cara kerja antar komponennya secara terintegrasi, terutama hubungan antara hadoop distributed file system (hdfs), yarn, dan mapreduce dalam satu proses pengolahan data. selain itu, saya juga ingin memahami perbedaan penggunaan antara mapreduce dan apache spark, terutama dari segi performa dan efisiensi ketika menangani data dalam jumlah sangat besar."
+        ]
+    },
+    {
+        "cluster_id": 7,
+        "topic_label": "Implementasi Hadoop di Dunia Industri",
+        "representative_question": "Bagaimana penerapan ekosistem Hadoop dalam skala industri nyata dan apa saja praktik terbaik untuk mencapai efisiensi maksimal?",
+        "is_noise": false,
+        "confidence": 0.91,
+        "reasoning": "Mahasiswa tertarik pada penggunaan praktis, efisiensi, dan standar penggunaan Hadoop di dunia profesional.",
+        "cluster_size": 5,
+        "representative_texts": [
+            "hal yang saya ingin ketahui tentang topik ini meliputi kegunaan utama hadoop, manfaat penggunaannya, peran hadoop dalam industri, dan core knowledge yang dibutuhkan untuk mengerti dan menggunakan ekosistem hadoop.",
+            "segala hal yang bisa dibahas tentang ekosistemn hadoop itu sebenernya apa, penggunaan dan pemanfaatannya bagaimana.",
+            "saya ingin mengetahui bagaimana alur ekosistem hadoop. selain itu, saya juga ingin mengetahui bagaimana penggunaan secara nyata menggunakan ekosistem hadoop.",
+            "yang saya ingin ketahui terkait ekosistem hadoop adalah cara pengunaannya, pemakaiannya, dalam lingkup seberapa besar, seberapa efisien dan mudahnya dalam penggunaannya",
+            "hal yang ingin saya ketahui adalah bagaimana cara menggunakan tools hadoop ini sesuai dengan best practice-nya di industri data. saya juga ingin mengetahui apakah kelebihan dan kekurangan ekosistem hadoop dibandingkan dengan tools-tools lainnya."
+        ]
+    },
+    {
+        "cluster_id": 8,
+        "topic_label": "Penyimpanan dan Pengolahan Data Hadoop",
+        "representative_question": "Bagaimana cara mengoperasikan Hadoop untuk melakukan penyimpanan serta pengolahan big data menggunakan alat-alat yang tersedia?",
+        "is_noise": false,
+        "confidence": 0.88,
+        "reasoning": "Fokus pada aspek praktis penyimpanan dan pengolahan data menggunakan tools yang ada di Apache Hadoop.",
+        "cluster_size": 6,
+        "representative_texts": [
+            "bagaimana cara mengolah big data dengan hadoo",
+            "bagaimana cara memyimpan data di hadoop",
+            "cara menggunakan hadoop",
+            "alat dari apache untuk menyimpan, mengelola data dalam kluster komputer",
+            "tools atau ekosistem untuk menyimpan dan memproses big data"
+        ]
+    },
+    {
+        "cluster_id": 9,
+        "topic_label": "Perkembangan dan Praktik Ekosistem Hadoop",
+        "representative_question": "Bagaimana struktur bagian dalam ekosistem Hadoop berkembang dan bagaimana implementasi praktisnya dalam lingkungan kerja profesional?",
+        "is_noise": false,
+        "confidence": 0.87,
+        "reasoning": "Menggabungkan keingintahuan tentang perkembangan bagian-bagian ekosistem dengan aplikasinya di bidang profesional.",
+        "cluster_size": 11,
+        "representative_texts": [
+            "mengetahui bagian dari ekosistem hadoop",
+            "bagaimana perkembangan ekosistem hadoop",
+            "penerapan praktis untuk analisis data dan implementasi sistem dalam ekosistem hadoop",
+            "makna ekosistem hadoop dan bagaimana praktik nya di bidang profesional",
+            "bagaimana ekosistem hadoop ini bekerja dalam dunia nyata"
+        ]
+    },
+    {
+        "cluster_id": -1,
+        "cluster_size": 31,
+        "topic_label": "Rare/Singular Topics",
+        "representative_question": "N/A (unassigned outlier questions)",
+        "is_noise": true,
+        "confidence": 1.0,
+        "reasoning": "Points not assigned to any cluster by HDBSCAN.",
+        "representative_texts": []
+    }
+]
